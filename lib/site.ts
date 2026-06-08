@@ -5,16 +5,26 @@ import {
   Cloud,
   Code2,
   Cpu,
+  Database,
+  Gauge,
   Gem,
+  Globe2,
   GraduationCap,
   Handshake,
   HeartPulse,
   Layers3,
   LineChart,
+  LifeBuoy,
+  LockKeyhole,
   Palette,
   Rocket,
+  Search,
+  Server,
   ShieldCheck,
   Smartphone,
+  Sparkles,
+  Star,
+  Timer,
   Store,
   Workflow
 } from "lucide-react";
@@ -41,37 +51,43 @@ export const services = [
     title: "Web Development",
     icon: Code2,
     summary: "High-converting portals, marketplaces, dashboards, and enterprise web platforms.",
-    points: ["Next.js and headless CMS", "API-first architecture", "Performance and accessibility"]
+    points: ["Next.js and headless CMS", "API-first architecture", "Performance and accessibility"],
+    cta: "Build a web platform"
   },
   {
     title: "Mobile App Development",
     icon: Smartphone,
     summary: "Native-quality mobile apps for customer engagement, operations, and new digital products.",
-    points: ["iOS, Android, React Native", "Offline-ready workflows", "App store launch support"]
+    points: ["iOS, Android, React Native", "Offline-ready workflows", "App store launch support"],
+    cta: "Launch an app"
   },
   {
     title: "AI/ML",
     icon: Bot,
     summary: "Intelligent automation, predictive analytics, copilots, and machine learning systems.",
-    points: ["LLM product engineering", "Computer vision and NLP", "MLOps and governance"]
+    points: ["LLM product engineering", "Computer vision and NLP", "MLOps and governance"],
+    cta: "Add intelligence"
   },
   {
     title: "Blockchain",
     icon: Blocks,
     summary: "Secure smart contracts, tokenized products, wallets, and decentralized platforms.",
-    points: ["Smart contract audits", "Web3 integrations", "Traceability systems"]
+    points: ["Smart contract audits", "Web3 integrations", "Traceability systems"],
+    cta: "Create Web3 systems"
   },
   {
     title: "SaaS",
     icon: Cloud,
     summary: "Scalable SaaS products with multi-tenant architecture, billing, and analytics.",
-    points: ["MVP to scale", "Subscription workflows", "Cloud-native DevOps"]
+    points: ["MVP to scale", "Subscription workflows", "Cloud-native DevOps"],
+    cta: "Scale a SaaS"
   },
   {
     title: "UI/UX",
     icon: Palette,
     summary: "Research-led experiences, design systems, prototypes, and product redesigns.",
-    points: ["Product discovery", "Design systems", "Clickable prototypes"]
+    points: ["Product discovery", "Design systems", "Clickable prototypes"],
+    cta: "Design better UX"
   }
 ];
 
@@ -89,18 +105,24 @@ export const caseStudies = [
     title: "AI Claims Automation",
     industry: "Insurance",
     result: "63% faster claim triage",
+    metric: "18K docs/day",
+    tags: ["AI", "Workflow", "Cloud"],
     text: "A document intelligence platform that classifies evidence, flags anomalies, and routes cases to the right teams."
   },
   {
     title: "Global Commerce Replatform",
     industry: "Retail",
     result: "2.8x faster storefront",
+    metric: "42% higher conversion",
+    tags: ["Next.js", "Commerce", "Analytics"],
     text: "A headless commerce stack with personalized journeys, resilient checkout, and real-time inventory orchestration."
   },
   {
     title: "SaaS Operations Hub",
     industry: "Logistics",
     result: "41% fewer manual tasks",
+    metric: "99.96% uptime",
+    tags: ["SaaS", "DevOps", "Data"],
     text: "A multi-tenant workflow platform connecting shipment data, vendor actions, billing, and live performance dashboards."
   }
 ];
@@ -134,6 +156,82 @@ export const jobs = [
 ];
 
 export const partners = ["AWS", "Azure", "Google Cloud", "Vercel", "Stripe", "OpenAI"];
+
+export const trustBadges = ["Clutch-style delivery", "NDA-ready teams", "SOC2-aware builds", "Global time zones"];
+
+export const technologies = [
+  "React",
+  "Next.js",
+  "Node.js",
+  "Python",
+  "AI",
+  "Blockchain",
+  "AWS",
+  "Vercel",
+  "MongoDB",
+  "Supabase"
+];
+
+export const whyChooseUs = [
+  { title: "Senior Team", icon: Star, text: "Architects, product leads, and senior engineers own the critical decisions." },
+  { title: "Fast Delivery", icon: Timer, text: "Focused sprints, reusable accelerators, and visible weekly progress." },
+  { title: "Scalable Architecture", icon: Server, text: "Cloud-native foundations that support growth, integrations, and reliability." },
+  { title: "Secure Code", icon: LockKeyhole, text: "Security reviews, role-based access, clean APIs, and resilient delivery practices." },
+  { title: "SEO Friendly", icon: Search, text: "Structured metadata, fast rendering, accessible UI, and Core Web Vitals discipline." },
+  { title: "Post-launch Support", icon: LifeBuoy, text: "Monitoring, optimization, roadmap delivery, and long-term product stewardship." }
+];
+
+export const testimonials = [
+  {
+    quote: "Nexora brought product clarity and engineering pace from week one. The platform felt enterprise-grade without slowing our launch.",
+    name: "Maya Chen",
+    role: "VP Product, FinTech scaleup"
+  },
+  {
+    quote: "Their senior team challenged assumptions, tightened the architecture, and delivered a polished customer experience on schedule.",
+    name: "Alex Morgan",
+    role: "Founder, B2B SaaS company"
+  },
+  {
+    quote: "We needed AI automation that our operations team would actually trust. Nexora made it secure, measurable, and easy to adopt.",
+    name: "Priya Shah",
+    role: "COO, Insurance group"
+  }
+];
+
+export const faqs = [
+  {
+    question: "Can Nexora build both MVPs and enterprise platforms?",
+    answer: "Yes. We shape the delivery model around your stage, from discovery and MVP launch to modernization, scaling, and long-term roadmap execution."
+  },
+  {
+    question: "Do you provide dedicated development teams?",
+    answer: "Yes. We can provide dedicated cross-functional teams with product, UI/UX, engineering, QA, cloud, and technical leadership."
+  },
+  {
+    question: "How do you keep software secure and scalable?",
+    answer: "We define architecture early, use secure coding practices, review access models, automate quality checks, and design cloud foundations for growth."
+  },
+  {
+    question: "Can you add AI to an existing product?",
+    answer: "Yes. We identify high-value workflows, prototype quickly, integrate models safely, and add monitoring so AI features remain reliable."
+  },
+  {
+    question: "Do you handle design as well as engineering?",
+    answer: "Yes. Our process includes discovery, UX flows, visual design, design systems, frontend engineering, and post-launch iteration."
+  },
+  {
+    question: "What happens after launch?",
+    answer: "We support analytics, monitoring, performance optimization, roadmap releases, infrastructure improvements, and continuous product support."
+  }
+];
+
+export const deliveryHighlights = [
+  { title: "Core Web Vitals", icon: Gauge },
+  { title: "Global Cloud", icon: Globe2 },
+  { title: "Data Platforms", icon: Database },
+  { title: "AI Accelerators", icon: Sparkles }
+];
 
 export const contactReasons = [
   { title: "Build a new product", icon: Rocket },

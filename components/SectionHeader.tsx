@@ -13,9 +13,9 @@ export function SectionHeader({
 }) {
   return (
     <div className={clsx("max-w-3xl", align === "center" && "mx-auto text-center")}>
-      <p className="text-sm font-bold uppercase tracking-[0.22em] text-cyanfire">{eyebrow}</p>
-      <h2 className="mt-4 text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">{title}</h2>
-      <p className="mt-5 text-base leading-8 text-slate-300 sm:text-lg">{text}</p>
+      <p className="text-sm font-black uppercase tracking-[0.24em] text-cyanfire">{eyebrow}</p>
+      <h2 className="mt-4 text-4xl font-black leading-[1.05] text-white sm:text-5xl lg:text-6xl">{title}</h2>
+      <p className="mt-5 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg">{text}</p>
     </div>
   );
 }
