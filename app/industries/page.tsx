@@ -18,14 +18,14 @@ export default function IndustriesPage() {
           text="Our teams bring reusable architecture patterns and domain sensitivity to product launches, platform rebuilds, and automation programs."
           align="center"
         />
-        <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {industries.map((industry) => {
             const Icon = industry.icon;
             return (
-              <article key={industry.title} className="glass rounded-2xl p-7">
+              <article key={industry.title} className="glass flex h-full max-w-full flex-col overflow-hidden rounded-2xl p-5 sm:p-7">
                 <Icon className="text-cyanfire" size={30} />
-                <h2 className="mt-6 text-2xl font-black text-white">{industry.title}</h2>
-                <p className="mt-4 leading-7 text-slate-300">{industry.text}</p>
+                <h2 className="mt-6 break-words text-2xl font-black text-white">{industry.title}</h2>
+                <p className="mt-4 flex-1 break-words leading-7 text-slate-300">{industry.text}</p>
               </article>
             );
           })}

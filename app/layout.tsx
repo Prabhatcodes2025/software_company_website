@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { FloatingWidgets } from "@/components/FloatingWidgets";
+import { LanguageProvider } from "@/components/LanguageProvider";
+import { PremiumCursor } from "@/components/PremiumCursor";
 import { company } from "@/lib/site";
 import "./globals.css";
 
@@ -14,7 +17,7 @@ export const metadata: Metadata = {
     template: `%s | ${company.name}`
   },
   description:
-    "Premium IT software company for web development, mobile apps, AI/ML, blockchain, SaaS platforms, UI/UX design, and enterprise modernization.",
+    "Global IT software company for web development, mobile apps, AI/ML, blockchain, SaaS platforms, UI/UX design, and enterprise modernization.",
   keywords: [
     "software development company",
     "web development",
@@ -26,7 +29,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: `${company.name} | Software Development Company`,
-    description: "Build fast, scalable, and secure digital products with a senior software engineering partner.",
+    description: "Build fast, scalable, and secure digital products with a global software engineering partner.",
     url: company.url,
     siteName: company.name,
     images: [{ url: "/images/hero-command-center.png", width: 1400, height: 900 }],
@@ -44,9 +47,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={inter.variable}>
       <body className="font-sans antialiased">
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <LanguageProvider>
+          <Header />
+          <main>{children}</main>
+          <Footer />
+          <FloatingWidgets />
+          <PremiumCursor />
+        </LanguageProvider>
       </body>
     </html>
   );

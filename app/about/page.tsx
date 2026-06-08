@@ -5,7 +5,7 @@ import { stats, values } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "About Nexora Technologies, a premium software development company for high-growth digital products."
+  description: "About Clickmyze Technologies Pvt Ltd, a premium software development company for high-growth digital products."
 };
 
 export default function AboutPage() {
@@ -16,24 +16,24 @@ export default function AboutPage() {
           <SectionHeader
             eyebrow="About"
             title="A product engineering partner with senior ownership."
-            text="Nexora blends strategy, design, software engineering, cloud operations, and emerging technology expertise into one accountable delivery team."
+            text="Clickmyze blends strategy, design, software engineering, cloud operations, and emerging technology expertise into one accountable delivery team."
           />
-          <div className="glass rounded-2xl p-7">
-            <div className="grid gap-5 sm:grid-cols-2">
+          <div className="glass max-w-full overflow-hidden rounded-2xl p-5 sm:p-7">
+            <div className="grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2">
               {stats.map((stat) => (
-                <div key={stat.label} className="rounded-xl bg-white/[0.05] p-5">
-                  <p className="text-3xl font-black text-white">{stat.value}</p>
-                  <p className="mt-2 text-sm text-slate-400">{stat.label}</p>
+                <div key={stat.label} className="flex h-full flex-col rounded-xl bg-white/[0.05] p-5">
+                  <p className="break-words text-3xl font-black text-white">{stat.value}</p>
+                  <p className="mt-2 break-words text-sm text-slate-400">{stat.label}</p>
                 </div>
               ))}
             </div>
           </div>
         </div>
-        <div className="mt-14 grid gap-5 md:grid-cols-2">
+        <div className="mt-14 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2">
           {values.map((value) => (
-            <article key={value} className="rounded-2xl border border-white/10 bg-white/[0.04] p-6">
-              <h2 className="text-xl font-bold text-white">{value}</h2>
-              <p className="mt-3 leading-7 text-slate-400">
+            <article key={value} className="flex h-full max-w-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] p-5 sm:p-6">
+              <h2 className="break-words text-xl font-bold text-white">{value}</h2>
+              <p className="mt-3 flex-1 break-words leading-7 text-slate-400">
                 We keep decisions grounded in user needs, business value, and a technical foundation that remains healthy after the first launch.
               </p>
             </article>
