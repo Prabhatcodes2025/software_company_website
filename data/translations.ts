@@ -39,14 +39,14 @@ const en: Translation = {
   nav: { services: "Services", industries: "Industries", hire: "Hire Developer", products: "Our Products", insights: "Insights", company: "Company", contactCta: "Book Consultation", mobileIntro: "Navigate services, teams, products, insights, and company information." },
   hero: {
     badge: "Trusted by Startups, SMEs & Enterprises Worldwide",
-    title: "Build Your Digital Product With a Global Tech Partner.",
-    text: "Clickmyze Technologies Pvt Ltd partners with leadership teams worldwide to design, modernize, and scale AI, SaaS, cloud, web, and mobile platforms.",
-    primaryCta: "Schedule a Strategy Call",
-    secondaryCta: "Review Case Studies",
+    title: "Turn Bold Ideas Into Digital Products Built to Lead.",
+    text: "Web, mobile, AI automation and digital growth solutions for ambitious businesses worldwide.",
+    primaryCta: "Book Consultation",
+    secondaryCta: "View Services",
     commandCenter: "Global delivery command center",
     deliveryHealth: "Client satisfaction",
     activePods: "Global delivery pods",
-    highlights: ["Global delivery roadmap", "AI, SaaS, cloud and mobile pods", "Security-aware architecture", "Post-launch optimization"]
+    highlights: ["AI Automation", "Web Development", "App Development", "Digital Marketing"]
   },
   global: {
     eyebrow: "Serving Clients Globally",
@@ -173,26 +173,26 @@ export const translations: Record<LanguageCode, Translation> = {
   en,
   hi: withLocale({
     nav: { services: "Services", industries: "Industries", hire: "Hire Developer", products: "Products", insights: "Insights", company: "Company", contactCta: "Consultation Book Karein", mobileIntro: "Services, teams, products aur company information dekhein." },
-    hero: { badge: "Startups, SMEs aur Enterprises Worldwide ka trusted partner", title: "Apna digital product global tech partner ke saath banayein.", text: "Clickmyze Technologies Pvt Ltd global leadership teams ke liye AI, SaaS, cloud, web aur mobile platforms design, modernize aur scale karta hai.", primaryCta: "Strategy Call Schedule Karein", secondaryCta: "Case Studies Dekhein", commandCenter: "Global delivery command center", deliveryHealth: "Client satisfaction", activePods: "Global delivery pods", highlights: ["Global delivery roadmap", "AI, SaaS, cloud aur mobile pods", "Secure architecture", "Launch ke baad optimization"] },
+    hero: { badge: "Startups, SMEs aur Enterprises Worldwide ka trusted partner", title: "Bold ideas ko market-leading digital products mein badlein.", text: "Clickmyze Technologies Pvt Ltd global leadership teams ke liye AI, SaaS, cloud, web aur mobile platforms design, modernize aur scale karta hai.", primaryCta: "Consultation Book Karein", secondaryCta: "Services Dekhein", commandCenter: "Global delivery command center", deliveryHealth: "Client satisfaction", activePods: "Global delivery pods", highlights: ["AI Automation", "Web Development", "App Development", "Digital Marketing"] },
     global: { eyebrow: "Global Clients ko Serve karte hain", title: "Startups, SMEs aur Enterprises Worldwide ke trusted partner", text: "Senior engineering pods, clear communication aur global delivery model ke saath North America, Europe, Middle East aur Asia-Pacific mein kaam.", cta: "Global Tech Partner ke saath apna digital product banayein" },
     contact: { submit: "Message Send Karein", phoneError: "Valid phone number daalein." },
     footer: { languages: "Languages", contact: "Contact" }
   }),
   ar: withLocale({
     nav: { services: "Services", industries: "Industries", hire: "Hire Developer", products: "Products", insights: "Insights", company: "Company", contactCta: "Book Consultation", mobileIntro: "Explore services, teams, products, insights and company information." },
-    hero: { badge: "Trusted by Startups, SMEs & Enterprises Worldwide", title: "Build your digital product with a global technology partner.", text: "Clickmyze Technologies Pvt Ltd helps global teams design, modernize and scale AI, SaaS, cloud, web and mobile platforms.", primaryCta: "Schedule Strategy Call", secondaryCta: "View Case Studies", commandCenter: "Global delivery command center", deliveryHealth: "Client satisfaction", activePods: "Global delivery pods", highlights: ["Global delivery roadmap", "AI, SaaS, cloud and mobile pods", "Secure architecture", "Post-launch optimization"] },
+    hero: { badge: "Trusted by Startups, SMEs & Enterprises Worldwide", title: "Turn bold ideas into digital products built to lead.", text: "Clickmyze Technologies Pvt Ltd helps global teams design, modernize and scale AI, SaaS, cloud, web and mobile platforms.", primaryCta: "Book Consultation", secondaryCta: "View Services", commandCenter: "Global delivery command center", deliveryHealth: "Client satisfaction", activePods: "Global delivery pods", highlights: ["AI Automation", "Web Development", "App Development", "Digital Marketing"] },
     global: { eyebrow: "Serving Clients Globally", title: "Trusted by Startups, SMEs & Enterprises Worldwide", text: "A global delivery model with senior engineering pods and clear communication across major regions.", cta: "Build Your Digital Product With a Global Tech Partner" }
   }),
   es: withLocale({
     nav: { services: "Servicios", industries: "Industrias", hire: "Contratar", products: "Productos", insights: "Insights", company: "Empresa", contactCta: "Reservar consulta", mobileIntro: "Explora servicios, equipos, productos, insights e informacion de la empresa." },
-    hero: { badge: "Confiado por startups, pymes y empresas globales", title: "Construye tu producto digital con un socio tecnologico global.", text: "Clickmyze Technologies Pvt Ltd ayuda a equipos globales a disenar, modernizar y escalar plataformas de IA, SaaS, nube, web y moviles.", primaryCta: "Agendar llamada", secondaryCta: "Ver casos", commandCenter: "Centro global de entrega", deliveryHealth: "Satisfaccion del cliente", activePods: "Pods globales", highlights: ["Roadmap global", "Pods de IA, SaaS, nube y movil", "Arquitectura segura", "Optimizacion post-lanzamiento"] },
+    hero: { badge: "Confiado por startups, pymes y empresas globales", title: "Convierte grandes ideas en productos digitales lideres.", text: "Clickmyze Technologies Pvt Ltd ayuda a equipos globales a disenar, modernizar y escalar plataformas de IA, SaaS, nube, web y moviles.", primaryCta: "Reservar consulta", secondaryCta: "Ver servicios", commandCenter: "Centro global de entrega", deliveryHealth: "Satisfaccion del cliente", activePods: "Pods globales", highlights: ["Automatizacion IA", "Desarrollo Web", "Apps Moviles", "Marketing Digital"] },
     global: { eyebrow: "Clientes globales", title: "Confiado por startups, pymes y empresas en todo el mundo", text: "Modelo global con equipos senior, comunicacion clara y experiencia tecnologica en America, Europa, Medio Oriente y Asia-Pacifico.", cta: "Construye tu producto digital con un socio tecnologico global" },
     contact: { name: "Nombre", email: "Email", phone: "Telefono", projectType: "Tipo de proyecto", message: "Mensaje", submit: "Enviar mensaje" },
     footer: { languages: "Idiomas", contact: "Contacto" }
   }),
   fr: withLocale({
     nav: { services: "Services", industries: "Secteurs", hire: "Recruter", products: "Produits", insights: "Insights", company: "Entreprise", contactCta: "Reserver une consultation", mobileIntro: "Parcourez les services, equipes, produits, insights et informations entreprise." },
-    hero: { badge: "Approuve par startups, PME et entreprises mondiales", title: "Construisez votre produit digital avec un partenaire tech mondial.", text: "Clickmyze Technologies Pvt Ltd accompagne les equipes dirigeantes pour concevoir, moderniser et faire evoluer des plateformes IA, SaaS, cloud, web et mobile.", primaryCta: "Planifier un appel", secondaryCta: "Voir les cas clients", commandCenter: "Centre de livraison mondial", deliveryHealth: "Satisfaction client", activePods: "Pods mondiaux", highlights: ["Feuille de route globale", "Pods IA, SaaS, cloud et mobile", "Architecture securisee", "Optimisation post-lancement"] },
+    hero: { badge: "Approuve par startups, PME et entreprises mondiales", title: "Transformez vos idees en produits digitaux leaders.", text: "Clickmyze Technologies Pvt Ltd accompagne les equipes dirigeantes pour concevoir, moderniser et faire evoluer des plateformes IA, SaaS, cloud, web et mobile.", primaryCta: "Reserver une consultation", secondaryCta: "Voir les services", commandCenter: "Centre de livraison mondial", deliveryHealth: "Satisfaction client", activePods: "Pods mondiaux", highlights: ["Automatisation IA", "Developpement Web", "Applications Mobiles", "Marketing Digital"] },
     global: { eyebrow: "Clients mondiaux", title: "Approuve par startups, PME et entreprises dans le monde", text: "Un modele de livraison mondial avec des equipes seniors, une communication claire et une expertise en Amerique, Europe, Moyen-Orient et Asie-Pacifique.", cta: "Construisez votre produit digital avec un partenaire tech mondial" },
     contact: { name: "Nom", email: "Email", phone: "Telephone", projectType: "Type de projet", message: "Message", submit: "Envoyer" },
     footer: { languages: "Langues", contact: "Contact" }

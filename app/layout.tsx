@@ -4,7 +4,6 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FloatingWidgets } from "@/components/FloatingWidgets";
 import { LanguageProvider } from "@/components/LanguageProvider";
-import { PremiumCursor } from "@/components/PremiumCursor";
 import { company } from "@/lib/site";
 import "./globals.css";
 
@@ -52,7 +51,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <main>{children}</main>
           <Footer />
           <FloatingWidgets />
-          <PremiumCursor />
         </LanguageProvider>
       </body>
     </html>

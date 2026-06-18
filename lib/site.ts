@@ -34,8 +34,8 @@ export const company = {
   shortName: "Clickmyze",
   url: "https://clickmyze-technologies.example",
   email: "info@clickmyze.com",
-  phone: "+91 98765 43210",
-  hrPhone: "+91 98765 43211"
+  phone: "+91 96857 61187",
+  hrPhone: "+91 78988 71187"
 };
 
 export const navItems = [

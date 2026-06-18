@@ -179,3 +179,17 @@ a {
     scroll-behavior: auto !important;
   }
 }
+
+@media (max-width: 640px) {
+  .ai-ecosystem-particle:nth-of-type(even) {
+    display: none;
+  }
+
+  .ai-ecosystem-reflection {
+    display: none;
+  }
+
+  .testimonial-track {
+    animation-duration: 54s;
+  }
+}

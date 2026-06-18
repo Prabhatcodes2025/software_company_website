@@ -18,7 +18,8 @@ export function ContactPageContent() {
             <SectionHeader eyebrow={t.contact.eyebrow} title={t.contact.title} text={t.contact.text} />
             <div className="mt-8 grid gap-4 text-slate-300">
               <a className="flex min-w-0 items-center gap-3 break-words hover:text-cyanfire" href={`mailto:${company.email}`}><Mail size={19} className="shrink-0" /> <span className="min-w-0 break-words">{company.email}</span></a>
-              <a className="flex min-w-0 items-center gap-3 break-words hover:text-cyanfire" href={`tel:${company.phone.replace(/[^+\d]/g, "")}`}><Phone size={19} className="shrink-0" /> <span className="min-w-0 break-words">{company.phone}</span></a>
+              <a className="flex min-w-0 items-center gap-3 break-words hover:text-cyanfire" href={`tel:${company.phone.replace(/[^+\d]/g, "")}`}><Phone size={19} className="shrink-0" /> <span className="min-w-0 break-words">Sales: {company.phone}</span></a>
+              <a className="flex min-w-0 items-center gap-3 break-words hover:text-cyanfire" href={`tel:${company.hrPhone.replace(/[^+\d]/g, "")}`}><Phone size={19} className="shrink-0" /> <span className="min-w-0 break-words">HR: {company.hrPhone}</span></a>
             </div>
             <div className="mt-10 grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2">
               {contactReasons.map((reason, index) => {

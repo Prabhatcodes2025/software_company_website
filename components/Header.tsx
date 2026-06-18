@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   ArrowRight,
@@ -589,111 +590,61 @@ function getMenuIcon(title: string) {
   return menuIcons[title] ?? Sparkles;
 }
 
-function MegaMenu({
-  config,
-  selected,
-  onSelect,
-  onClose
-}: {
-  config: MegaMenuConfig;
-  selected: string;
-  onSelect: (title: string) => void;
-  onClose: () => void;
-}) {
-  const activeCategory = config.categories.find((category) => category.title === selected) ?? config.categories[0];
-  const FeaturedIcon = config.icon;
+function getCompactMenuItems(config: MegaMenuConfig) {
+  if (config.key === "services") {
+    return [
+      { label: "Website Development", href: "/services", icon: Code2 },
+      { label: "Mobile App Development", href: "/services", icon: Smartphone },
+      { label: "Digital Marketing", href: "/services", icon: Lightbulb },
+      { label: "SEO Services", href: "/services", icon: Sparkles },
+      { label: "AI Automation", href: "/services", icon: Bot },
+      { label: "Software Development", href: "/services", icon: Layers3 },
+      { label: "Portfolio", href: "/case-studies", icon: BookOpen },
+      { label: "Pricing", href: "/contact", icon: DatabaseZap },
+      { label: "Contact", href: "/contact", icon: ArrowRight }
+    ];
+  }
+
+  return config.categories.slice(0, 9).map((category) => ({
+    label: category.title,
+    href: category.href,
+    icon: getMenuIcon(category.title)
+  }));
+}
+
+function MegaMenu({ config, onClose }: { config: MegaMenuConfig; onClose: () => void }) {
+  const menuItems = getCompactMenuItems(config);
 
   return (
     <motion.div
-      className="absolute inset-x-0 top-full z-[999] hidden px-4 pt-3 lg:block"
-      initial={{ opacity: 0, y: -10, scale: 0.985 }}
+      className="absolute inset-x-0 top-full z-[10000] hidden origin-top px-4 pt-2 [will-change:transform,opacity] lg:block"
+      initial={{ opacity: 0, y: 8, scale: 0.98 }}
       animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, y: -10, scale: 0.985 }}
+      exit={{ opacity: 0, y: 6, scale: 0.98 }}
       transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
     >
-      <div className="mx-auto grid min-h-[520px] w-full max-w-[1260px] overflow-hidden rounded-[1.65rem] border border-white/10 bg-slate-950/95 shadow-2xl shadow-black/70 backdrop-blur-xl xl:grid-cols-[0.92fr_1.18fr_0.9fr] lg:grid-cols-[0.9fr_1.15fr_0.95fr]">
-        <div className="border-r border-white/10 bg-slate-900/85 p-6">
-          <p className="text-xs font-black uppercase tracking-[0.24em] text-cyanfire">{config.eyebrow}</p>
-          <h3 className="mt-3 max-w-sm text-2xl font-black leading-tight text-white">{config.heading}</h3>
-          <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">{config.description}</p>
-          <div className="mt-6 grid max-h-[330px] gap-2 overflow-y-auto pr-1">
-            {config.categories.map((category) => {
-              const Icon = getMenuIcon(category.title);
-              const isActive = activeCategory.title === category.title;
-              return (
-                <button
-                  key={category.title}
-                  type="button"
-                  onMouseEnter={() => onSelect(category.title)}
-                  onClick={() => onSelect(category.title)}
-                  onFocus={() => onSelect(category.title)}
-                  className={clsx(
-                    "group flex items-start gap-3 rounded-2xl border p-3.5 text-left transition",
-                    isActive
-                      ? "border-cyanfire/45 bg-cyanfire/12 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)]"
-                      : "border-white/10 bg-slate-950/35 hover:border-white/20 hover:bg-slate-900"
-                  )}
-                >
-                  <span className={clsx("grid size-10 shrink-0 place-items-center rounded-xl border", isActive ? "border-cyanfire/30 bg-cyanfire/15 text-cyanfire" : "border-white/10 bg-white/[0.04] text-slate-400 group-hover:text-cyanfire")}>
-                    <Icon size={19} />
-                  </span>
-                  <span className="min-w-0">
-                    <span className="block break-words text-sm font-black text-white">{category.title}</span>
-                    <span className="mt-1 line-clamp-1 block break-words text-xs leading-5 text-slate-400">{category.description}</span>
-                  </span>
-                </button>
-              );
-            })}
+      <div className="mx-auto max-h-[calc(100vh-120px)] w-full max-w-[860px] overflow-y-auto rounded-2xl border border-white/10 bg-[#020617] p-5 shadow-[0_24px_80px_rgba(0,0,0,0.72)]">
+        <div className="flex items-center justify-between gap-5 border-b border-white/10 pb-4">
+          <div className="min-w-0">
+            <p className="text-[11px] font-black uppercase tracking-[0.18em] text-cyanfire">{config.eyebrow}</p>
+            <h3 className="mt-1 truncate text-base font-black leading-6 text-white">{config.heading}</h3>
           </div>
+          <Link href={config.ctaHref} onClick={onClose} className="inline-flex shrink-0 items-center gap-2 rounded-lg border border-cyanfire/25 bg-cyanfire/10 px-3 py-2 text-[13px] font-black text-cyanfire transition hover:border-cyanfire/45 hover:bg-cyanfire/15">
+            {config.ctaLabel} <ArrowRight size={14} />
+          </Link>
         </div>
-
-        <div className="p-7">
-          <p className="text-xs font-black uppercase tracking-[0.24em] text-slate-500">Related solutions</p>
-          <h4 className="mt-3 break-words text-3xl font-black leading-tight text-white">{activeCategory.title}</h4>
-          <p className="mt-3 max-w-xl break-words leading-7 text-slate-300">{activeCategory.description}</p>
-          <div className="mt-7 grid gap-3 sm:grid-cols-2">
-            {activeCategory.links.map((item) => (
-              <Link
-                key={`${activeCategory.title}-${item.label}`}
-                href={item.href}
-                onClick={onClose}
-                className="group flex min-h-[92px] items-start justify-between gap-4 rounded-2xl border border-white/10 bg-slate-900/55 p-4 text-sm transition hover:-translate-y-0.5 hover:border-cyanfire/45 hover:bg-slate-900"
-              >
-                <span className="min-w-0">
-                  <span className="block break-words font-black text-slate-100">{item.label}</span>
-                  {item.description ? <span className="mt-1 line-clamp-2 block break-words text-xs leading-5 text-slate-400">{item.description}</span> : null}
+        <div className="mt-4 grid grid-cols-2 gap-2 xl:grid-cols-3">
+          {menuItems.map((item) => {
+            const Icon = item.icon;
+            return (
+              <Link key={`${config.key}-${item.label}`} href={item.href} onClick={onClose} className="group flex min-h-11 items-center gap-3 rounded-xl border border-white/8 bg-white/[0.035] px-3 py-2.5 text-[13px] font-bold text-slate-300 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:border-cyanfire/35 hover:bg-cyanfire/[0.09] hover:text-white">
+                <span className="grid size-8 shrink-0 place-items-center rounded-lg bg-cyanfire/10 text-cyanfire transition-all duration-300 ease-out group-hover:translate-x-0.5 group-hover:bg-cyanfire/15 group-hover:shadow-[0_0_16px_rgba(56,213,255,0.14)]">
+                  <Icon size={16} className="transition-transform duration-300 group-hover:scale-105" />
                 </span>
-                <ArrowRight size={15} className="mt-1 shrink-0 text-cyanfire opacity-70 transition group-hover:translate-x-1 group-hover:opacity-100" />
+                <span className="min-w-0 break-words">{item.label}</span>
               </Link>
-            ))}
-          </div>
-        </div>
-
-        <div className="border-l border-white/10 bg-[radial-gradient(circle_at_30%_20%,rgba(56,213,255,0.18),transparent_18rem),linear-gradient(180deg,rgba(15,23,42,0.92),rgba(2,6,23,0.96))] p-7">
-          <div className="grid size-14 place-items-center rounded-2xl border border-cyanfire/25 bg-cyanfire/12 text-cyanfire shadow-[0_0_28px_rgba(56,213,255,0.16)]">
-            <FeaturedIcon size={27} />
-          </div>
-          <p className="mt-6 text-xs font-black uppercase tracking-[0.24em] text-cyanfire">Enterprise delivery</p>
-          <h4 className="mt-3 text-2xl font-black leading-tight text-white">Built for $50k-$500k initiatives.</h4>
-          <div className="mt-7 grid gap-3">
-            {[
-              ["150+", "Projects delivered"],
-              ["50+", "Global clients"],
-              ["98%", "Client retention"]
-            ].map(([value, label]) => (
-              <div key={label} className="rounded-2xl border border-white/10 bg-white/[0.045] p-4">
-                <p className="text-3xl font-black text-white">{value}</p>
-                <p className="mt-1 text-xs font-bold uppercase tracking-[0.2em] text-slate-400">{label}</p>
-              </div>
-            ))}
-          </div>
-          <div className="mt-7 rounded-2xl border border-cyanfire/25 bg-cyanfire/10 p-5">
-            <p className="font-black text-white">Need senior guidance?</p>
-            <p className="mt-2 text-sm leading-6 text-slate-300">Discuss scope, risk, architecture, timeline, and delivery model with a senior consultant.</p>
-            <Link href={config.ctaHref} onClick={onClose} className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyanfire to-mint px-5 py-3 text-sm font-black text-ink transition hover:-translate-y-0.5">
-              {config.ctaLabel} <ArrowRight size={16} />
-            </Link>
-          </div>
+            );
+          })}
         </div>
       </div>
     </motion.div>
@@ -711,41 +662,31 @@ function MobileMenuGroup({
   onToggle: () => void;
   onClose: () => void;
 }) {
+  const menuItems = getCompactMenuItems(config);
+
   return (
-    <div className="overflow-hidden rounded-2xl border border-white/10 bg-slate-900/80">
-      <button type="button" onClick={onToggle} className="flex w-full items-center justify-between gap-4 px-4 py-4 text-left">
-        <span>
-          <span className="block text-base font-black text-white">{config.label}</span>
-          <span className="mt-1 line-clamp-1 block text-xs leading-5 text-slate-400">{config.description}</span>
-        </span>
+    <div className="overflow-hidden rounded-xl border border-white/10 bg-slate-900/80">
+      <button type="button" onClick={onToggle} className="flex w-full items-center justify-between gap-4 px-4 py-3.5 text-left">
+        <span className="text-[15px] font-black text-white">{config.label}</span>
         <ChevronDown size={18} className={clsx("shrink-0 text-cyanfire transition", isOpen && "rotate-180")} />
       </button>
       <AnimatePresence initial={false}>
         {isOpen ? (
-          <motion.div initial={{ height: 0, opacity: 0 }} animate={{ height: "auto", opacity: 1 }} exit={{ height: 0, opacity: 0 }} transition={{ duration: 0.22 }} className="overflow-hidden">
-            <div className="grid gap-3 border-t border-white/10 p-4">
-              {config.categories.map((category) => {
-                const Icon = getMenuIcon(category.title);
+          <motion.div
+            initial={{ height: 0, opacity: 0, y: -4 }}
+            animate={{ height: "auto", opacity: 1, y: 0 }}
+            exit={{ height: 0, opacity: 0, y: -4 }}
+            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+            className="overflow-hidden"
+          >
+            <div className="grid grid-cols-1 gap-1.5 border-t border-white/10 p-3 sm:grid-cols-2">
+              {menuItems.map((item) => {
+                const Icon = item.icon;
                 return (
-                  <div key={category.title} className="rounded-2xl border border-white/10 bg-slate-950/45 p-4">
-                    <Link href={category.href} onClick={onClose} className="flex gap-3">
-                      <span className="grid size-10 shrink-0 place-items-center rounded-xl border border-cyanfire/20 bg-cyanfire/12 text-cyanfire">
-                        <Icon size={19} />
-                      </span>
-                      <span className="min-w-0">
-                        <span className="block break-words font-black text-white">{category.title}</span>
-                        <span className="mt-1 line-clamp-2 block break-words text-sm leading-6 text-slate-400">{category.description}</span>
-                      </span>
-                    </Link>
-                    <div className="mt-3 grid gap-2">
-                      {category.links.slice(0, 3).map((item) => (
-                        <Link key={item.label} href={item.href} onClick={onClose} className="flex items-center justify-between gap-3 rounded-xl border border-white/10 bg-white/[0.035] px-3 py-2 text-sm font-bold text-slate-200">
-                          <span className="min-w-0 break-words">{item.label}</span>
-                          <ArrowRight size={14} className="shrink-0 text-cyanfire" />
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
+                  <Link key={`${config.key}-${item.label}`} href={item.href} onClick={onClose} className="group flex items-center gap-3 rounded-lg px-3 py-2.5 text-[13px] font-bold text-slate-200 transition-all duration-300 hover:bg-cyanfire/10 hover:text-white">
+                    <Icon size={16} className="shrink-0 text-cyanfire transition-transform duration-300 group-hover:translate-x-0.5" />
+                    <span className="min-w-0 break-words">{item.label}</span>
+                  </Link>
                 );
               })}
             </div>
@@ -761,10 +702,8 @@ export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeMega, setActiveMega] = useState<MegaKey | null>(null);
   const [openMobileDropdown, setOpenMobileDropdown] = useState<MegaKey | null>("services");
-  const [selectedCategories, setSelectedCategories] = useState<Record<MegaKey, string>>(() =>
-    Object.fromEntries(megaMenus.map((menu) => [menu.key, menu.categories[0].title])) as Record<MegaKey, string>
-  );
   const [scrolled, setScrolled] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
   const headerRef = useRef<HTMLElement>(null);
   const hoverCloseRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -783,8 +722,12 @@ export function Header() {
 
   const scheduleMegaClose = () => {
     if (hoverCloseRef.current) clearTimeout(hoverCloseRef.current);
-    hoverCloseRef.current = setTimeout(() => setActiveMega(null), 120);
+    hoverCloseRef.current = setTimeout(() => setActiveMega(null), 80);
   };
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -873,12 +816,12 @@ export function Header() {
         </Container>
       </div>
 
-      <Container className="flex h-16 items-center justify-between gap-3 lg:h-[72px]">
+      <Container className="flex h-[72px] items-center justify-between gap-3 lg:h-20">
         <Link href="/" onClick={closeMenus} className="flex min-w-0 items-center gap-3" aria-label={`${company.name} home`}>
-          <span className="grid size-10 shrink-0 place-items-center overflow-hidden rounded-xl border border-white/15 bg-white/10 shadow-glow">
-            <Image src="/images/clickmyze-logo.png" alt="Clickmyze logo" width={44} height={44} className="size-full object-cover" priority />
+          <span className="grid size-11 shrink-0 place-items-center overflow-hidden rounded-xl border border-white/15 bg-white/10 shadow-glow sm:size-12 xl:size-14">
+            <Image src="/images/clickmyze-logo.png" alt="Clickmyze logo" width={56} height={56} className="size-full object-cover" priority />
           </span>
-          <span className="whitespace-nowrap text-lg font-black tracking-normal text-white">{company.shortName}</span>
+          <span className="whitespace-nowrap text-lg font-black tracking-normal text-white sm:text-xl">{company.shortName}</span>
         </Link>
 
         <nav className="hidden min-w-0 items-center gap-0.5 rounded-xl border border-white/10 bg-white/[0.035] p-1 text-slate-200 lg:flex">
@@ -923,65 +866,65 @@ export function Header() {
           <MegaMenu
             key={activeConfig.key}
             config={activeConfig}
-            selected={selectedCategories[activeConfig.key]}
-            onSelect={(title) => setSelectedCategories((current) => ({ ...current, [activeConfig.key]: title }))}
             onClose={closeMenus}
           />
         ) : null}
       </AnimatePresence>
 
-      <AnimatePresence>
-        {isMobileMenuOpen ? (
-          <motion.div
-            className="fixed inset-0 z-[9999] overflow-hidden bg-slate-950 text-white backdrop-blur-2xl lg:hidden"
-            initial={{ x: "100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: "100%" }}
-            transition={{ duration: 0.32, ease: [0.22, 1, 0.36, 1] }}
-          >
-            <Container className="flex h-20 items-center justify-between border-b border-white/10">
-              <Link href="/" className="flex min-w-0 items-center gap-3" onClick={closeMenus}>
-                <span className="grid size-11 shrink-0 place-items-center overflow-hidden rounded-xl border border-white/15 bg-white/10">
-                  <Image src="/images/clickmyze-logo.png" alt="Clickmyze logo" width={44} height={44} className="size-full object-cover" />
-                </span>
-                <span className="whitespace-nowrap font-black text-white">{company.shortName}</span>
-              </Link>
-              <button onClick={closeMenus} className="grid size-11 shrink-0 place-items-center rounded-xl border border-white/15 bg-slate-900 text-white" aria-label="Close navigation" type="button">
-                <X size={21} />
-              </button>
-            </Container>
-            <Container className="max-h-[calc(100vh-80px)] overflow-y-auto overflow-x-hidden py-5">
-              <div className="rounded-2xl border border-cyanfire/20 bg-cyanfire/10 p-4">
-                <p className="text-xs font-black uppercase tracking-[0.2em] text-cyanfire">Enterprise technology partner</p>
-                <p className="mt-2 text-xl font-black leading-tight text-white">{t.nav.mobileIntro}</p>
-              </div>
+      {mounted
+        ? createPortal(
+            <AnimatePresence>
+              {isMobileMenuOpen ? (
+                <motion.div
+                  className="fixed inset-0 z-[99999] flex h-dvh flex-col overflow-hidden bg-[#020617] text-white lg:hidden"
+                  initial={{ x: "100%" }}
+                  animate={{ x: 0 }}
+                  exit={{ x: "100%" }}
+                  transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
+                >
+                  <Container className="flex h-16 shrink-0 items-center justify-between border-b border-white/10">
+                    <Link href="/" className="flex min-w-0 items-center gap-3" onClick={closeMenus}>
+                      <span className="grid size-11 shrink-0 place-items-center overflow-hidden rounded-xl border border-white/15 bg-white/10 sm:size-12">
+                        <Image src="/images/clickmyze-logo.png" alt="Clickmyze logo" width={48} height={48} className="size-full object-cover" />
+                      </span>
+                      <span className="whitespace-nowrap font-black text-white">{company.shortName}</span>
+                    </Link>
+                    <button onClick={closeMenus} className="grid size-10 shrink-0 place-items-center rounded-xl border border-white/15 bg-slate-900 text-white" aria-label="Close navigation" type="button">
+                      <X size={20} />
+                    </button>
+                  </Container>
+                  <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden">
+                    <Container className="py-4">
+                      <LanguageSwitcher className="w-full justify-between" />
 
-              <LanguageSwitcher className="mt-4 w-full justify-between" />
+                      <div className="mt-4 grid gap-2">
+                        {megaMenus.map((menu) => (
+                          <MobileMenuGroup
+                            key={menu.key}
+                            config={{ ...menu, label: menuLabel(menu.key), ctaLabel: menu.key === "industries" ? "Discuss Your Industry Project" : t.nav.contactCta }}
+                            isOpen={openMobileDropdown === menu.key}
+                            onToggle={() => setOpenMobileDropdown((current) => (current === menu.key ? null : menu.key))}
+                            onClose={closeMenus}
+                          />
+                        ))}
+                      </div>
 
-              <div className="mt-5 grid gap-3">
-                {megaMenus.map((menu) => (
-                  <MobileMenuGroup
-                    key={menu.key}
-                    config={{ ...menu, label: menuLabel(menu.key), ctaLabel: menu.key === "industries" ? "Discuss Your Industry Project" : t.nav.contactCta }}
-                    isOpen={openMobileDropdown === menu.key}
-                    onToggle={() => setOpenMobileDropdown((current) => (current === menu.key ? null : menu.key))}
-                    onClose={closeMenus}
-                  />
-                ))}
-              </div>
-
-              <div className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2">
-                <Link href="/case-studies" onClick={closeMenus} className="rounded-xl border border-white/10 bg-white/[0.04] px-5 py-4 text-center font-black text-white">
-                  View Case Studies
-                </Link>
-                <Link href="/contact" onClick={closeMenus} className="rounded-xl bg-gradient-to-r from-cyanfire to-mint px-5 py-4 text-center font-black text-ink">
-                  {t.nav.contactCta}
-                </Link>
-              </div>
-            </Container>
-          </motion.div>
-        ) : null}
-      </AnimatePresence>
+                      <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                        <Link href="/case-studies" onClick={closeMenus} className="rounded-xl border border-white/10 bg-white/[0.04] px-5 py-3.5 text-center text-sm font-black text-white">
+                          View Portfolio
+                        </Link>
+                        <Link href="/contact" onClick={closeMenus} className="rounded-xl bg-gradient-to-r from-cyanfire to-mint px-5 py-3.5 text-center text-sm font-black text-ink">
+                          {t.nav.contactCta}
+                        </Link>
+                      </div>
+                    </Container>
+                  </div>
+                </motion.div>
+              ) : null}
+            </AnimatePresence>,
+            document.body
+          )
+        : null}
     </header>
   );
 }
