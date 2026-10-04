@@ -1,45 +1,8 @@
 import type { Metadata } from "next";
-import { Container } from "@/components/Container";
-import { SectionHeader } from "@/components/SectionHeader";
-import { stats, values } from "@/lib/site";
+import Link from "next/link";
+import { ArrowRight, Check } from "lucide-react";
+import { PageHero } from "@/components/PageHero";
+import { process } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "About",
-  description: "About Clickmyze Technologies Pvt Ltd, a premium software development company for high-growth digital products."
-};
-
-export default function AboutPage() {
-  return (
-    <section className="py-20">
-      <Container>
-        <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-          <SectionHeader
-            eyebrow="About"
-            title="A product engineering partner with senior ownership."
-            text="Clickmyze blends strategy, design, software engineering, cloud operations, and emerging technology expertise into one accountable delivery team."
-          />
-          <div className="glass max-w-full overflow-hidden rounded-2xl p-5 sm:p-7">
-            <div className="grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2">
-              {stats.map((stat) => (
-                <div key={stat.label} className="flex h-full flex-col rounded-xl bg-white/[0.05] p-5">
-                  <p className="break-words text-3xl font-black text-white">{stat.value}</p>
-                  <p className="mt-2 break-words text-sm text-slate-400">{stat.label}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        <div className="mt-14 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2">
-          {values.map((value) => (
-            <article key={value} className="flex h-full max-w-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] p-5 sm:p-6">
-              <h2 className="break-words text-xl font-bold text-white">{value}</h2>
-              <p className="mt-3 flex-1 break-words leading-7 text-slate-400">
-                We keep decisions grounded in user needs, business value, and a technical foundation that remains healthy after the first launch.
-              </p>
-            </article>
-          ))}
-        </div>
-      </Container>
-    </section>
-  );
-}
+export const metadata: Metadata = { title: "About LetsFygure Technology", description: "Meet LetsFygure, a business-focused digital product company combining strategy, UI/UX, software engineering, AI automation and growth.", alternates: { canonical: "/about" } };
+export default function AboutPage() { return <><PageHero eyebrow="About LetsFygure" title="We turn ambitious ideas into digital products built to perform." text="LetsFygure is a digital transformation and technology company that brings product thinking, experience design, engineering, automation and growth into one accountable partnership." /><section className="section section-light"><div className="shell about-grid"><div><p className="eyebrow dark">How we think</p><h2>Technology should make the business clearer—not add another layer of confusion.</h2></div><div><p className="lead">We begin with the customer, the workflow and the outcome. That context guides the interface, architecture and delivery plan—so teams can make better decisions from the first workshop through ongoing improvement.</p><p>We work with startups, SMEs, growing companies and enterprise teams across India and international markets. Our role can be focused or end-to-end: discover the opportunity, design the experience, build the product, connect the systems and help it grow.</p></div></div></section><section className="section section-paper"><div className="shell"><div className="section-heading"><div><p className="eyebrow dark">What clients can expect</p><h2>A capable partner with a straightforward way of working.</h2></div></div><div className="values-grid">{[["Business-first","We ask what success looks like before discussing the stack."],["Transparent","You see decisions, trade-offs and progress clearly."],["Quality-minded","Performance, accessibility and maintainability are part of the work."],["Collaborative","Your team stays close to the product throughout delivery."],["Built for continuity","We plan for what happens after launch, not only launch day."],["Practical","We favor useful systems over impressive-looking complexity."]].map(([title,text]) => <article key={title}><Check /><h3>{title}</h3><p>{text}</p></article>)}</div></div></section><section className="section section-dark"><div className="shell"><div className="section-heading light"><div><p className="eyebrow">From idea to evolution</p><h2>One connected delivery path.</h2></div></div><ol className="process-grid dark-process">{process.map(([n,t,x]) => <li key={n}><span>{n}</span><h3>{t}</h3><p>{x}</p></li>)}</ol><Link href="/contact" className="button">Start a Conversation <ArrowRight size={18} /></Link></div></section></>; }

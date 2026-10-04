@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
-import { ContactPageContent } from "@/components/ContactPageContent";
+import { Instagram, MessageCircle, Star } from "lucide-react";
+import { ContactForm } from "@/components/ContactForm";
+import { company } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Contact",
-  description: "Contact Clickmyze Technologies Pvt Ltd to discuss web, mobile, AI, blockchain, SaaS, or UI/UX product development."
-};
-
-export default function ContactPage() {
-  return <ContactPageContent />;
-}
+export const metadata: Metadata = { title: "Contact LetsFygure", description: "Tell LetsFygure about your web, mobile, custom software, AI automation, eCommerce or digital growth project.", alternates: { canonical: "/contact" } };
+export default function ContactPage() { const schema={"@context":"https://schema.org","@type":"ContactPage",name:"Contact LetsFygure Technology",url:`${company.url}/contact`}; return <section className="contact-page section-dark"><div className="hero-grid" aria-hidden /><div className="shell contact-layout"><div><p className="eyebrow"><span />Start a conversation</p><h1>Tell us what you’re ready to figure out.</h1><p>Share the problem, opportunity or product you have in mind. We’ll help you turn it into a clear, practical next step.</p><div className="contact-links"><a href={company.whatsapp} target="_blank" rel="noreferrer"><MessageCircle /> <span><small>WhatsApp / phone</small><strong>{company.phone}</strong></span></a><a href={company.clutch} target="_blank" rel="noreferrer"><Star /> <span><small>Independent reviews</small><strong>5.0 on Clutch</strong></span></a><a href={company.instagram} target="_blank" rel="noreferrer"><Instagram /> <span><small>Follow our work</small><strong>@letsfygure</strong></span></a></div></div><ContactForm /></div><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}} /></section>; }

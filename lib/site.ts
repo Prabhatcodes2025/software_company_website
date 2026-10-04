@@ -1,257 +1,77 @@
-import {
-  Activity,
-  BadgeCheck,
-  Banknote,
-  Bot,
-  Boxes,
-  BrainCircuit,
-  Building2,
-  CheckCircle2,
-  Cloud,
-  Code2,
-  GraduationCap,
-  Handshake,
-  HeartPulse,
-  Home,
-  Layers3,
-  LifeBuoy,
-  LockKeyhole,
-  Map,
-  Rocket,
-  Server,
-  ShieldCheck,
-  ShoppingCart,
-  Smartphone,
-  Sparkles,
-  Star,
-  TestTube2,
-  Truck,
-  Users,
-} from "lucide-react";
+import { Bot, Braces, Building2, ChartNoAxesCombined, Code2, GraduationCap, HeartPulse, Hotel, Layers3, Megaphone, PlugZap, Search, ShoppingBag, Smartphone, Workflow } from "lucide-react";
 
 export const company = {
-  name: "Clickmyze Technologies Pvt Ltd",
-  shortName: "Clickmyze",
-  url: "https://clickmyze-technologies.example",
-  email: "info@clickmyze.com",
-  phone: "+91 96857 61187",
-  hrPhone: "+91 78988 71187"
+  name: "LetsFygure Technology",
+  shortName: "LetsFygure",
+  tagline: "Figured Out.",
+  url: "https://clickmyze-three.vercel.app",
+  phone: "+91 78692 51729",
+  whatsapp: "https://wa.me/917869251729",
+  instagram: "https://www.instagram.com/letsfygure/",
+  clutch: "https://clutch.co/profile/letsfygure-0",
 };
 
 export const navItems = [
-  { href: "/services", label: "Services" },
-  { href: "/industries", label: "Industries" },
-  { href: "/case-studies", label: "Case Studies" },
-  { href: "/about", label: "About" },
-  { href: "/career", label: "Career" },
-  { href: "/contact", label: "Contact" }
-];
-
-export const stats = [
-  { value: "150+", label: "Projects Delivered" },
-  { value: "50+", label: "Global Clients" },
-  { value: "98%", label: "Client Retention" },
-  { value: "10+", label: "Technologies" }
-];
-
-export const clientLogos = ["Finova Group", "MedAxis Health", "VectorPay", "ShipGrid", "CloudOps Capital", "UrbanKey", "NovaCart", "EduCore"];
-
-export const proofBadges = [
-  { title: "Clutch", value: "4.9/5", text: "Enterprise software delivery rating", icon: Star },
-  { title: "DesignRush", value: "Verified", text: "Product design and engineering partner", icon: BadgeCheck },
-  { title: "GoodFirms", value: "5.0", text: "Client-rated development partner", icon: CheckCircle2 },
-  { title: "Google Reviews", value: "4.8", text: "Verified global client feedback", icon: Sparkles }
+  { href: "/services", label: "Services" }, { href: "/industries", label: "Industries" },
+  { href: "/case-studies", label: "Work" }, { href: "/about", label: "About" },
+  { href: "/insights", label: "Insights" }, { href: "/contact", label: "Contact" },
 ];
 
 export const services = [
-  {
-    title: "AI Development",
-    icon: BrainCircuit,
-    summary: "Production AI systems for operational teams that need governed automation, reliable data access, and measurable adoption.",
-    points: ["LLM architecture and evaluation", "RAG and agentic workflows", "Human approval and audit trails"],
-    cta: "Discuss AI strategy",
-    outcome: "From pilot to governed production",
-    model: "AI consulting + engineering",
-    span: "lg:col-span-2"
-  },
-  {
-    title: "SaaS Development",
-    icon: Cloud,
-    summary: "Multi-tenant platforms engineered for enterprise buyers, usage growth, billing complexity, permissions, and operational control.",
-    points: ["Tenant isolation and roles", "Billing, analytics, and admin ops", "Reliability and scale planning"],
-    cta: "Architect SaaS",
-    outcome: "Investor and enterprise-ready platforms",
-    model: "Product pod"
-  },
-  {
-    title: "Web Development",
-    icon: Code2,
-    summary: "High-performance portals, marketplaces, dashboards, and web applications built for conversion, security, and long-term maintainability.",
-    points: ["Frontend architecture", "Headless and composable platforms", "SEO, accessibility, Core Web Vitals"],
-    cta: "Modernize web",
-    outcome: "Premium digital experiences",
-    model: "UX + engineering"
-  },
-  {
-    title: "Mobile Apps",
-    icon: Smartphone,
-    summary: "Native-quality mobile products for customer engagement, field operations, internal teams, commerce, and real-time workflows.",
-    points: ["iOS, Android, Flutter, React Native", "Secure API and identity integration", "Release, QA, and store operations"],
-    cta: "Plan mobile delivery",
-    outcome: "Launch-ready mobile ecosystems",
-    model: "Mobile product squad",
-    span: "lg:row-span-2"
-  },
-  {
-    title: "Cloud Solutions",
-    icon: Server,
-    summary: "Cloud architecture, DevOps automation, observability, migration, and reliability programs for platforms that cannot afford downtime.",
-    points: ["AWS architecture and migration", "CI/CD, IaC, and release control", "Monitoring, SRE, and cost visibility"],
-    cta: "Assess cloud maturity",
-    outcome: "Resilient, monitored infrastructure",
-    model: "Cloud modernization"
-  },
-  {
-    title: "Staff Augmentation",
-    icon: Users,
-    summary: "Dedicated senior engineers, architects, designers, QA, DevOps, and product specialists embedded with governance and delivery oversight.",
-    points: ["Vetted senior specialists", "Managed pods with sprint rituals", "Executive reporting and continuity"],
-    cta: "Build a delivery pod",
-    outcome: "Capacity without delivery chaos",
-    model: "Managed team extension",
-    span: "lg:col-span-2"
-  }
+  { slug: "web-development", title: "Web Development", short: "Fast, accessible websites and web applications designed around business goals.", intro: "We design and build responsive marketing sites, customer portals and web applications that are easy to use, maintain and scale.", problem: "Slow pages, fragile code and unclear journeys cost attention and make every future change harder.", benefits: ["Clear conversion journeys", "Strong Core Web Vitals foundations", "Maintainable, scalable architecture"], capabilities: ["Corporate and marketing websites", "Web applications and portals", "Headless CMS builds", "Performance and accessibility engineering"], stack: ["React", "Next.js", "TypeScript", "Node.js", "WordPress", "Vercel"], icon: Code2, category: "Engineering" },
+  { slug: "mobile-app-development", title: "Mobile App Development", short: "Thoughtful mobile products for customers, teams and field operations.", intro: "From product definition to store-ready delivery, we build mobile experiences that feel focused, reliable and natural on every screen.", problem: "Mobile products fail when feature lists outrun user needs, performance or a sustainable release plan.", benefits: ["Consistent cross-platform experience", "Secure API integration", "Release-ready quality assurance"], capabilities: ["Product strategy", "iOS and Android experiences", "Cross-platform application development", "Maintenance and iteration"], stack: ["React Native", "JavaScript", "TypeScript", "REST APIs", "Node.js"], icon: Smartphone, category: "Engineering" },
+  { slug: "custom-software-development", title: "Custom Software Development", short: "Software shaped around your workflows, customers and operating model.", intro: "We translate complex requirements into dependable business software, from internal operations tools to multi-role platforms.", problem: "Off-the-shelf tools often force teams into workarounds, duplicate data and manual coordination.", benefits: ["Workflows aligned to your business", "Connected operational data", "A foundation built to evolve"], capabilities: ["SaaS platforms", "Operations dashboards", "CRM and ERP workflows", "Legacy modernization"], stack: ["React", "Next.js", "Node.js", "PHP", "PostgreSQL", "MySQL"], icon: Braces, category: "Engineering" },
+  { slug: "ai-development", title: "AI Development", short: "Practical AI products grounded in real tasks, data and human oversight.", intro: "We build assistants, knowledge tools and AI-enabled product features that fit existing systems and support accountable decisions.", problem: "AI experiments create little value when they are disconnected from trusted data and day-to-day work.", benefits: ["Use cases tied to operations", "Human review where it matters", "Integration with existing tools"], capabilities: ["AI agents", "Knowledge assistants", "AI chatbots", "Document and content workflows"], stack: ["AI APIs", "Node.js", "Python", "Vector search", "REST APIs"], icon: Bot, category: "AI & Automation" },
+  { slug: "ai-automation", title: "AI & Business Automation", short: "Connected workflows that reduce repetitive effort and keep teams in control.", intro: "We map repetitive processes, connect the right systems and introduce automation where it can improve speed and consistency.", problem: "Manual handoffs and disconnected tools create avoidable delays, errors and poor visibility.", benefits: ["Fewer repetitive steps", "Clearer operational visibility", "Consistent process execution"], capabilities: ["Lead automation", "Workflow orchestration", "Internal AI tools", "Business process automation"], stack: ["Webhooks", "AI APIs", "Node.js", "CRM APIs", "Custom integrations"], icon: Workflow, category: "AI & Automation" },
+  { slug: "ui-ux-design", title: "UI/UX & Product Design", short: "Clear product experiences that make complex workflows feel simple.", intro: "We connect research, user journeys, interaction design and a scalable visual system before development begins.", problem: "Products become expensive to use and change when the experience has no clear hierarchy or shared design language.", benefits: ["Faster product decisions", "More coherent customer journeys", "Reusable design foundations"], capabilities: ["UX discovery", "User flows and wireframes", "Interface design", "Design systems and prototypes"], stack: ["Figma", "Design systems", "Interactive prototypes", "Accessibility reviews"], icon: Layers3, category: "Experience" },
+  { slug: "ecommerce-development", title: "eCommerce Development", short: "Commerce experiences built for confident discovery and smoother purchase journeys.", intro: "We build responsive storefronts, product experiences and connected commerce workflows for growing brands.", problem: "A confusing catalog, slow storefront or fragmented back office makes growth harder to sustain.", benefits: ["Friction-aware shopping journeys", "Flexible content operations", "Connected payments and business tools"], capabilities: ["Custom storefronts", "WooCommerce development", "Checkout and payment integration", "Catalog and inventory workflows"], stack: ["WooCommerce", "WordPress", "React", "Payment APIs", "Analytics"], icon: ShoppingBag, category: "Engineering" },
+  { slug: "seo", title: "SEO Services", short: "Technical and content foundations that help the right customers find you.", intro: "We align site architecture, technical health and useful content with the questions your market is already asking.", problem: "Search visibility stalls when technical issues, thin content and unclear intent are treated as separate problems.", benefits: ["Stronger crawl and index foundations", "Clear commercial content structure", "Measurement tied to useful actions"], capabilities: ["Technical SEO", "On-page optimization", "Content architecture", "Search performance reporting"], stack: ["Search Console", "Analytics", "Schema.org", "Core Web Vitals"], icon: Search, category: "Growth" },
+  { slug: "digital-marketing", title: "Performance & Social Marketing", short: "Campaigns, content and measurement connected to business intent.", intro: "We plan and operate focused digital campaigns that bring creative, landing pages and performance data into one feedback loop.", problem: "Activity without a clear audience, offer and measurement model creates noise instead of demand.", benefits: ["Clear campaign objectives", "Consistent cross-channel execution", "Practical reporting and iteration"], capabilities: ["Performance marketing", "Social media strategy", "Campaign landing pages", "Creative and reporting"], stack: ["Meta Ads", "Google Ads", "Analytics", "Content systems"], icon: Megaphone, category: "Growth" },
+  { slug: "api-integrations", title: "API & Third-Party Integrations", short: "Reliable connections between the tools your business depends on.", intro: "We integrate payment, CRM, communications, analytics and operational platforms into dependable workflows.", problem: "Disconnected systems create duplicate work, inconsistent records and a fragmented customer experience.", benefits: ["Cleaner data movement", "Fewer manual handoffs", "Better system visibility"], capabilities: ["REST API development", "Payment and CRM integrations", "Webhook automation", "Integration monitoring"], stack: ["REST", "Webhooks", "Node.js", "OAuth", "PostgreSQL"], icon: PlugZap, category: "Enterprise" },
 ];
 
 export const industries = [
-  { title: "Healthcare", icon: HeartPulse, text: "HIPAA-aware patient portals, clinical workflows, telehealth, and data products." },
-  { title: "Fintech", icon: Banknote, text: "Payments, lending, wallets, digital banking, risk systems, and analytics." },
-  { title: "Real Estate", icon: Home, text: "Property marketplaces, CRMs, investor portals, and location-based platforms." },
-  { title: "Education", icon: GraduationCap, text: "Learning platforms, assessment tools, content systems, and AI tutors." },
-  { title: "E-commerce", icon: ShoppingCart, text: "Headless commerce, loyalty, inventory, personalization, and checkout optimization." },
-  { title: "Logistics", icon: Truck, text: "Fleet operations, tracking dashboards, vendor workflows, and route intelligence." },
-  { title: "Manufacturing", icon: Boxes, text: "Production analytics, IoT dashboards, quality workflows, and automation layers." }
+  { title: "Real Estate", icon: Building2, text: "Property discovery, enquiry workflows, CRMs and digital experiences for buyers, agents and operators." },
+  { title: "Healthcare", icon: HeartPulse, text: "Accessible patient-facing experiences and operational tools designed with privacy and clarity in mind." },
+  { title: "Education", icon: GraduationCap, text: "Learning portals, content platforms and administration workflows for educators and learners." },
+  { title: "Travel & Hospitality", icon: Hotel, text: "Booking journeys, service platforms and operational tools that connect guests with teams." },
+  { title: "eCommerce & Retail", icon: ShoppingBag, text: "Storefronts and connected commerce workflows built for product discovery and repeatable operations." },
+  { title: "Professional Services", icon: ChartNoAxesCombined, text: "Lead, client and delivery systems that help service businesses operate with greater visibility." },
+  { title: "IT & SaaS", icon: Code2, text: "Product design, engineering and integration support for software teams moving from concept to scale." },
+  { title: "Operations & Enterprise", icon: Workflow, text: "Custom tools and automation for complex approvals, data flows and multi-team processes." },
 ];
 
 export const caseStudies = [
-  {
-    title: "AI Operations Platform for Insurance",
-    industry: "Insurance",
-    problem: "Manual claims triage created delays, inconsistent decisions, and high operational overhead.",
-    solution: "Built an AI document intelligence platform with human-in-the-loop review, anomaly detection, and routing automation.",
-    results: "63% faster claim triage",
-    metric: "$1.8M annual savings",
-    tags: ["OpenAI", "Python", "AWS", "Secure workflows"],
-    roi: ["18K docs/day processed", "41% fewer escalations", "9-week launch"]
-  },
-  {
-    title: "Global Headless Commerce Rebuild",
-    industry: "Retail",
-    problem: "Legacy storefront performance and checkout friction limited conversion across international markets.",
-    solution: "Replatformed to a composable Next.js commerce stack with real-time inventory and personalized journeys.",
-    results: "42% conversion lift",
-    metric: "2.8x faster pages",
-    tags: ["Next.js", "Node.js", "Stripe", "Analytics"],
-    roi: ["Sub-1s key pages", "23 markets supported", "99.95% uptime"]
-  },
-  {
-    title: "SaaS Control Tower for Logistics",
-    industry: "Logistics",
-    problem: "Disconnected shipment data, billing, and vendor actions slowed operations across regions.",
-    solution: "Delivered a multi-tenant SaaS hub with live dashboards, role-based workflows, and automated billing events.",
-    results: "41% fewer manual tasks",
-    metric: "6-month ROI",
-    tags: ["SaaS", "MongoDB", "Docker", "AWS"],
-    roi: ["12 integrations", "99.96% uptime", "31% faster dispatch"]
-  }
+  { title: "Connected HR services experience", industry: "Business services", services: ["Web Development", "Mobile App Development", "Social Media Marketing"], challenge: "An HR services company needed a more coherent digital presence and easier access to its services across web and mobile.", solution: "LetsFygure brought website, mobile experience and social execution together under one coordinated delivery team.", outcome: "A stronger digital presence, improved service accessibility and a smoother enquiry flow.", source: "Verified Clutch review" },
+  { title: "Scalable business platform delivery", industry: "Custom software", services: ["Product Design", "Custom Software", "API Integration"], challenge: "The client needed a tailored system that could reflect its process instead of forcing teams into disconnected tools.", solution: "The engagement combined interface design, application development and connected business workflows.", outcome: "A more consistent operating experience with a foundation that can evolve as requirements change.", source: "Portfolio summary" },
+  { title: "Commerce journey modernization", industry: "eCommerce", services: ["UX Design", "eCommerce Development", "SEO"], challenge: "Product discovery, content management and enquiry paths needed to work together more clearly on mobile and desktop.", solution: "LetsFygure restructured the experience around customer intent, responsive storefront patterns and manageable content.", outcome: "A clearer customer journey, simpler content operations and a stronger platform for ongoing optimization.", source: "Portfolio summary" },
 ];
 
-export const processTimeline = [
-  { title: "Discovery", icon: Sparkles, text: "Clarify business goals, users, risks, constraints, and success metrics." },
-  { title: "Planning", icon: Map, text: "Define roadmap, architecture, delivery pods, budget, and launch milestones." },
-  { title: "Design", icon: Layers3, text: "Create UX flows, product systems, prototypes, and enterprise-ready interfaces." },
-  { title: "Development", icon: Code2, text: "Build in focused sprints with frontend, backend, cloud, and data specialists." },
-  { title: "Testing", icon: TestTube2, text: "Validate quality through QA, security checks, performance tests, and reviews." },
-  { title: "Deployment", icon: Rocket, text: "Launch with CI/CD, monitoring, analytics, documentation, and release control." },
-  { title: "Support", icon: LifeBuoy, text: "Scale roadmap delivery, optimization, cloud reliability, and long-term support." }
+export const process = [
+  ["01", "Discover", "Business goals, users, requirements and constraints."], ["02", "Define", "Scope, architecture, priorities and user journeys."],
+  ["03", "Design", "UX, visual direction and interactive prototypes."], ["04", "Develop", "Frontend, backend, APIs and integrations."],
+  ["05", "Validate", "Quality, performance, accessibility and device testing."], ["06", "Launch & Scale", "Deployment, measurement and continuous improvement."],
 ];
 
-export const technologies = ["React", "Next.js", "Node.js", "Python", "Laravel", "Flutter", "MongoDB", "AWS", "Docker", "Supabase", "OpenAI", "Stripe"];
-
-export const whyChooseUs = [
-  { title: "Enterprise Architecture", icon: Building2, text: "Systems designed for governance, scale, integrations, and long-term maintainability." },
-  { title: "Senior Delivery Pods", icon: Users, text: "Product strategists, architects, designers, and engineers working as one accountable unit." },
-  { title: "Secure Engineering", icon: LockKeyhole, text: "Security reviews, access models, clean APIs, and deployment practices built into delivery." },
-  { title: "Fast Market Launch", icon: Rocket, text: "Accelerators, reusable components, and focused sprints that reduce time-to-market." },
-  { title: "Cloud Reliability", icon: Cloud, text: "Resilient infrastructure, monitoring, DevOps automation, and performance optimization." },
-  { title: "Partnership Mindset", icon: Handshake, text: "Clear communication, transparent planning, and post-launch ownership." }
-];
-
-export const testimonials = [
-  { quote: "Clickmyze operated like a strategic technology partner, not a vendor. They aligned product, architecture, security, and delivery around measurable business outcomes.", name: "Maya Chen", role: "VP Product, Finova Group" },
-  { quote: "Their senior team brought discipline to a complex SaaS rebuild. The architecture decisions were clear, documented, and built for enterprise growth.", name: "Alex Morgan", role: "Chief Product Officer, B2B SaaS platform" },
-  { quote: "We needed AI automation that operations, compliance, and leadership could trust. Clickmyze made it secure, measurable, and practical to adopt.", name: "Priya Shah", role: "COO, Insurance operations group" },
-  { quote: "Their engineers integrated with our internal team quickly and raised our delivery standards across architecture, DevOps, and release quality.", name: "Daniel Ruiz", role: "CTO, Logistics platform" },
-  { quote: "The new product experience improved conversion and gave our platform the credibility needed for enterprise sales conversations.", name: "Sofia Laurent", role: "CEO, Commerce technology company" }
-];
-
-export const team = [
-  { name: "Aarav Mehta", role: "Founder & CEO", focus: "Executive sponsorship, product strategy, enterprise partnerships, and commercial alignment." },
-  { name: "Elena Brooks", role: "Chief Technology Officer", focus: "Architecture governance, AI systems, cloud scale, security reviews, and platform risk." },
-  { name: "Noah Williams", role: "Head of Product Design", focus: "Discovery, UX systems, design quality, buyer journeys, and adoption-focused interfaces." },
-  { name: "Isha Kapoor", role: "VP Engineering", focus: "Delivery pods, sprint governance, QA, DevOps, technical continuity, and team augmentation." }
-];
-
-export const blogPosts = [
-  { title: "How enterprise AI products move from pilot to production", category: "AI Strategy", read: "6 min read" },
-  { title: "What a scalable SaaS architecture needs before launch", category: "SaaS", read: "8 min read" },
-  { title: "The product signals that separate premium software from templates", category: "Design", read: "5 min read" }
-];
-
-export const awards = [
-  "Top Enterprise AI Development Company",
-  "Verified Software Engineering Partner",
-  "Top Product Design and UX Studio",
-  "Cloud Modernization Delivery Leader"
-];
-
-export const technologyPartners = ["AWS Partner", "Vercel Agency", "OpenAI Builders", "Stripe Experts", "MongoDB Builders", "Supabase Network"];
-
-export const partners = ["AWS", "Vercel", "OpenAI", "Stripe", "MongoDB", "Supabase"];
+export const technologies = { Frontend: ["React", "Next.js", "TypeScript", "JavaScript"], Backend: ["Node.js", "Express", "PHP"], "Data & Cloud": ["PostgreSQL", "MySQL", "Supabase", "Vercel"], "CMS & Commerce": ["WordPress", "WooCommerce"], "AI & Integration": ["AI APIs", "REST APIs", "Webhooks"] };
 
 export const faqs = [
-  { question: "Do you work with startups and enterprise companies?", answer: "Yes. We support funded startups, scaleups, and enterprise teams with discovery, product engineering, cloud modernization, AI, and dedicated delivery pods." },
-  { question: "Can you take over an existing product?", answer: "Yes. We audit the architecture, stabilize the roadmap, improve engineering practices, and modernize the platform without disrupting active users." },
-  { question: "How quickly can a team start?", answer: "Most engagements begin with discovery within one week, followed by a focused delivery pod once scope, roadmap, and technical needs are clear." },
-  { question: "Do you provide staff augmentation?", answer: "Yes. We provide vetted engineers, designers, QA, DevOps, AI specialists, and product leads with senior oversight." },
-  { question: "How do you handle security and quality?", answer: "Security, QA, performance, accessibility, code reviews, CI/CD, and monitoring are built into our delivery process from planning onward." },
-  { question: "What happens after launch?", answer: "We provide optimization, roadmap delivery, monitoring, DevOps support, analytics, and long-term product improvements." }
+  ["What kinds of businesses do you work with?", "We work with startups, SMEs, growing companies and enterprise teams in India and international markets. The delivery model is shaped around the product, risk and team involved."],
+  ["Can you improve an existing product?", "Yes. We can assess an existing website, app or software platform, identify the highest-value improvements and modernize it in planned stages."],
+  ["Do you provide design and development together?", "Yes. Product strategy, UI/UX, engineering, integrations, launch support and growth services can work as one engagement or as focused workstreams."],
+  ["How do projects begin?", "We start with a conversation about the business goal, users, current systems, constraints and timeline. From there, we recommend a practical scope and delivery path."],
+  ["Do you support products after launch?", "Yes. Ongoing support can include monitoring, maintenance, feature development, performance work, SEO and conversion optimization."],
 ];
 
-export const contactReasons = [
-  { title: "Build a new product", icon: Rocket },
-  { title: "Modernize legacy software", icon: Layers3 },
-  { title: "Add AI to workflows", icon: Bot },
-  { title: "Hire a dedicated team", icon: Handshake }
+export const insights = [
+  { title: "Where AI automation creates practical value first", category: "AI & Automation", text: "A framework for finding repetitive, rules-heavy work where AI can assist without removing necessary human judgment." },
+  { title: "Planning a custom software project around outcomes", category: "Product Strategy", text: "How to turn business constraints, user needs and operational realities into a focused first release." },
+  { title: "The performance details that shape a better web experience", category: "Web Engineering", text: "Why loading behavior, interface responsiveness and visual stability matter to customers as much as visual polish." },
 ];
 
-export const values = [
-  "Enterprise thinking before code",
-  "Security and performance by default",
-  "Transparent delivery with senior ownership",
-  "Long-term partnerships over handoffs"
-];
-
-export const jobs = [
-  { role: "Senior Full-Stack Engineer", location: "Remote", type: "Full time" },
-  { role: "AI Product Engineer", location: "Hybrid", type: "Full time" },
-  { role: "UI/UX Product Designer", location: "Remote", type: "Contract" },
-  { role: "Cloud DevOps Engineer", location: "Remote", type: "Full time" }
-];
-
-export const deliveryHighlights = [
-  { title: "AI Systems", icon: BrainCircuit },
-  { title: "Cloud Scale", icon: Cloud },
-  { title: "Secure APIs", icon: ShieldCheck },
-  { title: "Product UX", icon: Activity }
+export const megaGroups = [
+  { title: "Engineering", slugs: ["web-development", "mobile-app-development", "custom-software-development", "ecommerce-development"] },
+  { title: "AI & Automation", slugs: ["ai-development", "ai-automation"] },
+  { title: "Experience & Growth", slugs: ["ui-ux-design", "seo", "digital-marketing"] },
+  { title: "Enterprise", slugs: ["api-integrations"] },
 ];

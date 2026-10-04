@@ -1,79 +1,24 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Layers3 } from "lucide-react";
-import { motion } from "framer-motion";
-import { Container } from "./Container";
+import { ArrowRight, Check, Star } from "lucide-react";
+import { company } from "@/lib/site";
 
 export function Hero() {
-  return (
-    <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden bg-[#020817] sm:min-h-[75vh] lg:min-h-[90vh]">
-      <motion.div
-        className="absolute inset-0"
-        initial={{ scale: 1.04 }}
-        animate={{ scale: 1.1 }}
-        transition={{ duration: 18, repeat: Infinity, repeatType: "mirror", ease: "easeInOut" }}
-      >
-        <Image
-          src="/images/clickmyze-city-hero.png"
-          alt="Global technology city skyline at night"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-[50%_70%] sm:object-center"
-        />
-      </motion.div>
-
-      <div className="absolute inset-0 bg-black/58" />
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(2,8,23,0.68)_0%,rgba(4,16,31,0.42)_42%,rgba(3,10,23,0.82)_100%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(8,52,95,0.1),rgba(2,8,23,0.5)_72%)]" />
-
-      <Container className="relative z-10 flex justify-center px-5 py-20 sm:px-6 sm:py-24 lg:px-8">
-        <motion.div
-          className="mx-auto max-w-5xl text-center"
-          initial="hidden"
-          animate="visible"
-          variants={{ visible: { transition: { staggerChildren: 0.14, delayChildren: 0.12 } } }}
-        >
-          <motion.h1
-            className="text-[2.65rem] font-black leading-[1.02] text-white drop-shadow-[0_6px_36px_rgba(0,0,0,0.55)] sm:text-6xl lg:text-[5rem] xl:text-[5.6rem]"
-            variants={{ hidden: { opacity: 0, y: 28 }, visible: { opacity: 1, y: 0 } }}
-            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          >
-            Building Future-Ready Software, AI &amp; Digital Solutions
-          </motion.h1>
-
-          <motion.p
-            className="mx-auto mt-6 max-w-3xl text-base leading-7 text-slate-200 sm:text-xl sm:leading-8"
-            variants={{ hidden: { opacity: 0, y: 22 }, visible: { opacity: 1, y: 0 } }}
-            transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-          >
-            Clickmyze helps businesses grow with scalable websites, mobile apps, AI automation and digital marketing.
-          </motion.p>
-
-          <motion.div
-            className="mx-auto mt-9 flex max-w-md flex-col justify-center gap-3 sm:max-w-none sm:flex-row"
-            variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
-            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          >
-            <Link
-              href="/contact"
-              className="inline-flex min-h-13 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyanfire to-mint px-7 py-4 font-black text-ink shadow-[0_0_42px_rgba(56,213,255,0.3)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_0_60px_rgba(56,213,255,0.42)]"
-            >
-              Book Consultation <ArrowRight size={18} />
-            </Link>
-            <Link
-              href="/services"
-              className="inline-flex min-h-13 items-center justify-center gap-2 rounded-xl border border-white/25 bg-slate-950/55 px-7 py-4 font-black text-white backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-cyanfire/60 hover:bg-slate-950/75"
-            >
-              <Layers3 size={18} /> View Services
-            </Link>
-          </motion.div>
-        </motion.div>
-      </Container>
-
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#061022] to-transparent" />
-    </section>
-  );
+  return <section className="hero section-dark"><div className="hero-grid" aria-hidden /><div className="hero-orb hero-orb-one" aria-hidden /><div className="hero-orb hero-orb-two" aria-hidden />
+    <div className="shell hero-layout"><div className="hero-copy lf-fade-up">
+      <p className="eyebrow"><span /> WEB · MOBILE · SOFTWARE · AI</p>
+      <h1>We engineer digital products that <em>move businesses forward.</em></h1>
+      <p className="hero-text">LetsFygure Technology designs and develops high-performance websites, mobile apps, custom software and AI-powered solutions that help businesses launch faster, operate smarter and scale confidently.</p>
+      <div className="hero-actions"><Link href="/contact" className="button">Start Your Project <ArrowRight size={18} /></Link><Link href="/case-studies" className="button button-ghost">Explore Our Work</Link></div>
+      <a href={company.clutch} target="_blank" rel="noreferrer" className="hero-proof"><span className="stars" aria-hidden>★★★★★</span><strong>5.0 on Clutch</strong><span>15 verified reviews</span><ArrowRight size={15} /></a>
+    </div>
+    <div className="hero-visual" aria-label="Connected digital product ecosystem">
+      <div className="visual-core"><div className="logo-aura" /><Image src="/images/letsfygure-logo.png" alt="LetsFygure symbol" width={1280} height={1280} priority /></div>
+      <div className="orbit orbit-a" aria-hidden /><div className="orbit orbit-b" aria-hidden />
+      <div className="signal-card signal-one"><small>PRODUCT SYSTEM</small><strong>Design → Build → Scale</strong><div className="signal-bars"><i /><i /><i /><i /></div></div>
+      <div className="signal-card signal-two"><span className="live-dot" /><small>CONNECTED DELIVERY</small><strong>Web · Mobile · AI</strong></div>
+      <div className="signal-card signal-three"><small>ENGINEERED FOR</small><strong><Check size={16} /> Performance</strong><strong><Check size={16} /> Clarity</strong><strong><Check size={16} /> Growth</strong></div>
+    </div></div>
+    <div className="shell trust-strip"><div><Star size={18} /><strong>5.0</strong><span>Clutch rating</span></div><div><strong>15</strong><span>Verified reviews</span></div><div><strong>Web · App · Software · AI</strong><span>Connected capabilities</span></div><a href={company.clutch} target="_blank" rel="noreferrer">View our Clutch profile <ArrowRight size={15} /></a></div>
+  </section>;
 }

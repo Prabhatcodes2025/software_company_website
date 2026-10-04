@@ -1,41 +1,6 @@
 import type { Metadata } from "next";
-import { Briefcase, MapPin } from "lucide-react";
-import { Container } from "@/components/Container";
-import { SectionHeader } from "@/components/SectionHeader";
-import { jobs } from "@/lib/site";
+import { PageHero } from "@/components/PageHero";
+import { company } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Career",
-  description: "Join Clickmyze Technologies Pvt Ltd and build premium software products with a remote-first engineering team."
-};
-
-export default function CareerPage() {
-  return (
-    <section className="py-20">
-      <Container>
-        <SectionHeader
-          eyebrow="Career"
-          title="Do meaningful product work with sharp, kind people."
-          text="We hire engineers, designers, strategists, and cloud specialists who care about craft, ownership, and clear communication."
-          align="center"
-        />
-        <div className="mt-12 grid grid-cols-1 gap-5">
-          {jobs.map((job) => (
-            <article key={job.role} className="glass flex max-w-full flex-col gap-5 overflow-hidden rounded-2xl p-5 sm:p-6 md:flex-row md:items-center md:justify-between">
-              <div className="min-w-0">
-                <h2 className="break-words text-2xl font-black text-white">{job.role}</h2>
-                <div className="mt-3 flex flex-wrap gap-4 text-sm text-slate-400">
-                  <span className="flex items-center gap-2"><MapPin size={16} /> {job.location}</span>
-                  <span className="flex items-center gap-2"><Briefcase size={16} /> {job.type}</span>
-                </div>
-              </div>
-              <a href="mailto:careers@clickmyze.com" className="w-full rounded-lg bg-cyanfire px-5 py-3 text-center font-bold text-ink transition hover:bg-mint sm:w-auto">
-                Apply Now
-              </a>
-            </article>
-          ))}
-        </div>
-      </Container>
-    </section>
-  );
-}
+export const metadata: Metadata = { title: "Careers", description: "Careers and collaboration opportunities at LetsFygure Technology.", alternates: { canonical: "/career" } };
+export default function CareerPage() { return <><PageHero eyebrow="Careers" title="Do thoughtful work with people who care about the outcome." text="We value curiosity, ownership, clear communication and the patience to understand a problem before reaching for a solution." cta={false} /><section className="section section-light"><div className="shell empty-state"><p className="eyebrow dark">Current openings</p><h2>No roles are being advertised right now.</h2><p>We do not publish placeholder positions. If you believe your experience in design, engineering, AI or digital growth is a strong fit, introduce yourself on WhatsApp and share a portfolio or relevant work.</p><a className="button" href={`${company.whatsapp}?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20introduce%20myself%20for%20future%20career%20opportunities.`} target="_blank" rel="noreferrer">Introduce Yourself</a></div></section></>; }

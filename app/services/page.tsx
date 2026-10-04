@@ -1,31 +1,8 @@
 import type { Metadata } from "next";
-import { CTA } from "@/components/CTA";
-import { Container } from "@/components/Container";
-import { SectionHeader } from "@/components/SectionHeader";
-import { ServiceGrid } from "@/components/ServiceGrid";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import { PageHero } from "@/components/PageHero";
+import { services } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Services",
-  description: "Web development, mobile app development, AI/ML, blockchain, SaaS, and UI/UX services."
-};
-
-export default function ServicesPage() {
-  return (
-    <>
-      <section className="py-20">
-        <Container>
-          <SectionHeader
-            eyebrow="Services"
-            title="Digital product teams for every stage of growth."
-            text="Choose a focused service or combine strategy, design, engineering, and cloud delivery into one product partnership."
-            align="center"
-          />
-          <div className="mt-12">
-            <ServiceGrid />
-          </div>
-        </Container>
-      </section>
-      <CTA />
-    </>
-  );
-}
+export const metadata: Metadata = { title: "Digital Product & Technology Services", description: "Explore LetsFygure services for web development, mobile apps, custom software, AI automation, UI/UX, eCommerce, SEO and digital growth.", alternates: { canonical: "/services" } };
+export default function ServicesPage() { return <><PageHero eyebrow="Capabilities" title="Technology services connected by one clear product vision." text="Strategy, design, engineering, automation and growth support for businesses building something new—or making an existing product work harder." /><section className="section section-light"><div className="shell services-page-grid">{services.map((service,index) => { const Icon=service.icon; return <article key={service.slug}><span>0{index+1}</span><Icon /><p>{service.category}</p><h2>{service.title}</h2><strong>{service.short}</strong><p>{service.intro}</p><Link href={`/services/${service.slug}`}>Explore service <ArrowRight size={16} /></Link></article>; })}</div></section></>; }

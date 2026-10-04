@@ -1,36 +1,8 @@
 import type { Metadata } from "next";
-import { Container } from "@/components/Container";
-import { SectionHeader } from "@/components/SectionHeader";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+import { PageHero } from "@/components/PageHero";
 import { industries } from "@/lib/site";
 
-export const metadata: Metadata = {
-  title: "Industries",
-  description: "Software development expertise for fintech, healthcare, retail, education, enterprise, and cybersecurity."
-};
-
-export default function IndustriesPage() {
-  return (
-    <section className="py-20">
-      <Container>
-        <SectionHeader
-          eyebrow="Industries"
-          title="Built for markets where reliability matters."
-          text="Our teams bring reusable architecture patterns and domain sensitivity to product launches, platform rebuilds, and automation programs."
-          align="center"
-        />
-        <div className="mt-12 grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {industries.map((industry) => {
-            const Icon = industry.icon;
-            return (
-              <article key={industry.title} className="glass flex h-full max-w-full flex-col overflow-hidden rounded-2xl p-5 sm:p-7">
-                <Icon className="text-cyanfire" size={30} />
-                <h2 className="mt-6 break-words text-2xl font-black text-white">{industry.title}</h2>
-                <p className="mt-4 flex-1 break-words leading-7 text-slate-300">{industry.text}</p>
-              </article>
-            );
-          })}
-        </div>
-      </Container>
-    </section>
-  );
-}
+export const metadata: Metadata = { title: "Industries", description: "Digital product, software and AI solutions for real estate, healthcare, education, travel, eCommerce, professional services and SaaS.", alternates: { canonical: "/industries" } };
+export default function IndustriesPage() { return <><PageHero eyebrow="Industries" title="Digital products shaped around how your market actually works." text="Every industry brings its own customers, workflows, risks and operating realities. We learn that context before defining the technology." /><section className="section section-light"><div className="shell industry-page-grid">{industries.map((item,index) => {const Icon=item.icon; return <article key={item.title}><span>0{index+1}</span><Icon /><h2>{item.title}</h2><p>{item.text}</p><ul><li>Customer-facing experiences</li><li>Operational workflows</li><li>Data and system integrations</li></ul></article>})}</div></section><section className="section section-dark compact-cta"><div className="shell"><div><p className="eyebrow">Your context matters</p><h2>Tell us what is different about your business.</h2></div><Link className="button" href="/contact">Discuss Your Idea <ArrowRight size={18} /></Link></div></section></>; }
