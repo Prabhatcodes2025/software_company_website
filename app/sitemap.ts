@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
-import { company, services } from "@/lib/site";
+import { caseStudies, company, services } from "@/lib/site";
 
-const routes = ["", "/services", "/industries", "/case-studies", "/about", "/insights", "/career", "/contact", "/privacy", "/terms", ...services.map((service) => `/services/${service.slug}`)];
+const routes = ["", "/services", "/industries", "/case-studies", "/about", "/insights", "/career", "/contact", "/privacy", "/terms", ...services.map((service) => `/services/${service.slug}`), ...caseStudies.map((study) => `/case-studies/${study.slug}`)];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map((route) => ({

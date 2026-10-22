@@ -1,13 +1,16 @@
 import { Bot, Braces, Building2, ChartNoAxesCombined, Code2, GraduationCap, HeartPulse, Hotel, Layers3, Megaphone, PlugZap, Search, ShoppingBag, Smartphone, Workflow } from "lucide-react";
 
 export const company = {
-  name: "LetsFygure Technology",
+  name: "LetsFygure",
   shortName: "LetsFygure",
-  tagline: "Figured Out.",
+  tagline: "Technology , Figured Out",
   url: "https://clickmyze-three.vercel.app",
   phone: "+91 78692 51729",
+  email: "info@letsfygure.com",
+  address: "124, Ashoka Garden, Bhopal, India",
   whatsapp: "https://wa.me/917869251729",
   instagram: "https://www.instagram.com/letsfygure/",
+  linkedin: "https://www.linkedin.com/company/letsfygure/",
   clutch: "https://clutch.co/profile/letsfygure-0",
 };
 
@@ -42,9 +45,21 @@ export const industries = [
 ];
 
 export const caseStudies = [
-  { title: "Connected HR services experience", industry: "Business services", services: ["Web Development", "Mobile App Development", "Social Media Marketing"], challenge: "An HR services company needed a more coherent digital presence and easier access to its services across web and mobile.", solution: "LetsFygure brought website, mobile experience and social execution together under one coordinated delivery team.", outcome: "A stronger digital presence, improved service accessibility and a smoother enquiry flow.", source: "Verified Clutch review" },
-  { title: "Scalable business platform delivery", industry: "Custom software", services: ["Product Design", "Custom Software", "API Integration"], challenge: "The client needed a tailored system that could reflect its process instead of forcing teams into disconnected tools.", solution: "The engagement combined interface design, application development and connected business workflows.", outcome: "A more consistent operating experience with a foundation that can evolve as requirements change.", source: "Portfolio summary" },
-  { title: "Commerce journey modernization", industry: "eCommerce", services: ["UX Design", "eCommerce Development", "SEO"], challenge: "Product discovery, content management and enquiry paths needed to work together more clearly on mobile and desktop.", solution: "LetsFygure restructured the experience around customer intent, responsive storefront patterns and manageable content.", outcome: "A clearer customer journey, simpler content operations and a stronger platform for ongoing optimization.", source: "Portfolio summary" },
+  { slug: "ongole-property", client: "Ongole Property", url: "https://www.ongoleproperty.com/", title: "Custom Real Estate Marketplace Platform", industry: "Real Estate / PropTech", services: ["Next.js", "Supabase", "Role-based workflows"], challenge: "Property seekers, owners and operators needed one marketplace for discovery, listings and managed enquiries.", solution: "A multi-role property platform with search, owner and operator workspaces, listing approvals and administrative workflows.", outcome: "A clearer digital path from property discovery to qualified enquiry, supported by role-aware operations.", source: "Owner-supplied project scope" },
+  { slug: "naystrip", client: "Naystrip", url: "https://naystrip.com/", title: "Custom Travel Booking & B2B Platform", industry: "Travel Technology", services: ["Web Development", "Tour CMS", "Booking workflows"], challenge: "Travel discovery, itinerary content and partner enquiries needed to work as one coherent customer journey.", solution: "A responsive travel platform connecting packages, destinations, itinerary content, enquiries and partner-facing capabilities.", outcome: "A focused foundation for travel discovery, customer engagement and managed booking workflows.", source: "Owner-supplied project scope" },
+  { slug: "mozno-wealth", client: "Mozno Wealth", url: "https://mozno.in/", title: "Custom Financial Advisory & Wealth Platform", industry: "Finance / Wealth Management", services: ["Product Design", "Web Development", "Technical SEO"], challenge: "A financial advisory business needed a high-trust digital experience for explaining services and starting consultations.", solution: "A responsive advisory website with structured service discovery, clear consultation paths and an editorial content foundation.", outcome: "A more credible, accessible route for prospective clients to understand services and request a consultation.", source: "Owner-supplied project scope" },
+  { slug: "snow-feather-adventure", client: "Snow Feather Adventure", url: "https://www.snowfeatheradventure.com/", title: "Adventure Travel & Trekking Platform Development", industry: "Adventure Tourism", services: ["Responsive Platform", "Package Presentation", "SEO Architecture"], challenge: "Travellers needed to compare destinations, itineraries and adventure packages without losing the human story behind each trip.", solution: "A mobile-first travel experience for trekking packages, destinations, galleries, itineraries and enquiry workflows.", outcome: "A structured discovery experience that makes complex adventure offerings easier to explore and enquire about.", source: "Owner-supplied project scope" },
+  { slug: "rs-constructions", client: "RS Constructions Company", url: "https://www.rsconstructionscompany.com/", title: "Custom Website & Construction Business Platform", industry: "Construction & Infrastructure", services: ["Responsive UI", "Web Development", "Performance"], challenge: "The company needed a professional digital presence capable of presenting services, projects and enquiries clearly.", solution: "A custom responsive corporate site with structured project presentation and direct enquiry journeys.", outcome: "A stronger digital business profile and a simpler path for prospective clients to assess services and make contact.", source: "Owner-supplied project scope" },
+  { slug: "continental-mercantile", client: "Continental Mercantile Corporation", url: "https://www.continentalmanpower.com/", title: "Custom Global Recruitment Platform", industry: "Recruitment & Workforce Solutions", services: ["Web Development", "Application Flows", "Technical SEO"], challenge: "International recruitment services, candidate journeys and employer enquiries needed a clearer shared platform.", solution: "A responsive recruitment website covering global operations, services, candidate applications and employer enquiry flows.", outcome: "A clearer, more accessible service experience for candidates and employers across international markets.", source: "Owner-supplied scope; related delivery is supported by a verified Clutch review" },
+];
+
+export const companyStats = [
+  { value: "3+", label: "Years in business" },
+  { value: "50+", label: "Projects delivered" },
+  { value: "40+", label: "Clients served" },
+  { value: "3+", label: "Countries served" },
+  { value: "5+", label: "Professionals" },
+  { value: "5.0", label: "Clutch rating" },
 ];
 
 export const process = [

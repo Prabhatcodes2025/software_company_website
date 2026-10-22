@@ -10,18 +10,19 @@ const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope", displa
 
 export const metadata: Metadata = {
   metadataBase: new URL(company.url),
-  title: { default: "LetsFygure Technology | Web, Software, Mobile & AI", template: "%s | LetsFygure" },
+  title: { default: "LetsFygure | Technology, Figured Out", template: "%s | LetsFygure" },
   description: "LetsFygure designs and develops high-performance websites, mobile apps, custom software and practical AI automation for growing businesses.",
   alternates: { canonical: "/" },
-  openGraph: { title: "LetsFygure Technology — Figured Out.", description: "Web, mobile, custom software and AI solutions built around business outcomes.", url: company.url, siteName: company.name, images: [{ url: "/images/letsfygure-logo.png", width: 1280, height: 1280, alt: "LetsFygure Technology" }], locale: "en_IN", type: "website" },
-  twitter: { card: "summary_large_image", title: "LetsFygure Technology — Figured Out.", description: "Web, mobile, custom software and AI solutions built around business outcomes.", images: ["/images/letsfygure-logo.png"] },
+  openGraph: { title: "LetsFygure — Technology, Figured Out", description: "Web, mobile, custom software and AI solutions built around business outcomes.", url: company.url, siteName: company.name, images: [{ url: "/images/letsfygure-logo.png", width: 1280, height: 1280, alt: "LetsFygure" }], locale: "en_IN", type: "website" },
+  twitter: { card: "summary_large_image", title: "LetsFygure — Technology, Figured Out", description: "Web, mobile, custom software and AI solutions built around business outcomes.", images: ["/images/letsfygure-logo.png"] },
   robots: { index: true, follow: true },
 };
 
 const organizationSchema = {
   "@context": "https://schema.org", "@type": "Organization", name: company.name, alternateName: company.shortName,
-  url: company.url, logo: `${company.url}/images/letsfygure-logo.png`, telephone: company.phone,
-  sameAs: [company.instagram, company.clutch], description: "Digital transformation and technology company for web, mobile, custom software and AI solutions.",
+  url: company.url, logo: `${company.url}/images/letsfygure-logo.png`, telephone: company.phone, email: company.email,
+  address: { "@type": "PostalAddress", streetAddress: "124, Ashoka Garden", addressLocality: "Bhopal", addressCountry: "IN" },
+  sameAs: [company.linkedin, company.instagram, company.clutch], description: "Digital product engineering company for web, mobile, custom software and practical AI automation.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

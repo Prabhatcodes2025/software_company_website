@@ -5,10 +5,10 @@ import { company } from "@/lib/site";
 export function Hero() {
   return <section className="hero section-dark"><div className="hero-grid" aria-hidden /><div className="hero-noise" aria-hidden />
     <div className="shell hero-layout"><div className="hero-copy lf-fade-up">
-      <p className="eyebrow"><span /> DIGITAL PRODUCT ENGINEERING · AI · AUTOMATION</p>
-      <h1>Engineering digital products built for <em>what comes next.</em></h1>
-      <p className="hero-text">LetsFygure brings product strategy, design, engineering and AI together to build digital systems that perform beyond launch.</p>
-      <div className="hero-actions"><Link href="/contact" className="button lf-button-sweep">Start your project <ArrowUpRight /></Link><Link href="/case-studies" className="button button-secondary">Explore our work <ArrowRight /></Link></div>
+      <p className="eyebrow"><span /> TECHNOLOGY , FIGURED OUT</p>
+      <h1>We engineer digital systems that move <em>business forward.</em></h1>
+      <p className="hero-text">Web platforms, mobile products, custom software and practical AI automation—designed around the work your business needs to do next.</p>
+      <div className="hero-actions"><Link href="/contact" className="button lf-button-sweep">Discuss Your Project <ArrowUpRight /></Link><Link href="/case-studies" className="button button-secondary">Explore Our Work <ArrowRight /></Link></div>
       <a href={company.clutch} target="_blank" rel="noreferrer" className="hero-proof"><span className="stars" aria-hidden>★★★★★</span><strong>5.0 on Clutch</strong><span>15 verified reviews</span><ArrowUpRight /></a>
     </div>
     <div className="hero-product" aria-label="A connected digital product ecosystem">
@@ -19,6 +19,6 @@ export function Hero() {
       <div className="product-node node-data"><Database /><span><small>DATA</small><strong>Synced</strong></span><i /></div>
       <div className="product-node node-ai"><Sparkles /><span><small>AI ACTIVITY</small><strong>Human in the loop</strong></span></div>
     </div></div>
-    <div className="shell trust-strip"><div><Star /><strong>5.0</strong><span>Clutch rating</span></div><div><strong>15</strong><span>Verified reviews</span></div><div><strong>Product · Interface · Systems</strong><span>Connected delivery</span></div><a href={company.clutch} target="_blank" rel="noreferrer">Inspect client proof <ArrowUpRight /></a></div>
+    <div className="shell trust-strip"><div><Star /><strong>5.0</strong><span>Clutch rating</span></div><div><strong>15</strong><span>Verified reviews</span></div><div><strong>Web · Software · Mobile · AI</strong><span>Connected delivery</span></div><a href={company.clutch} target="_blank" rel="noreferrer">Inspect verified proof <ArrowUpRight /></a></div>
   </section>;
 }
