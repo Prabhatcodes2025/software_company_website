@@ -2,7 +2,8 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight, Check, CircleCheckBig, Compass, Gauge, Layers3, Quote, Sparkles } from "lucide-react";
 import { InteractiveCapabilities } from "@/components/InteractiveCapabilities";
 import { AIWorkflow, EngineeringStack, ProjectVisual, TechRail } from "@/components/ProductVisuals";
-import { caseStudies, company, industries, insights, process } from "@/lib/site";
+import { insightArticles } from "@/lib/content";
+import { caseStudies, company, industries, process } from "@/lib/site";
 
 export function HomepageSections() {
   return <>
@@ -29,7 +30,7 @@ export function HomepageSections() {
 
     <section className="section tech-section"><div className="shell tech-intro"><p className="eyebrow dark">Technology ecosystem</p><h2>Dependable tools. Deliberate choices.</h2><p>The stack follows the product, integrations, team and operating model—not the other way around.</p></div><TechRail /></section>
 
-    <section className="section section-light insights-section"><div className="shell"><div className="section-heading"><div><p className="eyebrow dark">Insights</p><h2>Useful thinking for better digital decisions.</h2></div><Link className="lf-link-arrow" href="/insights">Explore insights <ArrowUpRight /></Link></div><div className="insight-editorial">{insights.map((item,index) => <article key={item.title} className={index === 0 ? "featured" : ""}><span>0{index+1}</span><p className="eyebrow dark">{item.category}</p><h3>{item.title}</h3><p>{item.text}</p><Link className="lf-link-arrow" href="/insights">Read insight <ArrowUpRight /></Link></article>)}</div></div></section>
+    <section className="section section-light insights-section"><div className="shell"><div className="section-heading"><div><p className="eyebrow dark">Insights</p><h2>Useful thinking for better digital decisions.</h2></div><Link className="lf-link-arrow" href="/insights">Explore insights <ArrowUpRight /></Link></div><div className="insight-editorial">{insightArticles.map((item,index) => <article key={item.title} className={index === 0 ? "featured" : ""}><span>0{index+1}</span><p className="eyebrow dark">{item.category}</p><h3>{item.title}</h3><p>{item.summary}</p><Link className="lf-link-arrow" href={`/insights/${item.slug}`}>Read insight <ArrowUpRight /></Link></article>)}</div></div></section>
 
     <section className="final-cta"><div className="shell"><div><p className="eyebrow">Have a project in mind?</p><h2>Let’s figure out what to build next.</h2></div><div><p>Tell us what you are building, improving or automating. We’ll help you frame the clearest path forward.</p><Link href="/contact" className="button button-white lf-button-sweep">Start a project <ArrowUpRight /></Link></div></div></section>
   </>;

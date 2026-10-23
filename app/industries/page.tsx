@@ -1,8 +1,20 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
-import { industries } from "@/lib/site";
+import { industryProfiles } from "@/lib/content";
+import { caseStudies } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Industries", description: "Digital product, software and AI solutions for real estate, healthcare, education, travel, eCommerce, professional services and SaaS.", alternates: { canonical: "/industries" } };
-export default function IndustriesPage() { return <><PageHero eyebrow="Industries" title="Digital products shaped around how your market actually works." text="Every industry brings its own customers, workflows, risks and operating realities. We learn that context before defining the technology." /><section className="section section-light"><div className="shell industry-page-grid">{industries.map((item,index) => {const Icon=item.icon; return <article key={item.title}><span>0{index+1}</span><Icon /><h2>{item.title}</h2><p>{item.text}</p><ul><li>Customer-facing experiences</li><li>Operational workflows</li><li>Data and system integrations</li></ul></article>})}</div></section><section className="section section-dark compact-cta"><div className="shell"><div><p className="eyebrow">Your context matters</p><h2>Tell us what is different about your business.</h2></div><Link className="button" href="/contact">Discuss Your Idea <ArrowRight size={18} /></Link></div></section></>; }
+export const metadata: Metadata = { title: "Industries", description: "Digital product systems for real estate, travel, recruitment, finance, construction, commerce, SaaS and enterprise operations.", alternates: { canonical: "/industries" } };
+
+export default function IndustriesPage() {
+  return <>
+    <PageHero eyebrow="Industry systems" title="Market context changes the product architecture." text="We connect customer expectations, operating workflows and technical constraints instead of repeating the same solution across industries." />
+    <section className="section section-light"><div className="shell industry-navigator"><p>Jump to a market</p><nav aria-label="Industry sections">{industryProfiles.map(item => <a href={`#${item.slug}`} key={item.slug}>{item.number} {item.title}</a>)}</nav></div></section>
+    <div className="industry-stories">{industryProfiles.map((profile, index) => {
+      const projects = profile.caseSlugs.map(slug => caseStudies.find(study => study.slug === slug)).filter((item): item is (typeof caseStudies)[number] => Boolean(item));
+      return <section className={index % 2 === 0 ? "section section-paper" : "section section-light"} id={profile.slug} key={profile.slug}><div className="shell industry-story"><div className="industry-story-title"><span>{profile.number}</span><p className="eyebrow dark">{profile.title}</p><h2>{profile.thesis}</h2></div><div className="industry-system"><h3>Product system</h3><ol>{profile.flow.map((step, stepIndex) => <li key={step}><span>{String(stepIndex + 1).padStart(2, "0")}</span><strong>{step}</strong>{stepIndex < profile.flow.length - 1 && <i aria-hidden />}</li>)}</ol></div><div className="industry-solutions"><h3>Relevant capabilities</h3>{profile.solutions.map(item => <p key={item}>{item}</p>)}</div><div className="industry-proof"><h3>{projects.length ? "Related real work" : "Evidence boundary"}</h3>{projects.length ? projects.map(project => <Link href={`/case-studies/${project.slug}`} key={project.slug}><span>{project.client}</span><strong>{project.title}</strong><ArrowUpRight /></Link>) : <p>No client project is currently published for this market. The capabilities above describe offered work, not a fabricated case study.</p>}</div></div></section>;
+    })}</div>
+    <section className="section section-dark compact-cta"><div className="shell"><div><p className="eyebrow">Your operating context</p><h2>Show us where the customer journey and the workflow disconnect.</h2></div><Link className="button" href="/contact">Discuss Your Project <ArrowRight /></Link></div></section>
+  </>;
+}

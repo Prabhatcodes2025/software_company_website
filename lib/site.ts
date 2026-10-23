@@ -1,4 +1,4 @@
-import { Bot, Braces, Building2, ChartNoAxesCombined, Code2, GraduationCap, HeartPulse, Hotel, Layers3, Megaphone, PlugZap, Search, ShoppingBag, Smartphone, Workflow } from "lucide-react";
+import { Bot, Braces, Building2, Code2, HardHat, Landmark, Layers3, Megaphone, PlaneTakeoff, PlugZap, Search, ShoppingBag, Smartphone, UsersRound, Workflow } from "lucide-react";
 
 export const company = {
   name: "LetsFygure",
@@ -34,14 +34,14 @@ export const services = [
 ];
 
 export const industries = [
-  { title: "Real Estate", icon: Building2, text: "Property discovery, enquiry workflows, CRMs and digital experiences for buyers, agents and operators." },
-  { title: "Healthcare", icon: HeartPulse, text: "Accessible patient-facing experiences and operational tools designed with privacy and clarity in mind." },
-  { title: "Education", icon: GraduationCap, text: "Learning portals, content platforms and administration workflows for educators and learners." },
-  { title: "Travel & Hospitality", icon: Hotel, text: "Booking journeys, service platforms and operational tools that connect guests with teams." },
-  { title: "eCommerce & Retail", icon: ShoppingBag, text: "Storefronts and connected commerce workflows built for product discovery and repeatable operations." },
-  { title: "Professional Services", icon: ChartNoAxesCombined, text: "Lead, client and delivery systems that help service businesses operate with greater visibility." },
-  { title: "IT & SaaS", icon: Code2, text: "Product design, engineering and integration support for software teams moving from concept to scale." },
-  { title: "Operations & Enterprise", icon: Workflow, text: "Custom tools and automation for complex approvals, data flows and multi-team processes." },
+  { title: "Real Estate & PropTech", icon: Building2, text: "Property discovery, listing operations, owner portals and enquiry routing." },
+  { title: "Travel & Adventure", icon: PlaneTakeoff, text: "Tour discovery, itineraries, booking intent and partner workflows." },
+  { title: "Recruitment & Workforce", icon: UsersRound, text: "Candidate applications, employer enquiries and international service journeys." },
+  { title: "Finance & Advisory", icon: Landmark, text: "High-trust service discovery, educational content and consultation journeys." },
+  { title: "Construction & Infrastructure", icon: HardHat, text: "Capability showcases, project presentation and business enquiry systems." },
+  { title: "eCommerce & Retail", icon: ShoppingBag, text: "Storefronts and commerce workflows built for confident discovery and operation." },
+  { title: "SaaS & Digital Products", icon: Code2, text: "Multi-role applications, product systems and integration-ready foundations." },
+  { title: "Operations & Enterprise", icon: Workflow, text: "Custom workflows, approvals, integrations and accountable automation." },
 ];
 
 export const caseStudies = [

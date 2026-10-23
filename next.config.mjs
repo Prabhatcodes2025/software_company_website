@@ -6,6 +6,7 @@ const projectRoot = dirname(fileURLToPath(import.meta.url));
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  poweredByHeader: false,
   outputFileTracingRoot: projectRoot,
   images: {
     formats: ["image/avif", "image/webp"]
@@ -19,6 +20,9 @@ const nextConfig = {
         { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
         { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
         { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
+        { key: "Cross-Origin-Resource-Policy", value: "same-origin" },
+        { key: "X-DNS-Prefetch-Control", value: "off" },
+        { key: "Strict-Transport-Security", value: "max-age=31536000; includeSubDomains" },
       ],
     }];
   },

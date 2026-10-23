@@ -29,11 +29,20 @@ export function InteractiveCapabilities() {
   const [active, setActive] = useState(0);
   const service = featured[active];
 
+  function moveTab(event: React.KeyboardEvent<HTMLButtonElement>, index: number) {
+    const keys = ["ArrowDown", "ArrowRight", "ArrowUp", "ArrowLeft", "Home", "End"];
+    if (!keys.includes(event.key)) return;
+    event.preventDefault();
+    const next = event.key === "Home" ? 0 : event.key === "End" ? featured.length - 1 : event.key === "ArrowDown" || event.key === "ArrowRight" ? (index + 1) % featured.length : (index - 1 + featured.length) % featured.length;
+    setActive(next);
+    event.currentTarget.parentElement?.querySelectorAll<HTMLButtonElement>("[role='tab']")[next]?.focus();
+  }
+
   return <div className="capability-explorer">
     <div className="capability-tabs" role="tablist" aria-label="Core capabilities">
       {featured.map((item, index) => {
         const Icon = item.icon;
-        return <button key={item.slug} type="button" role="tab" aria-selected={active === index} aria-controls={`capability-panel-${index}`} id={`capability-tab-${index}`} onClick={() => setActive(index)} onFocus={() => setActive(index)}>
+        return <button key={item.slug} type="button" role="tab" aria-selected={active === index} aria-controls={`capability-panel-${index}`} id={`capability-tab-${index}`} tabIndex={active === index ? 0 : -1} onClick={() => setActive(index)} onFocus={() => setActive(index)} onKeyDown={(event) => moveTab(event, index)}>
           <span className="capability-tab-number">0{index + 1}</span><Icon /><strong>{item.title}</strong><ChevronDown />
         </button>;
       })}

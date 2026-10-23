@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowUpRight, Clock3 } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
-import { insights } from "@/lib/site";
+import { insightArticles } from "@/lib/content";
 
-export const metadata: Metadata={title:"Technology Insights",description:"Practical perspectives from LetsFygure on product strategy, AI automation, web engineering and digital growth.",alternates:{canonical:"/insights"}};
-export default function InsightsPage(){return <><PageHero eyebrow="Insights" title="Clear thinking for better digital decisions." text="Practical perspectives on choosing, building and improving technology around real business goals." cta={false}/><section className="section section-light"><div className="shell insight-list">{insights.map((item,index)=><article key={item.title}><span>0{index+1}</span><p className="eyebrow dark">{item.category}</p><h2>{item.title}</h2><p>{item.text}</p><div className="insight-body"><h3>Start with the operating reality</h3><p>The most useful technology decisions begin with the people doing the work, the information they trust and the constraints they cannot ignore. A focused discovery phase makes the first release smaller, clearer and easier to validate.</p><h3>Measure the action, not the novelty</h3><p>Define success in terms of time saved, decisions improved, customer friction removed or visibility created. That keeps the product grounded and gives every iteration a useful test.</p></div></article>)}</div></section></>}
+export const metadata: Metadata = { title: "Engineering Insights", description: "Practical perspectives from LetsFygure on product architecture, accountable AI automation and web performance.", alternates: { canonical: "/insights" } };
+
+export default function InsightsPage() {
+  return <><PageHero eyebrow="Engineering notes" title="Useful thinking for consequential digital decisions." text="Practical frameworks for scoping products, designing accountable automation and protecting experience quality." cta={false} /><section className="section section-light"><div className="shell editorial-index">{insightArticles.map((article, index) => <article key={article.slug} className={index === 0 ? "editorial-featured" : ""}><div className="editorial-meta"><span>{String(index + 1).padStart(2, "0")}</span><p>{article.category}</p><small><Clock3 />{article.readTime}</small></div><h2>{article.title}</h2><p>{article.summary}</p><div className="editorial-topics">{article.sections.map(section => <span key={section.heading}>{section.heading}</span>)}</div><Link href={`/insights/${article.slug}`} className="lf-link-arrow">Read the article <ArrowUpRight /></Link></article>)}</div></section></>;
+}
