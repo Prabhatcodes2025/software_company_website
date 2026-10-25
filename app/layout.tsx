@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+import { EditorialHeader } from "@/components/EditorialHeader";
+import { EditorialFooter } from "@/components/EditorialFooter";
 import { FloatingWidgets } from "@/components/FloatingWidgets";
 import { company } from "@/lib/site";
 import "./globals.css";
+import "./editorial.css";
+import "./details.css";
 
 const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope", display: "swap" });
 
@@ -26,5 +28,5 @@ const organizationSchema = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" className={manrope.variable}><body><a className="skip-link" href="#main-content">Skip to content</a><Header /><main id="main-content">{children}</main><Footer /><FloatingWidgets /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema).replace(/</g, "\\u003c") }} /></body></html>;
+  return <html lang="en" className={manrope.variable}><body><a className="skip-link" href="#main-content">Skip to content</a><EditorialHeader /><main id="main-content">{children}</main><EditorialFooter /><FloatingWidgets /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema).replace(/</g, "\\u003c") }} /></body></html>;
 }

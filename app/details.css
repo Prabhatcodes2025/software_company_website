@@ -1,0 +1,4 @@
+.service-hero .project-media{min-height:31rem}.service-evidence-label{display:block;margin-top:.8rem;color:#91aaa6;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase}
+.industry-proof .project-media{min-height:28rem;margin:1.5rem 0 2rem}.industry-proof .project-media-compact .project-browser{right:12%}.industry-proof .project-media-compact .project-phone{width:20%;height:65%}
+.case-detail-hero+.section .project-media{min-height:30rem}
+@media(max-width:700px){.service-hero .project-media{min-height:21rem;margin-top:3rem}.industry-proof .project-media{min-height:20rem}}

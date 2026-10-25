@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-import { Hero } from "@/components/Hero";
-import { HomepageSections } from "@/components/HomepageSections";
-import { TrustMarquee } from "@/components/TrustMarquee";
+import { EditorialHomepage } from "@/components/EditorialHomepage";
 import { company } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -14,9 +12,7 @@ export default function Home() {
   const schema = { "@context": "https://schema.org", "@type": "WebSite", name: company.name, url: company.url };
   return (
     <>
-      <Hero />
-      <TrustMarquee />
-      <HomepageSections />
+      <EditorialHomepage />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     </>
   );

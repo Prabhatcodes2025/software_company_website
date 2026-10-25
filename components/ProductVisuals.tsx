@@ -1,19 +1,19 @@
 import { ArrowDown, Check, Cloud, Database, GitBranch, Sparkles, UserRoundCheck } from "lucide-react";
 import { technologies } from "@/lib/site";
+import { ProjectMedia } from "@/components/ProjectMedia";
 
-export function ProjectVisual({ index, label }: { index: number; label: string }) {
-  return <div className={`project-visual project-visual-${index + 1}`} aria-label={`${label} interface visualization`}>
-    <div className="project-glow" aria-hidden />
-    <div className="project-browser">
-      <div className="project-bar"><i /><i /><i /><span>Product workspace</span></div>
-      <div className="project-ui">
-        <aside><b>LF</b><i /><i /><i /><i /></aside>
-        <div className="project-main"><small>{label}</small><strong>Overview</strong><div className="project-stats"><span /><span /><span /></div><div className="project-data"><div /><div /><div /></div></div>
-      </div>
-    </div>
-    <div className="project-phone"><div /><small>Live view</small><strong>{index === 0 ? "Connected" : index === 1 ? "In progress" : "Ready"}</strong><span><i /><i /><i /></span></div>
-    <div className="project-float"><Sparkles /><span><small>System signal</small><strong>{index === 0 ? "Enquiry routed" : index === 1 ? "Workflow synced" : "Journey optimized"}</strong></span></div>
-  </div>;
+const projectMedia = [
+  ["ongole-property", "Ongole Property"],
+  ["naystrip", "Naystrip"],
+  ["mozno-wealth", "Mozno Wealth"],
+  ["snow-feather-adventure", "Snow Feather Adventure"],
+  ["rs-constructions", "RS Constructions Company"],
+  ["continental-mercantile", "Continental Mercantile Corporation"],
+] as const;
+
+export function ProjectVisual({ index }: { index: number; label: string }) {
+  const project = projectMedia[index % projectMedia.length];
+  return <ProjectMedia slug={project[0]} client={project[1]} priority={index === 0} />;
 }
 
 const stack = [

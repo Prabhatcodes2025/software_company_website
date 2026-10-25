@@ -16,8 +16,7 @@ export const company = {
 
 export const navItems = [
   { href: "/services", label: "Services" }, { href: "/industries", label: "Industries" },
-  { href: "/case-studies", label: "Work" }, { href: "/about", label: "About" },
-  { href: "/insights", label: "Insights" }, { href: "/contact", label: "Contact" },
+  { href: "/insights", label: "Insights" }, { href: "/about", label: "About" }, { href: "/contact", label: "Contact" },
 ];
 
 export const services = [
@@ -54,7 +53,7 @@ export const caseStudies = [
 ];
 
 export const companyStats = [
-  { value: "3+", label: "Years in business" },
+  { value: "Since 2023", label: "Owner-confirmed start" },
   { value: "50+", label: "Projects delivered" },
   { value: "40+", label: "Clients served" },
   { value: "3+", label: "Countries served" },
