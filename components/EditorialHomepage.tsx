@@ -5,6 +5,9 @@ import { caseStudies, company, companyStats, industries, process, services } fro
 
 export function EditorialHomepage() {
   const featured = caseStudies.slice(0, 4);
+  const featuredServices = [services[0], services[2], services[3], services[5]];
+  const featuredIndustries = industries.slice(0, 4);
+  const featuredProcess = [process[0], process[2], process[3], process[5]];
   return <>
     <section className="editorial-hero">
       <div className="shell editorial-hero-grid">
@@ -33,12 +36,12 @@ export function EditorialHomepage() {
 
     <section className="section editorial-services"><div className="shell">
       <div className="split-statement"><p className="eyebrow dark">Capabilities</p><div><h2>One product partner from first question to live system.</h2><p>Use us for a focused workstream or connect strategy, design, engineering and growth as one engagement.</p></div></div>
-      <div className="service-lines">{services.map((service, index) => <Link href={`/services/${service.slug}`} key={service.slug}><span>{String(index + 1).padStart(2, "0")}</span><strong>{service.title}</strong><p>{service.short}</p><ArrowUpRight /></Link>)}</div>
+      <div className="service-lines">{featuredServices.map((service, index) => <Link href={`/services/${service.slug}`} key={service.slug}><span>{String(index + 1).padStart(2, "0")}</span><strong>{service.title}</strong><p>{service.short}</p><ArrowUpRight /></Link>)}</div><Link href="/services" className="homepage-deep-link">Explore all ten services <ArrowUpRight /></Link>
     </div></section>
 
-    <section className="section editorial-industries"><div className="shell"><div className="editorial-heading dark-heading"><div><p className="eyebrow dark">Industry context</p><h2>The workflow changes.<br />Our curiosity doesn&apos;t.</h2></div><p>We study how your market buys, operates and makes decisions before shaping the product.</p></div><div className="industry-list">{industries.map((industry, index) => { const Icon = industry.icon; return <Link href="/industries" key={industry.title}><span>0{index + 1}</span><Icon /><div><h3>{industry.title}</h3><p>{industry.text}</p></div><ArrowUpRight /></Link>; })}</div></div></section>
+    <section className="section editorial-industries"><div className="shell"><div className="editorial-heading dark-heading"><div><p className="eyebrow dark">Industry context</p><h2>The workflow changes.<br />Our curiosity doesn&apos;t.</h2></div><p>We study how your market buys, operates and makes decisions before shaping the product.</p></div><div className="industry-list">{featuredIndustries.map((industry, index) => { const Icon = industry.icon; return <Link href="/industries" key={industry.title}><span>0{index + 1}</span><Icon /><div><h3>{industry.title}</h3><p>{industry.text}</p></div><ArrowUpRight /></Link>; })}</div><Link href="/industries" className="homepage-deep-link">Explore all industry narratives <ArrowUpRight /></Link></div></section>
 
-    <section className="section process-editorial"><div className="shell"><div className="split-statement"><p className="eyebrow dark">How we work</p><div><h2>Decisions stay visible from discovery to launch.</h2></div></div><ol>{process.map(([number,title,text]) => <li key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></li>)}</ol></div></section>
+    <section className="section process-editorial"><div className="shell"><div className="split-statement"><p className="eyebrow dark">How we work</p><div><h2>Decisions stay visible from discovery to launch.</h2></div></div><ol>{featuredProcess.map(([number,title,text]) => <li key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></li>)}</ol><Link href="/about" className="homepage-deep-link">See how we deliver <ArrowUpRight /></Link></div></section>
 
     <section className="section review-editorial"><div className="shell review-layout"><div><Quote /><blockquote>Clients highlight professional delivery, clear communication, flexibility and reliable project management.</blockquote><a href={company.clutch} target="_blank" rel="noreferrer">Read all 3 verified reviews <ArrowUpRight /></a></div><div><span className="review-score">5.0</span><p className="stars">★★★★★</p><strong>Clutch rating</strong><div className="review-tags">{["Professional", "Communicative", "Flexible", "Timely", "Reliable"].map(item => <span key={item}><Check />{item}</span>)}</div></div></div></section>
 

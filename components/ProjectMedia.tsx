@@ -3,10 +3,10 @@ import Image from "next/image";
 const projectAssets: Record<string, { desktop: string; mobile: string; logo: string }> = {
   "ongole-property": { desktop: "/images/projects/project-ongole-property-desktop.jpg", mobile: "/images/projects/project-ongole-property-mobile.jpg", logo: "/images/clients/ongole-property.png" },
   naystrip: { desktop: "/images/projects/project-naystrip-desktop.jpg", mobile: "/images/projects/project-naystrip-mobile.jpg", logo: "/images/clients/naystrip.png" },
-  "mozno-wealth": { desktop: "/images/projects/project-mozno-wealth-desktop.jpg", mobile: "/images/projects/project-mozno-wealth-mobile.jpg", logo: "/images/clients/mozno-wealth.png" },
-  "snow-feather-adventure": { desktop: "/images/projects/project-snow-feather-desktop.jpg", mobile: "/images/projects/project-snow-feather-mobile.jpg", logo: "/images/clients/snow-feather.png" },
-  "rs-constructions": { desktop: "/images/projects/project-rs-constructions-desktop.jpg", mobile: "/images/projects/project-rs-constructions-mobile.jpg", logo: "/images/clients/rs-constructions.png" },
-  "continental-mercantile": { desktop: "/images/projects/project-continental-mercantile-desktop.jpg", mobile: "/images/projects/project-continental-mercantile-mobile.jpg", logo: "/images/clients/continental-mercantile.png" },
+  "mozno-wealth": { desktop: "/images/projects/project-mozno-wealth-desktop.png", mobile: "/images/projects/project-mozno-wealth-mobile.png", logo: "/images/clients/mozno-wealth.png" },
+  "snow-feather-adventure": { desktop: "/images/projects/project-snow-feather-desktop.png", mobile: "/images/projects/project-snow-feather-mobile.png", logo: "/images/clients/snow-feather.png" },
+  "rs-constructions": { desktop: "/images/projects/project-rs-constructions-desktop.png", mobile: "/images/projects/project-rs-constructions-mobile.png", logo: "/images/clients/rs-constructions.png" },
+  "continental-mercantile": { desktop: "/images/projects/project-continental-mercantile-desktop.png", mobile: "/images/projects/project-continental-mercantile-mobile.png", logo: "/images/clients/continental-mercantile.png" },
 };
 
 export function ProjectMedia({ slug, client, priority = false, compact = false }: { slug: string; client: string; priority?: boolean; compact?: boolean }) {
@@ -29,6 +29,15 @@ export function ClientLogoStrip() {
     {Object.entries(projectAssets).map(([slug, asset]) => <div key={slug}>
       <Image src={asset.logo} alt={clientName(slug)} width={260} height={110} sizes="150px" />
     </div>)}
+  </div>;
+}
+
+export function ProjectGallery({ slug, client }: { slug: string; client: string }) {
+  const asset = projectAssets[slug];
+  if (!asset) return null;
+  return <div className="project-gallery" aria-label={`${client} responsive interface gallery`}>
+    <figure className="project-gallery-desktop"><figcaption>Desktop experience</figcaption><Image src={asset.desktop} alt={`${client} desktop interface`} width={1440} height={900} sizes="(max-width: 800px) 94vw, 72vw" /></figure>
+    <figure className="project-gallery-mobile"><figcaption>Mobile experience</figcaption><Image src={asset.mobile} alt={`${client} mobile interface`} width={390} height={844} sizes="(max-width: 800px) 72vw, 22vw" /></figure>
   </div>;
 }
 
