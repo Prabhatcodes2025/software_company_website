@@ -24,7 +24,7 @@ export function EditorialHomepage() {
 
     <section className="client-proof"><div className="shell"><p>Selected client platforms</p><ClientLogoStrip /></div></section>
 
-    <section className="section editorial-intro"><div className="shell split-statement"><p className="eyebrow dark">Evidence over theatre</p><div><h2>Good technology should make the business easier to understand, use and grow.</h2><p>Our work connects product strategy, experience design and dependable engineering. Every project shown here is a real, public client platform.</p></div></div><div className="shell owner-stats" aria-label="Owner supplied company figures">{companyStats.slice(0,5).map(stat => <div key={stat.label}><strong>{stat.value}</strong><span>{stat.label}</span></div>)}</div></section>
+    <section className="section editorial-intro"><div className="shell split-statement"><p className="eyebrow dark">Evidence over theatre</p><div><h2>Good technology should make the business easier to understand, use and grow.</h2><p>Our work connects product strategy, experience design and dependable engineering. Every project shown here is a real, public client platform.</p></div></div><div className="shell owner-stats" role="group" aria-label="Owner supplied company figures">{companyStats.slice(0,5).map(stat => <div key={stat.label}><strong>{stat.value}</strong><span>{stat.label}</span></div>)}</div></section>
 
     <section className="section featured-work"><div className="shell">
       <div className="editorial-heading"><div><p className="eyebrow">Selected work</p><h2>Built in the open.<br />Shown as delivered.</h2></div><Link href="/case-studies" className="text-button light">View all six projects <ArrowUpRight /></Link></div>

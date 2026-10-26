@@ -1,0 +1,556 @@
+{
+  "generatedAt": "2026-10-26T07:48:16.060Z",
+  "baseUrl": "http://localhost:3001",
+  "violationCount": 0,
+  "audits": [
+    {
+      "device": "desktop",
+      "route": "home",
+      "state": "default",
+      "violations": [],
+      "passes": 41,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".editorial-clutch > span"
+              ],
+              "html": "<span>★★★★★</span>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".stars"
+              ],
+              "html": "<p class=\"stars\">★★★★★</p>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "home",
+      "state": "services-menu-open",
+      "violations": [],
+      "passes": 41,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".mega-feature > h2"
+              ],
+              "html": "<h2>Build the right thing, properly.</h2>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            },
+            {
+              "target": [
+                ".mega-feature > p"
+              ],
+              "html": "<p>Strategy, design, engineering and growth connected by one accountable team.</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            },
+            {
+              "target": [
+                "a[href$=\"ai-automation\"] > span"
+              ],
+              "html": "<span>AI &amp; Business Automation</span>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it's partially obscured by another element"
+            },
+            {
+              "target": [
+                "div:nth-child(4) > h3"
+              ],
+              "html": "<h3>Enterprise</h3>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+            },
+            {
+              "target": [
+                "a[href$=\"api-integrations\"] > span"
+              ],
+              "html": "<span>API &amp; Third-Party Integrations</span>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
+            },
+            {
+              "target": [
+                ".editorial-hero-copy > .dark.eyebrow"
+              ],
+              "html": "<p class=\"eyebrow dark\">Technology , Figured Out</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                "h1"
+              ],
+              "html": "<h1>Digital products built for <em>real business.</em></h1>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".editorial-clutch > span"
+              ],
+              "html": "<span>★★★★★</span>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".editorial-hero-media > figure > .project-browser > .project-browser-bar > span"
+              ],
+              "html": "<span>Ongole Property</span>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".stars"
+              ],
+              "html": "<p class=\"stars\">★★★★★</p>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "home",
+      "state": "insights-menu-open",
+      "violations": [],
+      "passes": 41,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".mega-feature > h2"
+              ],
+              "html": "<h2>See the work. Learn from the process.</h2>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            },
+            {
+              "target": [
+                ".mega-feature > p"
+              ],
+              "html": "<p>Real project stories and practical thinking for consequential digital decisions.</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it partially overlaps other elements"
+            },
+            {
+              "target": [
+                ".editorial-hero-copy > .dark.eyebrow"
+              ],
+              "html": "<p class=\"eyebrow dark\">Technology , Figured Out</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                "h1"
+              ],
+              "html": "<h1>Digital products built for <em>real business.</em></h1>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".editorial-clutch > span"
+              ],
+              "html": "<span>★★★★★</span>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".editorial-hero-media > figure > .project-browser > .project-browser-bar > span"
+              ],
+              "html": "<span>Ongole Property</span>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".stars"
+              ],
+              "html": "<p class=\"stars\">★★★★★</p>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "service-web-development",
+      "state": "default",
+      "violations": [],
+      "passes": 43,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".final-cta > .shell > div:nth-child(1) > .eyebrow"
+              ],
+              "html": "<p class=\"eyebrow\">A clear next step</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".final-cta > .shell > div:nth-child(1) > h2"
+              ],
+              "html": "<h2>Let’s scope your <!-- -->web development<!-- --> project.</h2>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".shell > div:nth-child(2) > p"
+              ],
+              "html": "<p>Share the users, current system and operating outcome. We’ll help frame the right engagement.</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "industries",
+      "state": "default",
+      "violations": [],
+      "passes": 41,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".lf-button-sweep"
+              ],
+              "html": "<a class=\"button lf-button-sweep\" href=\"/contact\">",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "case-ongole-property",
+      "state": "default",
+      "violations": [],
+      "passes": 38,
+      "incomplete": []
+    },
+    {
+      "device": "desktop",
+      "route": "contact",
+      "state": "default",
+      "violations": [],
+      "passes": 45,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".lf-button-sweep"
+              ],
+              "html": "<button class=\"button lf-button-sweep\" type=\"submit\">",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "home",
+      "state": "default",
+      "violations": [],
+      "passes": 41,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".editorial-clutch > span"
+              ],
+              "html": "<span>★★★★★</span>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".stars"
+              ],
+              "html": "<p class=\"stars\">★★★★★</p>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "home",
+      "state": "mobile-navigation-open",
+      "violations": [],
+      "passes": 43,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".editorial-hero-copy > .dark.eyebrow"
+              ],
+              "html": "<p class=\"eyebrow dark\">Technology , Figured Out</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                "h1"
+              ],
+              "html": "<h1>Digital products built for <em>real business.</em></h1>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                "h1 > em"
+              ],
+              "html": "<em>real business.</em>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".editorial-hero-copy > p:nth-child(3)"
+              ],
+              "html": "<p>We design and engineer web platforms, mobile products and software systems that make complex work feel clear.</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".hero-actions > .button[href$=\"contact\"]"
+              ],
+              "html": "<a class=\"button\" href=\"/contact\">",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".hero-actions > .text-button[href$=\"case-studies\"]"
+              ],
+              "html": "<a class=\"text-button\" href=\"/case-studies\">",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".editorial-clutch > span"
+              ],
+              "html": "<span>★★★★★</span>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            },
+            {
+              "target": [
+                ".editorial-clutch > strong"
+              ],
+              "html": "<strong>5.0 on Clutch</strong>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".editorial-clutch > small"
+              ],
+              "html": "<small>3 verified reviews</small>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            },
+            {
+              "target": [
+                ".stars"
+              ],
+              "html": "<p class=\"stars\">★★★★★</p>",
+              "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "service-web-development",
+      "state": "default",
+      "violations": [],
+      "passes": 43,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".final-cta > .shell > div:nth-child(1) > .eyebrow"
+              ],
+              "html": "<p class=\"eyebrow\">A clear next step</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".final-cta > .shell > div:nth-child(1) > h2"
+              ],
+              "html": "<h2>Let’s scope your <!-- -->web development<!-- --> project.</h2>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            },
+            {
+              "target": [
+                ".shell > div:nth-child(2) > p"
+              ],
+              "html": "<p>Share the users, current system and operating outcome. We’ll help frame the right engagement.</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "industries",
+      "state": "default",
+      "violations": [],
+      "passes": 41,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".lf-button-sweep"
+              ],
+              "html": "<a class=\"button lf-button-sweep\" href=\"/contact\">",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "case-ongole-property",
+      "state": "default",
+      "violations": [],
+      "passes": 38,
+      "incomplete": []
+    },
+    {
+      "device": "mobile",
+      "route": "contact",
+      "state": "default",
+      "violations": [],
+      "passes": 45,
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "nodes": [
+            {
+              "target": [
+                ".lf-button-sweep"
+              ],
+              "html": "<button class=\"button lf-button-sweep\" type=\"submit\">",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+            },
+            {
+              "target": [
+                ".footer-lead > .eyebrow"
+              ],
+              "html": "<p class=\"eyebrow\">Technology , Figured Out</p>",
+              "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "device": "desktop",
+      "servicesOpen": "true",
+      "servicesOutsideClosed": "false",
+      "insightsOpen": "true",
+      "insightsEscapeClosed": "false",
+      "focused": {
+        "text": "Services",
+        "outlineStyle": "solid",
+        "outlineWidth": "3px"
+      },
+      "keyboardOpen": "true",
+      "keyboardClosed": "false",
+      "focusAfterEscape": "Services"
+    },
+    {
+      "device": "desktop",
+      "route": "home",
+      "consoleMessages": []
+    },
+    {
+      "device": "desktop",
+      "route": "service-web-development",
+      "consoleMessages": []
+    },
+    {
+      "device": "desktop",
+      "route": "industries",
+      "consoleMessages": []
+    },
+    {
+      "device": "desktop",
+      "route": "case-ongole-property",
+      "consoleMessages": []
+    },
+    {
+      "device": "desktop",
+      "route": "contact",
+      "consoleMessages": []
+    },
+    {
+      "device": "mobile",
+      "menuOpen": "true",
+      "focusedLink": "/services",
+      "menuClosed": "false",
+      "focusAfterEscape": "Open navigation"
+    },
+    {
+      "device": "mobile",
+      "route": "home",
+      "consoleMessages": []
+    },
+    {
+      "device": "mobile",
+      "route": "service-web-development",
+      "consoleMessages": []
+    },
+    {
+      "device": "mobile",
+      "route": "industries",
+      "consoleMessages": []
+    },
+    {
+      "device": "mobile",
+      "route": "case-ongole-property",
+      "consoleMessages": []
+    },
+    {
+      "device": "mobile",
+      "route": "contact",
+      "consoleMessages": []
+    }
+  ]
+}

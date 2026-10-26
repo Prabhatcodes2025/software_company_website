@@ -37,7 +37,7 @@ async function analyze(page, device, routeName, state = "default") {
       nodes: violation.nodes.map((node) => ({ target: node.target, html: node.html, failureSummary: node.failureSummary })),
     })),
     passes: result.passes.length,
-    incomplete: result.incomplete.map((item) => ({ id: item.id, impact: item.impact, nodes: item.nodes.length })),
+    incomplete: result.incomplete.map((item) => ({ id: item.id, impact: item.impact, nodes: item.nodes.map((node) => ({ target: node.target, html: node.html, failureSummary: node.failureSummary })) })),
   });
 }
 
@@ -66,13 +66,13 @@ try {
         await services.click();
         await analyze(page, device, routeName, "services-menu-open");
         const servicesOpen = await services.getAttribute("aria-expanded");
-        await page.getByRole("heading", { name: /Digital products built/i }).click();
+        await page.mouse.click(10, viewport.height - 10);
         const servicesOutsideClosed = await services.getAttribute("aria-expanded");
 
         const insights = page.getByRole("button", { name: "Insights", exact: true });
         await insights.click();
-        await analyze(page, device, routeName, "insights-menu-open");
         const insightsOpen = await insights.getAttribute("aria-expanded");
+        await analyze(page, device, routeName, "insights-menu-open");
         await page.keyboard.press("Escape");
         const insightsEscapeClosed = await insights.getAttribute("aria-expanded");
 
@@ -116,4 +116,4 @@ try {
 const violationCount = audits.reduce((total, audit) => total + audit.violations.reduce((count, violation) => count + violation.nodes.length, 0), 0);
 const result = { generatedAt: new Date().toISOString(), baseUrl, violationCount, audits, interactions };
 await fs.writeFile(path.join(outputDirectory, "axe-results.json"), JSON.stringify(result, null, 2));
-console.log(JSON.stringify({ violationCount, audits: audits.map(({ device, route, state, violations, incomplete }) => ({ device, route, state, violations: violations.map((item) => `${item.id}:${item.nodes.length}`), incomplete: incomplete.map((item) => `${item.id}:${item.nodes}`) })), interactions }, null, 2));
+console.log(JSON.stringify({ violationCount, audits: audits.map(({ device, route, state, violations, incomplete }) => ({ device, route, state, violations: violations.map((item) => `${item.id}:${item.nodes.length}`), incomplete: incomplete.map((item) => `${item.id}:${item.nodes.length}`) })), interactions }, null, 2));

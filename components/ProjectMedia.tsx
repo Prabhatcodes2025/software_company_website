@@ -25,7 +25,7 @@ export function ProjectMedia({ slug, client, priority = false, compact = false }
 }
 
 export function ClientLogoStrip() {
-  return <div className="client-logo-strip" aria-label="Selected clients">
+  return <div className="client-logo-strip" role="group" aria-label="Selected clients">
     {Object.entries(projectAssets).map(([slug, asset]) => <div key={slug}>
       <Image src={asset.logo} alt={clientName(slug)} width={260} height={110} sizes="150px" />
     </div>)}
@@ -35,7 +35,7 @@ export function ClientLogoStrip() {
 export function ProjectGallery({ slug, client }: { slug: string; client: string }) {
   const asset = projectAssets[slug];
   if (!asset) return null;
-  return <div className="project-gallery" aria-label={`${client} responsive interface gallery`}>
+  return <div className="project-gallery" role="group" aria-label={`${client} responsive interface gallery`}>
     <figure className="project-gallery-desktop"><figcaption>Desktop experience</figcaption><Image src={asset.desktop} alt={`${client} desktop interface`} width={1440} height={900} sizes="(max-width: 800px) 94vw, 72vw" /></figure>
     <figure className="project-gallery-mobile"><figcaption>Mobile experience</figcaption><Image src={asset.mobile} alt={`${client} mobile interface`} width={390} height={844} sizes="(max-width: 800px) 72vw, 22vw" /></figure>
   </div>;

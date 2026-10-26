@@ -56,4 +56,4 @@ for (const [device, desktop] of [["mobile", false], ["desktop", true]]) {
 
 const result = { generatedAt: new Date().toISOString(), summary };
 await fs.writeFile(path.resolve("audit/prelaunch/lighthouse-summary.json"), JSON.stringify(result, null, 2));
-console.log(JSON.stringify(result, null, 2));
+console.log(`Saved ${summary.length} Lighthouse reports to ${outputDirectory}`);

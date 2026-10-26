@@ -11,6 +11,21 @@
 .project-gallery{display:grid;grid-template-columns:minmax(0,1fr) minmax(15rem,.28fr);gap:1.5rem;align-items:start}.project-gallery figure{margin:0}.project-gallery figcaption{margin-bottom:.7rem;color:#52605d;font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}.project-gallery img{display:block;width:100%;border:1px solid #c7c2b7;background:#fff;box-shadow:0 20px 50px rgba(11,27,26,.12)}.project-gallery-desktop img{aspect-ratio:16/10;object-fit:cover;object-position:top}.project-gallery-mobile{justify-self:end;width:100%}.project-gallery-mobile img{aspect-ratio:390/844;object-fit:cover;object-position:top}
 .case-value-cta{padding:clamp(4.5rem,8vw,8rem) 0;background:#102b29;color:#f5f2eb}.case-value-cta>.shell{display:grid;grid-template-columns:1.2fr .8fr;align-items:end;gap:5rem}.case-value-cta h2{margin:1.2rem 0;font-size:clamp(2.4rem,4vw,4.8rem)}.case-value-cta small{display:block;max-width:50rem;color:#93aaa5;font-size:.8rem;line-height:1.6}.case-value-cta>.shell>div:last-child{display:flex;align-items:flex-start;flex-direction:column;gap:1.2rem}.case-value-cta a:not(.button){display:inline-flex;align-items:center;gap:.45rem;border-bottom:1px solid #6ddde4;padding-bottom:.35rem}
 
+/* Contrast corrections verified by the pre-launch axe audit. */
+.eyebrow,.eyebrow.dark,.industry-list>a>span{color:#08666a}
+.section-dark .eyebrow,.case-value-cta .eyebrow{color:#69e4eb}
+.editorial-header .mega-feature .eyebrow,.editorial-header .mega-feature .lf-link-arrow,.service-architecture-section .eyebrow{color:#69e4eb}
+.editorial-clutch small,.client-proof>.shell>p,.owner-stats span{color:#515e59}
+.industry-list p{color:#515e59}
+.service-deliverables span{color:#08766f}
+.service-related-cases span,.industry-proof a span{color:#4a5f6c}
+.industry-story-title>span,.industry-system h3,.industry-solutions h3,.industry-proof h3{color:#0b5b9d}
+.industry-system li span{color:#086c64}
+.contact-links small{color:#d4e3e4}
+.form-intro span{color:#0c65ac}
+.form-fallback{color:#4a5960!important}
+.whatsapp-float{background:#087a49}
+
 @media(max-width:760px){
   main p:not(.eyebrow):not(.project-client):not(.case-index),main li,main details p,main .case-content li{font-size:1rem;line-height:1.65}
   .button{min-height:3rem;padding-inline:1.1rem}.editorial-header .menu-toggle{min-width:3rem;min-height:3rem}.mobile-nav>a:not(.button){min-height:3.6rem}
