@@ -28,5 +28,5 @@ const organizationSchema = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" className={manrope.variable}><body><a className="skip-link" href="#main-content">Skip to content</a><EditorialHeader /><main id="main-content">{children}</main><EditorialFooter /><FloatingWidgets /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema).replace(/</g, "\\u003c") }} /></body></html>;
+  return <html lang="en" className={manrope.variable} data-scroll-behavior="smooth"><body><a className="skip-link" href="#main-content">Skip to content</a><EditorialHeader /><main id="main-content">{children}</main><EditorialFooter /><FloatingWidgets /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema).replace(/</g, "\\u003c") }} /></body></html>;
 }

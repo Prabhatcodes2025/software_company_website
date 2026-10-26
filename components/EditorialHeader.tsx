@@ -52,6 +52,7 @@ export function EditorialHeader() {
   };
   const queueClose = () => { closeTimer.current = setTimeout(() => setActiveMenu(null), 160); };
   const toggleMenu = (menu: Exclude<MenuName, null>) => setActiveMenu(menu);
+  const mobileCurrent = (matches: boolean) => matches ? { className: "active", "aria-current": "page" as const } : {};
   const menuProps = (menu: Exclude<MenuName, null>) => ({
     onMouseEnter: () => reveal(menu),
     onMouseLeave: queueClose,
@@ -81,13 +82,13 @@ export function EditorialHeader() {
     </div>
     {mobileOpen && <nav id="mobile-navigation" className="mobile-nav" aria-label="Mobile navigation">
       <div className="mobile-nav-top"><span>Explore LetsFygure</span><small>Technology , Figured Out</small></div>
-      <Link ref={firstMobileLinkRef} href="/services"><span>01</span>Services<ArrowUpRight /></Link>
-      <Link href="/industries"><span>02</span>Industries<ArrowUpRight /></Link>
-      <Link href="/case-studies"><span>03</span>Case Studies<ArrowUpRight /></Link>
-      <Link href="/insights"><span>04</span>Blog / Articles<ArrowUpRight /></Link>
+      <Link ref={firstMobileLinkRef} href="/services" {...mobileCurrent(pathname.startsWith("/services"))}><span>01</span>Services<ArrowUpRight /></Link>
+      <Link href="/industries" {...mobileCurrent(pathname === "/industries")}><span>02</span>Industries<ArrowUpRight /></Link>
+      <Link href="/case-studies" {...mobileCurrent(pathname.startsWith("/case-studies"))}><span>03</span>Case Studies<ArrowUpRight /></Link>
+      <Link href="/insights" {...mobileCurrent(pathname.startsWith("/insights"))}><span>04</span>Blog / Articles<ArrowUpRight /></Link>
       <Link href="/insights#engineering"><span>05</span>Engineering Insights<ArrowUpRight /></Link>
-      <Link href="/about"><span>06</span>About<ArrowUpRight /></Link>
-      <Link href="/contact"><span>07</span>Contact<ArrowUpRight /></Link>
+      <Link href="/about" {...mobileCurrent(pathname === "/about")}><span>06</span>About<ArrowUpRight /></Link>
+      <Link href="/contact" {...mobileCurrent(pathname === "/contact")}><span>07</span>Contact<ArrowUpRight /></Link>
       <Link href="/contact" className="button">Let&apos;s Talk <ArrowUpRight /></Link>
     </nav>}
   </header>;
