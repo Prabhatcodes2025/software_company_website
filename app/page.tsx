@@ -3,8 +3,8 @@ import { EditorialHomepage } from "@/components/EditorialHomepage";
 import { company } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "LetsFygure | Technology, Figured Out",
-  description: "LetsFygure designs and develops high-performance websites, mobile apps, custom software and AI-powered solutions for growing businesses.",
+  title: "Website, Software, Mobile App & AI Development | LetsFygure",
+  description: "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
   alternates: { canonical: "/" },
 };
 

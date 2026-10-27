@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { withSocial } from "@/lib/social-metadata";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { services } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Digital Product & Technology Services", description: "Explore LetsFygure services for web development, mobile apps, custom software, AI automation, UI/UX, eCommerce, SEO and digital growth.", alternates: { canonical: "/services" } };
+export const metadata: Metadata = withSocial({ title: "Digital Product & Technology Services", description: "Explore LetsFygure services for web development, mobile apps, custom software, AI automation, UI/UX, eCommerce, SEO and digital growth.", alternates: { canonical: "/services" } });
 
 const groups = [
   { name: "Product engineering", description: "Customer-facing and operational software built as maintainable systems.", categories: ["Engineering", "Enterprise"] },

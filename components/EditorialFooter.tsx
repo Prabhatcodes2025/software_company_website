@@ -5,10 +5,9 @@ import { company, services } from "@/lib/site";
 
 export function EditorialFooter() {
   return <footer className="editorial-footer">
-    <div className="shell footer-lead"><p className="eyebrow">Technology , Figured Out</p><div><h2>Let&apos;s build something useful.</h2><Link href="/contact" className="button button-white">Let&apos;s Talk <ArrowUpRight /></Link></div></div>
     <div className="shell editorial-footer-grid">
       <div className="footer-brand"><Link href="/" className="brand"><Image src="/images/letsfygure-logo.png" alt="" width={80} height={80} className="brand-mark" /><strong>LetsFygure</strong></Link><p>Product strategy, design and software engineering for businesses building, modernizing and automating digital systems.</p></div>
-      <div><h2>Explore</h2><Link href="/case-studies">Case Studies</Link><Link href="/insights">Blog / Articles</Link><Link href="/insights#engineering">Engineering Insights</Link><Link href="/about">About</Link><Link href="/career">Careers</Link></div>
+      <div><h2>Explore</h2><Link href="/case-studies">Case Studies</Link><Link href="/insights">Insights</Link><Link href="/about">About</Link><Link href="/career">Careers</Link></div>
       <div><h2>Services</h2>{services.slice(0,5).map(service => <Link key={service.slug} href={`/services/${service.slug}`}>{service.title}</Link>)}<Link href="/services">All services <ArrowUpRight size={14} /></Link></div>
       <div className="footer-contact"><h2>Contact</h2><a href={`mailto:${company.email}`}><Mail />{company.email}</a><a href={`tel:${company.phone.replace(/\s/g, "")}`}><MessageCircle />{company.phone}</a><p><MapPin />{company.address}</p><a href={company.linkedin} target="_blank" rel="noreferrer"><Linkedin />LinkedIn <ArrowUpRight /></a><a href={company.instagram} target="_blank" rel="noreferrer"><Instagram />Instagram <ArrowUpRight /></a><a href={company.clutch} target="_blank" rel="noreferrer"><Star />5.0 on Clutch <ArrowUpRight /></a></div>
     </div>

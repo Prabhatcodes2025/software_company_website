@@ -1,32 +1,32 @@
 import Link from "next/link";
 import { ArrowUpRight, Check } from "lucide-react";
-import { ProjectGallery } from "@/components/ProjectMedia";
+import { ProjectMobile } from "@/components/ProjectMedia";
+import { caseEditorial } from "@/lib/case-editorial";
+import { caseStudies } from "@/lib/site";
 
 type Study = {
-  slug: string;
-  client: string;
-  url: string;
-  challenge: string;
-  solution: string;
-  outcome: string;
-  features: string[];
-  technology: string[];
-  source: string;
+  slug: string; client: string; url: string; challenge: string; solution: string; outcome: string;
+  features: string[]; technology: string[]; source: string;
+};
+const relatedMap: Record<string, string[]> = {
+  "ongole-property": ["continental-mercantile", "naystrip"],
+  naystrip: ["snow-feather-adventure"],
+  "mozno-wealth": ["continental-mercantile"],
+  "snow-feather-adventure": ["naystrip"],
+  "rs-constructions": ["mozno-wealth"],
+  "continental-mercantile": ["ongole-property"],
 };
 
 export function CaseStudyEvidence({ study }: { study: Study }) {
+  const editorial = caseEditorial[study.slug];
+  const related = (relatedMap[study.slug] ?? []).map(slug => caseStudies.find(item => item.slug === slug)).filter((item): item is (typeof caseStudies)[number] => Boolean(item));
+  const story = <section className="section case-redesign-story"><div className="shell case-redesign-story-grid"><div><p className="corrective-kicker">The work</p><h2>{editorial.storyTitle}</h2><p className="case-story-lead">{editorial.storyText}</p><p className="case-story-source">{study.source}. No unverified commercial or performance metrics are claimed.</p></div><div><h3>Delivered scope</h3><p>{study.solution}</p><ul>{study.features.map(feature => <li key={feature}><Check />{feature}</li>)}</ul>{study.technology.length > 0 && <div className="case-verified-tech"><strong>Verified technology</strong><p>{study.technology.join(" · ")}</p></div>}</div></div></section>;
+  const media = <section className="section case-redesign-media"><div className="shell case-redesign-media-grid"><div><p className="corrective-kicker">Real interface evidence</p><h2>{editorial.mediaTitle}</h2><p>{editorial.mediaText}</p><div className="case-media-note"><strong>Desktop</strong><span>{editorial.desktopNote}. The larger desktop capture is shown in the hero.</span></div><div className="case-media-note"><strong>Mobile</strong><span>{editorial.mobileNote}. This is an actual responsive capture, not a mockup.</span></div></div><div className="case-mobile-showcase"><ProjectMobile slug={study.slug} client={study.client} /><p>Public mobile website · authentic screenshot</p></div></div></section>;
+  const mediaFirst = ["naystrip", "snow-feather-adventure", "continental-mercantile"].includes(study.slug);
   return <>
-    <section className="case-story section section-light">
-      <div className="shell case-story-grid">
-        <div><p className="eyebrow dark">The challenge</p><h2>{study.challenge}</h2></div>
-        <div><p className="eyebrow dark">Delivered solution</p><p className="case-story-solution">{study.solution}</p><div className="case-feature-list">{study.features.map(feature => <span key={feature}><Check />{feature}</span>)}</div>{study.technology.length > 0 && <div className="case-tech"><small>Verified technology</small>{study.technology.map(item => <strong key={item}>{item}</strong>)}</div>}</div>
-      </div>
-    </section>
-    <section className="case-interface-section section">
-      <div className="shell"><div className="case-interface-heading"><div><p className="eyebrow dark">Real interface evidence</p><h2>Designed to work across the screens customers actually use.</h2></div><p>These captures come from the public client platform. They are not concept mockups or reconstructed dashboards.</p></div><ProjectGallery slug={study.slug} client={study.client} /></div>
-    </section>
-    <section className="case-value-cta">
-      <div className="shell"><div><p className="eyebrow">Business value</p><h2>{study.outcome}</h2><small>{study.source}. No unverified commercial or performance metrics are claimed.</small></div><div><Link href="/contact" className="button button-white">Discuss a similar project <ArrowUpRight /></Link><a href={study.url} target="_blank" rel="noreferrer">Visit the live project <ArrowUpRight /></a></div></div>
-    </section>
+    {mediaFirst ? <>{media}{story}</> : <>{story}{media}</>}
+    <section className="case-redesign-outcome"><div className="shell"><p className="corrective-kicker">What the work enables</p><h2>{study.outcome}</h2><p>{editorial.outcomeIntro}</p><div><Link href="/contact" className="button button-white">{editorial.cta} <ArrowUpRight /></Link><a href={study.url} target="_blank" rel="noreferrer">Visit the live website <ArrowUpRight /></a></div></div></section>
+    <section className="case-related"><div className="shell"><h2>Related work</h2><div>{related.map(item => <Link href={"/case-studies/" + item.slug} key={item.slug}><span>{item.industry}</span><strong>{item.client}</strong><ArrowUpRight /></Link>)}</div></div></section>
   </>;
 }
+

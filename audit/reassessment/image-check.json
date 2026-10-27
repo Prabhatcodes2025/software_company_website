@@ -1,0 +1,1134 @@
+[
+  {
+    "device": "desktop",
+    "route": "/",
+    "images": [
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 607,
+        "renderedHeight": 540
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=256&q=75",
+        "renderedWidth": 137,
+        "renderedHeight": 386
+      },
+      {
+        "alt": "Ongole Property",
+        "complete": true,
+        "naturalWidth": 150,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=256&q=75",
+        "renderedWidth": 51,
+        "renderedHeight": 51
+      },
+      {
+        "alt": "Naystrip",
+        "complete": true,
+        "naturalWidth": 105,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=256&q=75",
+        "renderedWidth": 51,
+        "renderedHeight": 51
+      },
+      {
+        "alt": "Mozno Wealth",
+        "complete": true,
+        "naturalWidth": 150,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=256&q=75",
+        "renderedWidth": 46,
+        "renderedHeight": 51
+      },
+      {
+        "alt": "Snow Feather Adventure",
+        "complete": true,
+        "naturalWidth": 150,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=256&q=75",
+        "renderedWidth": 51,
+        "renderedHeight": 51
+      },
+      {
+        "alt": "RS Constructions Company",
+        "complete": true,
+        "naturalWidth": 110,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=256&q=75",
+        "renderedWidth": 96,
+        "renderedHeight": 51
+      },
+      {
+        "alt": "Continental Mercantile Corporation",
+        "complete": true,
+        "naturalWidth": 150,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=256&q=75",
+        "renderedWidth": 51,
+        "renderedHeight": 51
+      },
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 647,
+        "renderedHeight": 434
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=256&q=75",
+        "renderedWidth": 143,
+        "renderedHeight": 308
+      },
+      {
+        "alt": "Naystrip public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 647,
+        "renderedHeight": 434
+      },
+      {
+        "alt": "Naystrip public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=256&q=75",
+        "renderedWidth": 143,
+        "renderedHeight": 308
+      },
+      {
+        "alt": "Mozno Wealth public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=1080&q=75",
+        "renderedWidth": 647,
+        "renderedHeight": 434
+      },
+      {
+        "alt": "Mozno Wealth public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=256&q=75",
+        "renderedWidth": 143,
+        "renderedHeight": 308
+      },
+      {
+        "alt": "Snow Feather Adventure public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=1080&q=75",
+        "renderedWidth": 647,
+        "renderedHeight": 434
+      },
+      {
+        "alt": "Snow Feather Adventure public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=256&q=75",
+        "renderedWidth": 143,
+        "renderedHeight": 308
+      }
+    ]
+  },
+  {
+    "device": "desktop",
+    "route": "/industries",
+    "images": [
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 1088,
+        "renderedHeight": 396
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=256&q=75",
+        "renderedWidth": 215,
+        "renderedHeight": 256
+      },
+      {
+        "alt": "Naystrip public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 1088,
+        "renderedHeight": 396
+      },
+      {
+        "alt": "Naystrip public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=256&q=75",
+        "renderedWidth": 215,
+        "renderedHeight": 256
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=1080&q=75",
+        "renderedWidth": 1088,
+        "renderedHeight": 396
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=256&q=75",
+        "renderedWidth": 215,
+        "renderedHeight": 256
+      },
+      {
+        "alt": "Mozno Wealth public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=1080&q=75",
+        "renderedWidth": 1088,
+        "renderedHeight": 396
+      },
+      {
+        "alt": "Mozno Wealth public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=256&q=75",
+        "renderedWidth": 215,
+        "renderedHeight": 256
+      },
+      {
+        "alt": "RS Constructions Company public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=1080&q=75",
+        "renderedWidth": 1088,
+        "renderedHeight": 396
+      },
+      {
+        "alt": "RS Constructions Company public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=256&q=75",
+        "renderedWidth": 215,
+        "renderedHeight": 256
+      },
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 1088,
+        "renderedHeight": 396
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=256&q=75",
+        "renderedWidth": 215,
+        "renderedHeight": 256
+      }
+    ]
+  },
+  {
+    "device": "desktop",
+    "route": "/case-studies",
+    "images": [
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 623,
+        "renderedHeight": 433
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=256&q=75",
+        "renderedWidth": 137,
+        "renderedHeight": 308
+      },
+      {
+        "alt": "Naystrip public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 460,
+        "renderedHeight": 430
+      },
+      {
+        "alt": "Naystrip public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=256&q=75",
+        "renderedWidth": 94,
+        "renderedHeight": 306
+      },
+      {
+        "alt": "Mozno Wealth public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=1080&q=75",
+        "renderedWidth": 623,
+        "renderedHeight": 433
+      },
+      {
+        "alt": "Mozno Wealth public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=256&q=75",
+        "renderedWidth": 137,
+        "renderedHeight": 308
+      },
+      {
+        "alt": "Snow Feather Adventure public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=1080&q=75",
+        "renderedWidth": 460,
+        "renderedHeight": 430
+      },
+      {
+        "alt": "Snow Feather Adventure public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=256&q=75",
+        "renderedWidth": 94,
+        "renderedHeight": 306
+      },
+      {
+        "alt": "RS Constructions Company public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=1080&q=75",
+        "renderedWidth": 623,
+        "renderedHeight": 433
+      },
+      {
+        "alt": "RS Constructions Company public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=256&q=75",
+        "renderedWidth": 137,
+        "renderedHeight": 308
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=1080&q=75",
+        "renderedWidth": 460,
+        "renderedHeight": 430
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=256&q=75",
+        "renderedWidth": 94,
+        "renderedHeight": 306
+      }
+    ]
+  },
+  {
+    "device": "desktop",
+    "route": "/case-studies/ongole-property",
+    "images": [
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 673,
+        "renderedHeight": 480
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=256&q=75",
+        "renderedWidth": 152,
+        "renderedHeight": 342
+      },
+      {
+        "alt": "Ongole Property desktop interface",
+        "complete": true,
+        "naturalWidth": 1036,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 950,
+        "renderedHeight": 594
+      },
+      {
+        "alt": "Ongole Property mobile interface",
+        "complete": true,
+        "naturalWidth": 309,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=384&q=75",
+        "renderedWidth": 266,
+        "renderedHeight": 576
+      }
+    ]
+  },
+  {
+    "device": "desktop",
+    "route": "/case-studies/naystrip",
+    "images": [
+      {
+        "alt": "Naystrip public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 673,
+        "renderedHeight": 480
+      },
+      {
+        "alt": "Naystrip public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=256&q=75",
+        "renderedWidth": 152,
+        "renderedHeight": 342
+      },
+      {
+        "alt": "Naystrip desktop interface",
+        "complete": true,
+        "naturalWidth": 1036,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=1080&q=75",
+        "renderedWidth": 950,
+        "renderedHeight": 594
+      },
+      {
+        "alt": "Naystrip mobile interface",
+        "complete": true,
+        "naturalWidth": 314,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=384&q=75",
+        "renderedWidth": 266,
+        "renderedHeight": 576
+      }
+    ]
+  },
+  {
+    "device": "desktop",
+    "route": "/case-studies/mozno-wealth",
+    "images": [
+      {
+        "alt": "Mozno Wealth public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=1080&q=75",
+        "renderedWidth": 673,
+        "renderedHeight": 480
+      },
+      {
+        "alt": "Mozno Wealth public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=256&q=75",
+        "renderedWidth": 152,
+        "renderedHeight": 342
+      },
+      {
+        "alt": "Mozno Wealth desktop interface",
+        "complete": true,
+        "naturalWidth": 1036,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=1080&q=75",
+        "renderedWidth": 950,
+        "renderedHeight": 594
+      },
+      {
+        "alt": "Mozno Wealth mobile interface",
+        "complete": true,
+        "naturalWidth": 309,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=384&q=75",
+        "renderedWidth": 266,
+        "renderedHeight": 576
+      }
+    ]
+  },
+  {
+    "device": "desktop",
+    "route": "/case-studies/snow-feather-adventure",
+    "images": [
+      {
+        "alt": "Snow Feather Adventure public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=1080&q=75",
+        "renderedWidth": 673,
+        "renderedHeight": 480
+      },
+      {
+        "alt": "Snow Feather Adventure public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=256&q=75",
+        "renderedWidth": 152,
+        "renderedHeight": 342
+      },
+      {
+        "alt": "Snow Feather Adventure desktop interface",
+        "complete": true,
+        "naturalWidth": 1036,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=1080&q=75",
+        "renderedWidth": 950,
+        "renderedHeight": 594
+      },
+      {
+        "alt": "Snow Feather Adventure mobile interface",
+        "complete": true,
+        "naturalWidth": 309,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=384&q=75",
+        "renderedWidth": 266,
+        "renderedHeight": 576
+      }
+    ]
+  },
+  {
+    "device": "desktop",
+    "route": "/case-studies/rs-constructions",
+    "images": [
+      {
+        "alt": "RS Constructions Company public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=1080&q=75",
+        "renderedWidth": 673,
+        "renderedHeight": 480
+      },
+      {
+        "alt": "RS Constructions Company public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=256&q=75",
+        "renderedWidth": 152,
+        "renderedHeight": 342
+      },
+      {
+        "alt": "RS Constructions Company desktop interface",
+        "complete": true,
+        "naturalWidth": 1036,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=1080&q=75",
+        "renderedWidth": 950,
+        "renderedHeight": 594
+      },
+      {
+        "alt": "RS Constructions Company mobile interface",
+        "complete": true,
+        "naturalWidth": 309,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=384&q=75",
+        "renderedWidth": 266,
+        "renderedHeight": 576
+      }
+    ]
+  },
+  {
+    "device": "desktop",
+    "route": "/case-studies/continental-mercantile",
+    "images": [
+      {
+        "alt": "Continental Mercantile Corporation public website on desktop",
+        "complete": true,
+        "naturalWidth": 864,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=1080&q=75",
+        "renderedWidth": 673,
+        "renderedHeight": 480
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on mobile",
+        "complete": true,
+        "naturalWidth": 201,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=256&q=75",
+        "renderedWidth": 152,
+        "renderedHeight": 342
+      },
+      {
+        "alt": "Continental Mercantile Corporation desktop interface",
+        "complete": true,
+        "naturalWidth": 1036,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=1080&q=75",
+        "renderedWidth": 950,
+        "renderedHeight": 594
+      },
+      {
+        "alt": "Continental Mercantile Corporation mobile interface",
+        "complete": true,
+        "naturalWidth": 309,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=384&q=75",
+        "renderedWidth": 266,
+        "renderedHeight": 576
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "route": "/",
+    "images": [
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 339
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=128&q=75",
+        "renderedWidth": 93,
+        "renderedHeight": 250
+      },
+      {
+        "alt": "Ongole Property",
+        "complete": true,
+        "naturalWidth": 150,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=256&q=75",
+        "renderedWidth": 43,
+        "renderedHeight": 43
+      },
+      {
+        "alt": "Naystrip",
+        "complete": true,
+        "naturalWidth": 105,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=256&q=75",
+        "renderedWidth": 43,
+        "renderedHeight": 43
+      },
+      {
+        "alt": "Mozno Wealth",
+        "complete": true,
+        "naturalWidth": 150,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=256&q=75",
+        "renderedWidth": 39,
+        "renderedHeight": 43
+      },
+      {
+        "alt": "Snow Feather Adventure",
+        "complete": true,
+        "naturalWidth": 150,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=256&q=75",
+        "renderedWidth": 43,
+        "renderedHeight": 43
+      },
+      {
+        "alt": "RS Constructions Company",
+        "complete": true,
+        "naturalWidth": 110,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=256&q=75",
+        "renderedWidth": 81,
+        "renderedHeight": 43
+      },
+      {
+        "alt": "Continental Mercantile Corporation",
+        "complete": true,
+        "naturalWidth": 150,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=256&q=75",
+        "renderedWidth": 43,
+        "renderedHeight": 43
+      },
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      },
+      {
+        "alt": "Naystrip public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "Naystrip public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      },
+      {
+        "alt": "Mozno Wealth public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "Mozno Wealth public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      },
+      {
+        "alt": "Snow Feather Adventure public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "Snow Feather Adventure public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "route": "/industries",
+    "images": [
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+        "renderedWidth": 312,
+        "renderedHeight": 277
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=128&q=75",
+        "renderedWidth": 50,
+        "renderedHeight": 180
+      },
+      {
+        "alt": "Naystrip public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=384&q=75",
+        "renderedWidth": 312,
+        "renderedHeight": 277
+      },
+      {
+        "alt": "Naystrip public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=128&q=75",
+        "renderedWidth": 50,
+        "renderedHeight": 180
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=384&q=75",
+        "renderedWidth": 312,
+        "renderedHeight": 277
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=128&q=75",
+        "renderedWidth": 50,
+        "renderedHeight": 180
+      },
+      {
+        "alt": "Mozno Wealth public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=384&q=75",
+        "renderedWidth": 312,
+        "renderedHeight": 277
+      },
+      {
+        "alt": "Mozno Wealth public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=128&q=75",
+        "renderedWidth": 50,
+        "renderedHeight": 180
+      },
+      {
+        "alt": "RS Constructions Company public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=384&q=75",
+        "renderedWidth": 312,
+        "renderedHeight": 277
+      },
+      {
+        "alt": "RS Constructions Company public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=128&q=75",
+        "renderedWidth": 50,
+        "renderedHeight": 180
+      },
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+        "renderedWidth": 312,
+        "renderedHeight": 277
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=128&q=75",
+        "renderedWidth": 50,
+        "renderedHeight": 180
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "route": "/case-studies",
+    "images": [
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      },
+      {
+        "alt": "Naystrip public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "Naystrip public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      },
+      {
+        "alt": "Mozno Wealth public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "Mozno Wealth public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      },
+      {
+        "alt": "Snow Feather Adventure public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "Snow Feather Adventure public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      },
+      {
+        "alt": "RS Constructions Company public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "RS Constructions Company public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 293
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=128&q=75",
+        "renderedWidth": 92,
+        "renderedHeight": 215
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "route": "/case-studies/ongole-property",
+    "images": [
+      {
+        "alt": "Ongole Property public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 262
+      },
+      {
+        "alt": "Ongole Property public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=128&q=75",
+        "renderedWidth": 90,
+        "renderedHeight": 192
+      },
+      {
+        "alt": "Ongole Property desktop interface",
+        "complete": true,
+        "naturalWidth": 366,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=640&q=75",
+        "renderedWidth": 358,
+        "renderedHeight": 224
+      },
+      {
+        "alt": "Ongole Property mobile interface",
+        "complete": true,
+        "naturalWidth": 274,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=384&q=75",
+        "renderedWidth": 279,
+        "renderedHeight": 604
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "route": "/case-studies/naystrip",
+    "images": [
+      {
+        "alt": "Naystrip public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 262
+      },
+      {
+        "alt": "Naystrip public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=128&q=75",
+        "renderedWidth": 90,
+        "renderedHeight": 192
+      },
+      {
+        "alt": "Naystrip desktop interface",
+        "complete": true,
+        "naturalWidth": 366,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=640&q=75",
+        "renderedWidth": 358,
+        "renderedHeight": 224
+      },
+      {
+        "alt": "Naystrip mobile interface",
+        "complete": true,
+        "naturalWidth": 278,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=384&q=75",
+        "renderedWidth": 279,
+        "renderedHeight": 604
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "route": "/case-studies/mozno-wealth",
+    "images": [
+      {
+        "alt": "Mozno Wealth public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 262
+      },
+      {
+        "alt": "Mozno Wealth public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=128&q=75",
+        "renderedWidth": 90,
+        "renderedHeight": 192
+      },
+      {
+        "alt": "Mozno Wealth desktop interface",
+        "complete": true,
+        "naturalWidth": 366,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=640&q=75",
+        "renderedWidth": 358,
+        "renderedHeight": 224
+      },
+      {
+        "alt": "Mozno Wealth mobile interface",
+        "complete": true,
+        "naturalWidth": 274,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=384&q=75",
+        "renderedWidth": 279,
+        "renderedHeight": 604
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "route": "/case-studies/snow-feather-adventure",
+    "images": [
+      {
+        "alt": "Snow Feather Adventure public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 262
+      },
+      {
+        "alt": "Snow Feather Adventure public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=128&q=75",
+        "renderedWidth": 90,
+        "renderedHeight": 192
+      },
+      {
+        "alt": "Snow Feather Adventure desktop interface",
+        "complete": true,
+        "naturalWidth": 366,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=640&q=75",
+        "renderedWidth": 358,
+        "renderedHeight": 224
+      },
+      {
+        "alt": "Snow Feather Adventure mobile interface",
+        "complete": true,
+        "naturalWidth": 274,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=384&q=75",
+        "renderedWidth": 279,
+        "renderedHeight": 604
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "route": "/case-studies/rs-constructions",
+    "images": [
+      {
+        "alt": "RS Constructions Company public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 262
+      },
+      {
+        "alt": "RS Constructions Company public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=128&q=75",
+        "renderedWidth": 90,
+        "renderedHeight": 192
+      },
+      {
+        "alt": "RS Constructions Company desktop interface",
+        "complete": true,
+        "naturalWidth": 366,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=640&q=75",
+        "renderedWidth": 358,
+        "renderedHeight": 224
+      },
+      {
+        "alt": "RS Constructions Company mobile interface",
+        "complete": true,
+        "naturalWidth": 274,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=384&q=75",
+        "renderedWidth": 279,
+        "renderedHeight": 604
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "route": "/case-studies/continental-mercantile",
+    "images": [
+      {
+        "alt": "Continental Mercantile Corporation public website on desktop",
+        "complete": true,
+        "naturalWidth": 358,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=384&q=75",
+        "renderedWidth": 326,
+        "renderedHeight": 262
+      },
+      {
+        "alt": "Continental Mercantile Corporation public website on mobile",
+        "complete": true,
+        "naturalWidth": 116,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=128&q=75",
+        "renderedWidth": 90,
+        "renderedHeight": 192
+      },
+      {
+        "alt": "Continental Mercantile Corporation desktop interface",
+        "complete": true,
+        "naturalWidth": 366,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=640&q=75",
+        "renderedWidth": 358,
+        "renderedHeight": 224
+      },
+      {
+        "alt": "Continental Mercantile Corporation mobile interface",
+        "complete": true,
+        "naturalWidth": 274,
+        "currentSrc": "http://localhost:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=384&q=75",
+        "renderedWidth": 279,
+        "renderedHeight": 604
+      }
+    ]
+  }
+]

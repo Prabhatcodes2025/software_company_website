@@ -1,0 +1,36 @@
+[
+  {
+    "name": "infograins",
+    "url": "https://infograins.com/",
+    "status": 200,
+    "title": "Software Development Company | Custom Software Solutions – Infograins",
+    "h1": []
+  },
+  {
+    "name": "thoughtworks",
+    "url": "https://www.thoughtworks.com/",
+    "status": 200,
+    "title": "Thoughtworks: A leading technology consultancy | Thoughtworks",
+    "h1": [
+      "\n                         \n \nWe don’t just do AI\nWe do AI that works\n \n \n \n \n\n                    "
+    ]
+  },
+  {
+    "name": "netguru",
+    "url": "https://www.netguru.com/",
+    "status": 200,
+    "title": "Software Development Company | Netguru",
+    "h1": [
+      "AI-native commerce"
+    ]
+  },
+  {
+    "name": "epam",
+    "url": "https://www.epam.com/",
+    "status": 403,
+    "title": "Just a moment...",
+    "h1": [
+      "www.epam.com"
+    ]
+  }
+]

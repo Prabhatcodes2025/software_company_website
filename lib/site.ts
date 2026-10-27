@@ -4,7 +4,7 @@ export const company = {
   name: "LetsFygure",
   shortName: "LetsFygure",
   tagline: "Technology , Figured Out",
-  url: "https://clickmyze-three.vercel.app",
+  url: "https://letsfygure.com",
   phone: "+91 78692 51729",
   email: "info@letsfygure.com",
   address: "124, Ashoka Garden, Bhopal, India",

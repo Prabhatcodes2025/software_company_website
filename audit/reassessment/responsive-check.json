@@ -1,0 +1,162 @@
+[
+  {
+    "width": 320,
+    "route": "/",
+    "overflow": false,
+    "h1Size": "45.6px",
+    "minBodyFont": 16,
+    "pageHeight": 12901
+  },
+  {
+    "width": 320,
+    "route": "/services/web-development",
+    "overflow": false,
+    "h1Size": "40.8px",
+    "minBodyFont": 16,
+    "pageHeight": 9014
+  },
+  {
+    "width": 320,
+    "route": "/industries",
+    "overflow": false,
+    "h1Size": "40.8px",
+    "minBodyFont": 16,
+    "pageHeight": 16364
+  },
+  {
+    "width": 320,
+    "route": "/case-studies/ongole-property",
+    "overflow": false,
+    "h1Size": "48px",
+    "minBodyFont": 16,
+    "pageHeight": 5518
+  },
+  {
+    "width": 320,
+    "route": "/contact",
+    "overflow": false,
+    "h1Size": "44.8px",
+    "minBodyFont": 16,
+    "pageHeight": 3638
+  },
+  {
+    "width": 360,
+    "route": "/",
+    "overflow": false,
+    "h1Size": "45.6px",
+    "minBodyFont": 16,
+    "pageHeight": 12232
+  },
+  {
+    "width": 360,
+    "route": "/services/web-development",
+    "overflow": false,
+    "h1Size": "43.2px",
+    "minBodyFont": 16,
+    "pageHeight": 8966
+  },
+  {
+    "width": 360,
+    "route": "/industries",
+    "overflow": false,
+    "h1Size": "43.2px",
+    "minBodyFont": 16,
+    "pageHeight": 15865
+  },
+  {
+    "width": 360,
+    "route": "/case-studies/ongole-property",
+    "overflow": false,
+    "h1Size": "48px",
+    "minBodyFont": 16,
+    "pageHeight": 5397
+  },
+  {
+    "width": 360,
+    "route": "/contact",
+    "overflow": false,
+    "h1Size": "46.8px",
+    "minBodyFont": 16,
+    "pageHeight": 3565
+  },
+  {
+    "width": 390,
+    "route": "/",
+    "overflow": false,
+    "h1Size": "54.6px",
+    "minBodyFont": 16,
+    "pageHeight": 12131
+  },
+  {
+    "width": 390,
+    "route": "/services/web-development",
+    "overflow": false,
+    "h1Size": "46.8px",
+    "minBodyFont": 16,
+    "pageHeight": 8993
+  },
+  {
+    "width": 390,
+    "route": "/industries",
+    "overflow": false,
+    "h1Size": "46.8px",
+    "minBodyFont": 16,
+    "pageHeight": 15680
+  },
+  {
+    "width": 390,
+    "route": "/case-studies/ongole-property",
+    "overflow": false,
+    "h1Size": "48px",
+    "minBodyFont": 16,
+    "pageHeight": 5484
+  },
+  {
+    "width": 390,
+    "route": "/contact",
+    "overflow": false,
+    "h1Size": "50.7px",
+    "minBodyFont": 16,
+    "pageHeight": 3560
+  },
+  {
+    "width": 430,
+    "route": "/",
+    "overflow": false,
+    "h1Size": "60.2px",
+    "minBodyFont": 16,
+    "pageHeight": 11866
+  },
+  {
+    "width": 430,
+    "route": "/services/web-development",
+    "overflow": false,
+    "h1Size": "51.6px",
+    "minBodyFont": 16,
+    "pageHeight": 8882
+  },
+  {
+    "width": 430,
+    "route": "/industries",
+    "overflow": false,
+    "h1Size": "51.6px",
+    "minBodyFont": 16,
+    "pageHeight": 15302
+  },
+  {
+    "width": 430,
+    "route": "/case-studies/ongole-property",
+    "overflow": false,
+    "h1Size": "48px",
+    "minBodyFont": 16,
+    "pageHeight": 5460
+  },
+  {
+    "width": 430,
+    "route": "/contact",
+    "overflow": false,
+    "h1Size": "55.9px",
+    "minBodyFont": 16,
+    "pageHeight": 3575
+  }
+]

@@ -1,6 +1,6 @@
 import { createHmac } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
-import { services } from "@/lib/site";
+import { company, services } from "@/lib/site";
 
 type ContactPayload = {
   submissionId?: string; fullName?: string; email?: string; company?: string; country?: string;
@@ -15,16 +15,30 @@ function clean(value: unknown, max: number) { return typeof value === "string" ?
 function escapeHtml(value: string) { return value.replace(/[&<>'"]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]!)); }
 function jsonError(message: string, status: number, code: string) { return NextResponse.json({ ok: false, message, code }, { status }); }
 
+function isAllowedOrigin(origin: string, requestHost: string) {
+  let originUrl: URL;
+  try { originUrl = new URL(origin); } catch { return false; }
+  if (originUrl.origin !== origin || originUrl.host !== requestHost) return false;
+  const configuredOrigins = (process.env.CONTACT_ALLOWED_ORIGINS ?? "").split(",").map(value => value.trim()).filter(Boolean);
+  const allowedOrigins = [company.url, "https://www.letsfygure.com", ...configuredOrigins];
+  if (allowedOrigins.includes(origin)) return true;
+  if (process.env.NODE_ENV !== "production") {
+    return originUrl.protocol === "http:" && ["localhost", "127.0.0.1"].includes(originUrl.hostname);
+  }
+  return false;
+}
+
 export async function POST(request: NextRequest) {
+  const origin = request.headers.get("origin");
+  const fetchSite = request.headers.get("sec-fetch-site");
+  if (!origin || !isAllowedOrigin(origin, request.headers.get("host") ?? request.nextUrl.host) || (fetchSite && fetchSite !== "same-origin" && fetchSite !== "none")) return jsonError("This request origin is not allowed.", 403, "origin_rejected");
+
   const supabaseUrl = process.env.SUPABASE_URL;
   const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
   const resendKey = process.env.RESEND_API_KEY;
   const notificationEmail = process.env.LEAD_NOTIFICATION_EMAIL;
   const rateSecret = process.env.CONTACT_RATE_LIMIT_SECRET;
   if (!supabaseUrl || !supabaseKey || !resendKey || !notificationEmail || !rateSecret) return jsonError("Secure enquiry handling is not configured yet. Please use email or WhatsApp.", 503, "configuration_required");
-
-  const origin = request.headers.get("origin");
-  if (origin && origin !== request.nextUrl.origin) return jsonError("This request origin is not allowed.", 403, "origin_rejected");
 
   let body: ContactPayload;
   try { body = await request.json() as ContactPayload; } catch { return jsonError("The request could not be read.", 400, "invalid_json"); }

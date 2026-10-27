@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { CaseStudyHero } from "@/components/CaseStudyHero";
 import { CaseStudyEvidence } from "@/components/CaseStudyEvidence";
 import { caseStudies, company } from "@/lib/site";
+import { socialMetadata } from "@/lib/social-metadata";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -16,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${study.client} Case Study`,
     description: `${study.title}: ${study.solution}`,
     alternates: { canonical: `/case-studies/${study.slug}` },
-    openGraph: { title: `${study.title} | LetsFygure`, description: study.challenge, url: `${company.url}/case-studies/${study.slug}` },
+    ...socialMetadata(study.title, study.challenge, `/case-studies/${study.slug}`),
   };
 }
 
@@ -27,9 +28,9 @@ export default async function CaseStudyPage({ params }: Props) {
   const study = caseStudies[index];
   const schema = { "@context": "https://schema.org", "@type": "CreativeWork", name: study.title, about: study.industry, creator: { "@type": "Organization", name: company.name }, url: `${company.url}/case-studies/${study.slug}` };
 
-  return <>
+  return <div className={`case-redesign-${index + 1}`}>
     <CaseStudyHero study={study} index={index} />
     <CaseStudyEvidence study={study} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-  </>;
+  </div>;
 }

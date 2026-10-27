@@ -26,7 +26,7 @@ Axe reported zero confirmed violations across 13 page/menu states. Desktop Servi
 
 ## Remaining checks and launch blockers
 
-- Confirm the production hostname with the owner and update `company.url` in `lib/site.ts`. It currently points to `https://clickmyze-three.vercel.app` and is used for canonicals, Open Graph, structured data, robots, and sitemap. Lighthouse's SEO score does not validate ownership of that hostname.
+- The owner confirmed `https://letsfygure.com` as the primary production hostname on 26 October 2026. Domain routing and DNS still require the manual steps in `DOMAIN_SETUP.md`. Lighthouse's SEO score does not validate domain ownership or live DNS.
 - Configure `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `RESEND_API_KEY`, `LEAD_NOTIFICATION_EMAIL`, and `CONTACT_RATE_LIMIT_SECRET` in the deployment environment. Apply `supabase/contact_enquiries.sql` in the approved Supabase project. Verify the `letsfygure.com` sending domain and the `enquiries@letsfygure.com` sender with Resend. The contact API returns 503 until the variables exist; a real persistence and notification test remains untested.
 - A local `POST /api/contact` with an empty JSON body returned HTTP 503 and `configuration_required`, confirming the current fail-closed behavior.
 - Approve the enquiry data retention period and final privacy/legal content before accepting live submissions.

@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "audit:axe": "node scripts/prelaunch-axe.mjs",
-    "audit:lighthouse": "node scripts/prelaunch-lighthouse.mjs"
+    "audit:lighthouse": "node scripts/prelaunch-lighthouse.mjs",
+    "audit:metadata": "node scripts/check-production-metadata.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

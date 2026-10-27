@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { ArrowUpRight, Check } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { company } from "@/lib/site";
+import { withSocial } from "@/lib/social-metadata";
 
-export const metadata: Metadata = { title: "Careers", description: "Careers and future collaboration opportunities at LetsFygure.", alternates: { canonical: "/career" } };
+export const metadata: Metadata = withSocial({ title: "Careers", description: "Careers and future collaboration opportunities at LetsFygure.", alternates: { canonical: "/career" } });
 
 const qualities = [
   ["Outcome ownership", "Understand why the work matters and follow decisions through to the finished experience."],

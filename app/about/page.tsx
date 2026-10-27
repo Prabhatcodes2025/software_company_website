@@ -4,8 +4,9 @@ import { ArrowRight, Check, ExternalLink } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { EngineeringStack } from "@/components/ProductVisuals";
 import { company, companyStats, process } from "@/lib/site";
+import { withSocial } from "@/lib/social-metadata";
 
-export const metadata: Metadata = { title: "About LetsFygure", description: "Meet LetsFygure, an engineering-led digital product company combining strategy, product design, software development and accountable automation.", alternates: { canonical: "/about" } };
+export const metadata: Metadata = withSocial({ title: "About LetsFygure", description: "Meet LetsFygure, an engineering-led digital product company combining strategy, product design, software development and accountable automation.", alternates: { canonical: "/about" } });
 
 const principles = [
   ["Understand the work", "We map the customer, operating workflow and decision before selecting the interface or stack."],

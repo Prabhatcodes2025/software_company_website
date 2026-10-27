@@ -1,14 +1,15 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
-import { ProjectMedia } from "@/components/ProjectMedia";
+import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ProjectDesktop } from "@/components/ProjectMedia";
+import { caseEditorial } from "@/lib/case-editorial";
 
-type Study = {
-  slug: string; client: string; title: string; industry: string; challenge: string; services: string[];
-};
+type Study = { slug: string; client: string; title: string; industry: string; url: string };
 
 export function CaseStudyHero({ study, index }: { study: Study; index: number }) {
-  return <section className={`case-hero editorial-case-hero case-hero-${index + 1} section-dark`}><div className="shell case-hero-layout">
-    <div className="case-hero-copy"><p className="eyebrow"><span />CASE {String(index + 1).padStart(2, "0")} · {study.industry}</p><p className="case-client">{study.client}</p><h1>{study.title}</h1><p>{study.challenge}</p><div className="case-hero-actions"><Link className="button" href="/contact">Discuss a similar project <ArrowRight /></Link><Link className="button button-secondary" href="/case-studies">All work</Link></div></div>
-    <ProjectMedia slug={study.slug} client={study.client} priority />
+  const editorial = caseEditorial[study.slug];
+  return <section className={"case-redesign-hero case-redesign-" + (index + 1)}><div className="shell case-redesign-hero-grid">
+    <div><p className="corrective-kicker">Case {String(index + 1).padStart(2, "0")} · {study.industry}</p><h1>{study.client}</h1><p className="case-project-type">{study.title}</p><p className="case-hero-opening">{editorial.opening}</p><div className="case-hero-links"><a href={study.url} target="_blank" rel="noreferrer">Visit the live website <ArrowUpRight /></a><Link href="/case-studies">All case studies <ArrowRight /></Link></div></div>
+    <div className="case-hero-image"><ProjectDesktop slug={study.slug} client={study.client} priority /><p>Authentic public website capture · desktop</p></div>
   </div></section>;
 }
+

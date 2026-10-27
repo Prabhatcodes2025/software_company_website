@@ -42,7 +42,7 @@ Updated: 23 October 2026
 - Transactional email provider/server credential.
 - Data-retention period and final legal review.
 - Resend verification for `letsfygure.com` and approval of `enquiries@letsfygure.com` as the sender.
-- Final production-domain confirmation if it differs from `https://www.letsfygure.com`.
+- Production domain confirmed on 26 October 2026: `https://letsfygure.com` primary; `https://www.letsfygure.com` redirects to it. DNS and Vercel domain settings are still pending.
 
 ## Expected environment variable names for Option C
 

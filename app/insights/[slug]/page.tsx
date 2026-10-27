@@ -4,10 +4,11 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Clock3 } from "lucide-react";
 import { insightArticles } from "@/lib/content";
 import { company } from "@/lib/site";
+import { socialMetadata } from "@/lib/social-metadata";
 
 type Props = { params: Promise<{ slug: string }> };
 export function generateStaticParams() { return insightArticles.map(({ slug }) => ({ slug })); }
-export async function generateMetadata({ params }: Props): Promise<Metadata> { const { slug } = await params; const article = insightArticles.find(item => item.slug === slug); if (!article) return {}; return { title: article.title, description: article.summary, alternates: { canonical: `/insights/${slug}` }, openGraph: { title: `${article.title} | LetsFygure`, description: article.summary, url: `${company.url}/insights/${slug}`, type: "article" } }; }
+export async function generateMetadata({ params }: Props): Promise<Metadata> { const { slug } = await params; const article = insightArticles.find(item => item.slug === slug); if (!article) return {}; const social = socialMetadata(article.title, article.summary, `/insights/${slug}`); return { title: article.title, description: article.summary, alternates: { canonical: `/insights/${slug}` }, ...social, openGraph: { ...social.openGraph, type: "article" } }; }
 
 export default async function InsightPage({ params }: Props) {
   const { slug } = await params;

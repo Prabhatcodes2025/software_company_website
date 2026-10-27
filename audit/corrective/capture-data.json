@@ -1,0 +1,478 @@
+[
+  {
+    "route": "/",
+    "device": "desktop",
+    "status": 200,
+    "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+    "h1": "Websites, software, mobile and AI. Engineered together.",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=256&q=75",
+        "loaded": true,
+        "width": 51
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=256&q=75",
+        "loaded": true,
+        "width": 51
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=256&q=75",
+        "loaded": true,
+        "width": 46
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=256&q=75",
+        "loaded": true,
+        "width": 51
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=256&q=75",
+        "loaded": true,
+        "width": 96
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=256&q=75",
+        "loaded": true,
+        "width": 51
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+        "loaded": true,
+        "width": 659
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=256&q=75",
+        "loaded": true,
+        "width": 144
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=1080&q=75",
+        "loaded": true,
+        "width": 659
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=256&q=75",
+        "loaded": true,
+        "width": 144
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 40
+      }
+    ]
+  },
+  {
+    "route": "/services/web-development",
+    "device": "desktop",
+    "status": 200,
+    "title": "Web Development | LetsFygure",
+    "h1": "A website should make the next step obvious.",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 40
+      }
+    ]
+  },
+  {
+    "route": "/services/mobile-app-development",
+    "device": "desktop",
+    "status": 200,
+    "title": "Mobile App Development | LetsFygure",
+    "h1": "Build the app around the task people return to.",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 40
+      }
+    ]
+  },
+  {
+    "route": "/services/ai-development",
+    "device": "desktop",
+    "status": 200,
+    "title": "AI Development | LetsFygure",
+    "h1": "Useful AI starts with a bounded task.",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 40
+      }
+    ]
+  },
+  {
+    "route": "/industries",
+    "device": "desktop",
+    "status": 200,
+    "title": "Industries & Digital Product Experience | LetsFygure",
+    "h1": "Start with how your market works.",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 40
+      }
+    ]
+  },
+  {
+    "route": "/case-studies/ongole-property",
+    "device": "desktop",
+    "status": 200,
+    "title": "Ongole Property Case Study | LetsFygure",
+    "h1": "Ongole Property",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+        "loaded": true,
+        "width": 687
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=640&q=75",
+        "loaded": true,
+        "width": 302
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 40
+      }
+    ]
+  },
+  {
+    "route": "/case-studies/continental-mercantile",
+    "device": "desktop",
+    "status": 200,
+    "title": "Continental Mercantile Corporation Case Study | LetsFygure",
+    "h1": "Continental Mercantile Corporation",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=1080&q=75",
+        "loaded": true,
+        "width": 687
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=640&q=75",
+        "loaded": true,
+        "width": 302
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 40
+      }
+    ]
+  },
+  {
+    "route": "/contact",
+    "device": "desktop",
+    "status": 200,
+    "title": "Contact LetsFygure | LetsFygure",
+    "h1": "Let’s figure out what to build next.",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 40
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "device": "mobile",
+    "status": 200,
+    "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+    "h1": "Websites, software, mobile and AI. Engineered together.",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=256&q=75",
+        "loaded": true,
+        "width": 43
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=256&q=75",
+        "loaded": true,
+        "width": 43
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=256&q=75",
+        "loaded": true,
+        "width": 39
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=256&q=75",
+        "loaded": true,
+        "width": 43
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=256&q=75",
+        "loaded": true,
+        "width": 81
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=256&q=75",
+        "loaded": true,
+        "width": 43
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+        "loaded": true,
+        "width": 326
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=128&q=75",
+        "loaded": true,
+        "width": 91
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=384&q=75",
+        "loaded": true,
+        "width": 326
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=128&q=75",
+        "loaded": true,
+        "width": 91
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "route": "/services/web-development",
+    "device": "mobile",
+    "status": 200,
+    "title": "Web Development | LetsFygure",
+    "h1": "A website should make the next step obvious.",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "route": "/services/mobile-app-development",
+    "device": "mobile",
+    "status": 200,
+    "title": "Mobile App Development | LetsFygure",
+    "h1": "Build the app around the task people return to.",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "route": "/services/ai-development",
+    "device": "mobile",
+    "status": 200,
+    "title": "AI Development | LetsFygure",
+    "h1": "Useful AI starts with a bounded task.",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "route": "/industries",
+    "device": "mobile",
+    "status": 200,
+    "title": "Industries & Digital Product Experience | LetsFygure",
+    "h1": "Start with how your market works.",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "route": "/case-studies/ongole-property",
+    "device": "mobile",
+    "status": 200,
+    "title": "Ongole Property Case Study | LetsFygure",
+    "h1": "Ongole Property",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+        "loaded": true,
+        "width": 356
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=384&q=75",
+        "loaded": true,
+        "width": 302
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "route": "/case-studies/continental-mercantile",
+    "device": "mobile",
+    "status": 200,
+    "title": "Continental Mercantile Corporation Case Study | LetsFygure",
+    "h1": "Continental Mercantile Corporation",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=384&q=75",
+        "loaded": true,
+        "width": 356
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=384&q=75",
+        "loaded": true,
+        "width": 302
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 34
+      }
+    ]
+  },
+  {
+    "route": "/contact",
+    "device": "mobile",
+    "status": 200,
+    "title": "Contact LetsFygure | LetsFygure",
+    "h1": "Let’s figure out what to build next.",
+    "width": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 41
+      },
+      {
+        "src": "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fletsfygure-logo.png&w=96&q=75",
+        "loaded": true,
+        "width": 34
+      }
+    ]
+  }
+]

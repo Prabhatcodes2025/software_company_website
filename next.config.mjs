@@ -11,6 +11,14 @@ const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"]
   },
+  async redirects() {
+    return [{
+      source: "/:path*",
+      has: [{ type: "host", value: "www.letsfygure.com" }],
+      destination: "https://letsfygure.com/:path*",
+      permanent: true,
+    }];
+  },
   async headers() {
     return [{
       source: "/:path*",

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Manrope } from "next/font/google";
+import localFont from "next/font/local";
 import { EditorialHeader } from "@/components/EditorialHeader";
 import { EditorialFooter } from "@/components/EditorialFooter";
 import { FloatingWidgets } from "@/components/FloatingWidgets";
@@ -7,8 +7,11 @@ import { company } from "@/lib/site";
 import "./globals.css";
 import "./editorial.css";
 import "./details.css";
+import "./corrective.css";
+import "./service-corrective.css";
+import "./case-corrective.css";
 
-const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope", display: "swap" });
+const manrope = localFont({ src: "./fonts/Manrope-Latin.woff2", variable: "--font-manrope", weight: "200 800", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(company.url),

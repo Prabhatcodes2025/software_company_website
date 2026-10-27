@@ -2,20 +2,31 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
-import { ProjectMedia } from "@/components/ProjectMedia";
 import { industryProfiles } from "@/lib/content";
 import { caseStudies } from "@/lib/site";
+import { withSocial } from "@/lib/social-metadata";
 
-export const metadata: Metadata = { title: "Industries", description: "Digital product systems for real estate, travel, recruitment, finance, construction, commerce, SaaS and enterprise operations.", alternates: { canonical: "/industries" } };
+export const metadata: Metadata = withSocial({
+  title: "Industries & Digital Product Experience",
+  description: "Explore how LetsFygure approaches software, websites and digital workflows for property, travel, recruitment, finance, construction, commerce and operations.",
+  alternates: { canonical: "/industries" },
+});
+const findCase = (slug: string) => caseStudies.find(study => study.slug === slug);
+const spotlightCopy = [
+  "Visitors need to compare listings and enquire. Owners and operators need to publish, review and route the work that follows.",
+  "Travellers compare destinations and itineraries, while the team manages enquiries and partner requests behind the scenes.",
+  "Candidates need a clear application path. Employers need to understand services and submit requirements without following the same journey.",
+];
 
 export default function IndustriesPage() {
+  const spotlights = industryProfiles.slice(0, 3);
+  const otherMarkets = industryProfiles.slice(3);
   return <>
-    <PageHero eyebrow="Industry systems" title="Market context changes the product architecture." text="We connect customer expectations, operating workflows and technical constraints instead of repeating the same solution across industries." />
-    <section className="section section-light"><div className="shell industry-navigator"><p>Jump to a market</p><nav aria-label="Industry sections">{industryProfiles.map(item => <a href={`#${item.slug}`} key={item.slug}>{item.number} {item.title}</a>)}</nav></div></section>
-    <div className="industry-stories">{industryProfiles.map((profile, index) => {
-      const projects = profile.caseSlugs.map(slug => caseStudies.find(study => study.slug === slug)).filter((item): item is (typeof caseStudies)[number] => Boolean(item));
-      return <section className={index % 2 === 0 ? "section section-paper" : "section section-light"} id={profile.slug} key={profile.slug}><div className="shell industry-story"><div className="industry-story-title"><span>{profile.number}</span><p className="eyebrow dark">{profile.title}</p><h2>{profile.thesis}</h2></div><div className="industry-system"><h3>Product system</h3><ol>{profile.flow.map((step, stepIndex) => <li key={step}><span>{String(stepIndex + 1).padStart(2, "0")}</span><strong>{step}</strong>{stepIndex < profile.flow.length - 1 && <i aria-hidden />}</li>)}</ol></div><div className="industry-solutions"><h3>Relevant capabilities</h3>{profile.solutions.map(item => <p key={item}>{item}</p>)}</div><div className="industry-proof"><h3>{projects.length ? "Related real work" : "Evidence boundary"}</h3>{projects.length > 0 && <ProjectMedia slug={projects[0].slug} client={projects[0].client} compact />}{projects.length ? projects.map(project => <Link href={`/case-studies/${project.slug}`} key={project.slug}><span>{project.client}</span><strong>{project.title}</strong><ArrowUpRight /></Link>) : <p>No client project is currently published for this market. The capabilities above describe offered work, not a fabricated case study.</p>}</div></div></section>;
-    })}</div>
+    <PageHero eyebrow="Industries" title="Start with how your market works." text="A property marketplace, travel platform and recruitment service do not share the same users or decisions. We shape the product around that context." />
+    <section className="industry-redesign-nav"><div className="shell"><p>Explore a market</p><nav aria-label="Industry sections">{industryProfiles.map(item => <a href={"#" + item.slug} key={item.slug}>{item.title}</a>)}</nav></div></section>
+    <div className="industry-spotlights">{spotlights.map((profile, index) => <section className={"industry-spotlight industry-spotlight-" + (index + 1)} id={profile.slug} key={profile.slug}><div className="shell industry-spotlight-grid"><div><p className="corrective-kicker">{profile.number} / {profile.title}</p><h2>{profile.thesis}</h2><p>{spotlightCopy[index]}</p></div><div><h3>What the product needs to support</h3><ul>{profile.solutions.map(item => <li key={item}>{item}</li>)}</ul>{profile.caseSlugs.map(slug => { const study = findCase(slug); return study ? <Link href={"/case-studies/" + slug} key={slug}><span>Related public work</span><strong>{study.client}</strong><ArrowUpRight /></Link> : null; })}</div></div></section>)}</div>
+    <section className="section industry-other-markets"><div className="shell"><div className="corrective-section-head"><p className="corrective-kicker">More operating contexts</p><div><h2>Match the system to the decision.</h2><p>These are capabilities and working contexts. A named project appears only where we have genuine published work.</p></div></div><div className="industry-market-grid">{otherMarkets.map(profile => <article id={profile.slug} key={profile.slug}><span>{profile.number} / {profile.title}</span><h3>{profile.thesis}</h3><p>{profile.solutions.slice(0, 2).join(" · ")}</p>{profile.caseSlugs.length > 0 ? profile.caseSlugs.map(slug => { const study = findCase(slug); return study ? <Link href={"/case-studies/" + slug} key={slug}>See {study.client} <ArrowUpRight /></Link> : null; }) : <small>Offered capability · no published client case for this market</small>}</article>)}</div></div></section>
     <section className="section section-dark compact-cta"><div className="shell"><div><p className="eyebrow">Your operating context</p><h2>Show us where the customer journey and the workflow disconnect.</h2></div><Link className="button" href="/contact">Discuss Your Project <ArrowRight /></Link></div></section>
   </>;
 }
+
