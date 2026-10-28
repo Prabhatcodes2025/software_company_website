@@ -62,8 +62,7 @@ export function EditorialHeader() {
   return <header ref={headerRef} className={`site-header editorial-header${scrolled ? " is-scrolled" : ""}`}>
     <div className="shell header-inner">
       <Link href="/" className="brand" aria-label="LetsFygure home">
-        <Image src="/images/letsfygure-logo.png" alt="" width={80} height={80} priority className="brand-mark" />
-        <strong>LetsFygure</strong>
+        <Image src="/images/letsfygure-official.png" alt="" width={2113} height={744} priority className="official-wordmark" />
       </Link>
       <nav className="desktop-nav" aria-label="Primary navigation">
         <div className="nav-mega" {...menuProps("services")}><button className={pathname.startsWith("/services") ? "active" : ""} aria-expanded={activeMenu === "services"} aria-controls="mega-services" onClick={() => toggleMenu("services")}>Services <ChevronDown /></button></div>

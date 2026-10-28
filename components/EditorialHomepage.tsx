@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { ClientLogoStrip, ProjectMedia } from "@/components/ProjectMedia";
 import { EngineeringHeroVisual } from "@/components/EngineeringHeroVisual";
+import { QuoteTrigger } from "@/components/QuoteLauncher";
 import { caseStudies, company, industries, services } from "@/lib/site";
 
 const leadSlugs = ["web-development", "custom-software-development", "mobile-app-development", "ai-development", "ai-automation"];
@@ -21,19 +22,23 @@ export function EditorialHomepage() {
       <EngineeringHeroVisual />
     </div></section>
 
-    <section className="client-proof corrective-client-proof"><div className="shell"><p>Selected clients</p><ClientLogoStrip /></div></section>
-
     <section className="section corrective-services"><div className="shell"><div className="corrective-section-head"><p className="corrective-kicker">What we build</p><div><h2>One partner for the interface and the work behind it.</h2><p>Start with one need or bring us a connected programme. Design, engineering and delivery stay in the same conversation.</p></div></div><div className="corrective-service-spine">{leadSlugs.map((slug, index) => { const service = getService(slug); return <Link key={slug} href={"/services/" + slug}><span>0{index + 1}</span><strong>{service.title}</strong><p>{service.short}</p><ArrowUpRight /></Link>; })}</div><div className="corrective-more-services"><span>Also in the practice</span><div>{extraSlugs.map(slug => { const service = getService(slug); return <Link key={slug} href={"/services/" + slug}>{service.title} <ArrowUpRight /></Link>; })}</div></div><Link className="homepage-deep-link" href="/services">Compare all ten services <ArrowUpRight /></Link></div></section>
 
     <section className="section corrective-solutions"><div className="shell"><div className="corrective-section-head"><p className="corrective-kicker">Business situations</p><div><h2>Tell us what needs to change.</h2><p>A useful scope begins with the people, process and decision involved.</p></div></div><div className="corrective-solution-grid">{solutions.map((item, index) => <article key={item.label} className={"corrective-solution corrective-solution-" + (index + 1)}><span>0{index + 1} / {item.label}</span><h3>{item.title}</h3><p>{item.text}</p><div>{item.slugs.map(slug => <Link key={slug} href={"/services/" + slug}>{getService(slug).title} <ArrowUpRight /></Link>)}</div></article>)}</div></div></section>
-
-    <section className="section corrective-work"><div className="shell"><div className="corrective-section-head"><p className="corrective-kicker">Selected work</p><div><h2>Real projects, with the decisions visible.</h2><p>Two different operating contexts. Explore the complete portfolio when you want to inspect more.</p></div></div><div className="corrective-featured">{featuredSlugs.map((slug, index) => { const study = caseStudies.find(item => item.slug === slug)!; return <article key={slug} className={"corrective-featured-" + (index + 1)}><ProjectMedia slug={slug} client={study.client} /><div><span>{study.industry}</span><h3>{study.client}</h3><p>{study.solution}</p><Link href={"/case-studies/" + slug}>See the project <ArrowUpRight /></Link></div></article>; })}</div><Link className="homepage-deep-link" href="/case-studies">Explore all six case studies <ArrowUpRight /></Link></div></section>
 
     <section className="section corrective-industries"><div className="shell"><div><p className="corrective-kicker">Industry context</p><h2>Different markets bring different workflows.</h2><p>Our published work spans property, travel, finance, construction and international recruitment. We adapt the product to its users and operating context.</p><Link href="/industries" className="homepage-deep-link">Explore industry experience <ArrowUpRight /></Link></div><div className="corrective-industry-links">{industries.slice(0, 5).map((industry, index) => <Link key={industry.title} href="/industries"><span>0{index + 1}</span><strong>{industry.title}</strong><ArrowUpRight /></Link>)}</div></div></section>
 
     <section className="section corrective-method"><div className="shell"><p className="corrective-kicker">How we work</p><div><h2>See the decisions before you pay for the build.</h2><p>We clarify users, scope and technical constraints early. Working software, review points and release checks make progress visible through delivery.</p><Link href="/about" className="homepage-deep-link">How we deliver projects <ArrowUpRight /></Link></div></div></section>
 
-    <section className="corrective-final-cta"><div className="shell"><p className="corrective-kicker">Start with the problem</p><h2>Let&apos;s decide what to build—and what can wait.</h2><Link href="/contact" className="button button-white">Discuss Your Project <ArrowUpRight /></Link></div></section>
+    <section className="capability-system" aria-labelledby="capability-title"><div className="shell"><div><p className="corrective-kicker">Built to connect</p><h2 id="capability-title">The interface, application and operating data belong in one plan.</h2></div><div><p>We choose the stack around the job: React and Next.js for web experiences, React Native for mobile, Node.js and relational data for application logic, and AI APIs where a bounded task benefits from them.</p><Link href="/services" className="homepage-deep-link">Explore the capabilities <ArrowUpRight /></Link></div></div></section>
+
+    <section className="client-proof corrective-client-proof"><div className="shell"><p>Selected clients</p><ClientLogoStrip /></div></section>
+
+    <section className="section corrective-work"><div className="shell"><div className="corrective-section-head"><p className="corrective-kicker">Selected work</p><div><h2>Real projects, with the decisions visible.</h2><p>Two different operating contexts. Explore the complete portfolio when you want to inspect more.</p></div></div><div className="corrective-featured">{featuredSlugs.map((slug, index) => { const study = caseStudies.find(item => item.slug === slug)!; return <article key={slug} className={"corrective-featured-" + (index + 1)}><ProjectMedia slug={slug} client={study.client} /><div><span>{study.industry}</span><h3>{study.client}</h3><p>{study.solution}</p><Link href={"/case-studies/" + slug}>See the project <ArrowUpRight /></Link></div></article>; })}</div><Link className="homepage-deep-link" href="/case-studies">Explore all six case studies <ArrowUpRight /></Link></div></section>
+
+    <section className="review-evidence"><div className="shell"><p className="corrective-kicker">Independent feedback</p><div><strong>5.0 <span>on Clutch</span></strong><p>Three verified client reviews. Read the full feedback and project context at the source.</p><a href={company.clutch} target="_blank" rel="noopener noreferrer">Read the reviews <ArrowUpRight /></a></div></div></section>
+
+    <section className="corrective-final-cta"><div className="shell"><p className="corrective-kicker">Start with the problem</p><h2>Let&apos;s decide what to build—and what can wait.</h2><div className="quote-cta-row"><Link href="/contact" className="button button-white">Discuss Your Project <ArrowUpRight /></Link><QuoteTrigger className="button quote-outline-button">Get a Free Quote</QuoteTrigger></div></div></section>
   </>;
 }
 

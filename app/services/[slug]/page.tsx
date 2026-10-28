@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, ArrowUpRight, Check } from "lucide-react";
 import { ServiceVisual } from "@/components/ServiceVisual";
+import { QuoteTrigger } from "@/components/QuoteLauncher";
 import { serviceDetails } from "@/lib/content";
 import { serviceEditorial, type ServiceEditorial } from "@/lib/service-editorial";
 import { caseStudies, company, services } from "@/lib/site";
@@ -61,7 +62,7 @@ export default async function ServicePage({ params }: Props) {
     <section className="section service-approach"><div className="shell service-approach-grid"><div><p className="corrective-kicker">How we approach it</p><h2>{editorial.approachHeading}</h2><p>{editorial.approachIntro}</p></div><div><p className="service-approach-label">System responsibilities to plan</p><ol>{detail.architecture.slice(0, 5).map((node, index) => <li key={node}><span>{String(index + 1).padStart(2, "0")}</span><strong>{node}</strong></li>)}</ol></div></div></section>
     <section className="section service-quality"><div className="shell service-quality-grid"><div><p className="corrective-kicker">Delivery checks</p><h2>{releaseChecks[slug]}</h2></div><div>{detail.standards.slice(0, 5).map(item => <span key={item}><Check />{item}</span>)}</div></div></section>
     <section className="section service-context"><div className="shell service-context-grid"><div><p className="corrective-kicker">Practical context</p><h2>{cases.length ? "Related public work" : detail.faqs[0][0]}</h2>{cases.length > 0 ? <><p>The public projects below show relevant delivery; the hero study is illustrative.</p>{cases.map(study => <Link key={study.slug} href={"/case-studies/" + study.slug} className="service-context-case"><strong>{study.client}</strong><span>{study.industry}</span><ArrowUpRight /></Link>)}</> : <p>{detail.faqs[0][1]}</p>}</div><div className="service-context-faq"><h3>Decisions to make</h3>{detail.faqs.slice(1, 3).map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></div></section>
-    <section className="service-editorial-cta"><div className="shell"><p className="corrective-kicker">Discuss the work</p><h2>{editorial.ctaHeading}</h2><div><p>{editorial.ctaText}</p><Link href="/contact" className="button button-white">Start a Project Enquiry <ArrowUpRight /></Link></div></div></section>
+    <section className="service-editorial-cta"><div className="shell"><p className="corrective-kicker">Discuss the work</p><h2>{editorial.ctaHeading}</h2><div><p>{editorial.ctaText}</p><div className="quote-cta-row"><Link href="/contact" className="button button-white">Start a Project Enquiry <ArrowUpRight /></Link><QuoteTrigger className="button quote-outline-button" service={service.title}>Get a Free Quote</QuoteTrigger></div></div></div></section>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />
   </div>;
 }

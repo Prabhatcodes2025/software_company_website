@@ -1,0 +1,58 @@
+.editorial-header .brand,
+.editorial-footer .brand { gap: 0; flex: 0 0 auto; }
+.editorial-header .official-wordmark { display: block; width: clamp(172px, 18vw, 218px); height: auto; aspect-ratio: 2113 / 744; object-fit: contain; transition: transform .24s ease; }
+.editorial-header .brand:hover .official-wordmark,
+.editorial-header .brand:focus-visible .official-wordmark { transform: translateY(-2px); }
+.editorial-footer .brand { display: inline-flex; padding: .35rem .5rem; margin-left: -.5rem; border-radius: .35rem; background: #f5f2eb; }
+.editorial-footer .official-wordmark { display: block; width: 218px; height: auto; aspect-ratio: 2113 / 744; object-fit: contain; transition: transform .24s ease; }
+.editorial-footer .brand:hover .official-wordmark,
+.editorial-footer .brand:focus-visible .official-wordmark { transform: translateX(2px); }
+.quote-brand-panel > img { padding: .32rem; border-radius: .55rem; background: #f5f2eb; }
+
+.corrective-client-proof > .shell { overflow: hidden; }
+.client-logo-marquee { min-width: 0; overflow: hidden; outline-offset: -4px; }
+.client-logo-marquee:focus-visible { outline: 3px solid #087e83; }
+.client-logo-track { display: flex; width: max-content; animation: client-logo-flow 32s linear infinite; }
+.client-logo-group { display: flex; flex: 0 0 auto; }
+.client-logo-item { display: grid; place-items: center; width: clamp(150px, 14vw, 205px); height: 112px; padding: 1.1rem 1.35rem; border-left: 1px solid #d8d4ca; }
+.client-logo-item img { display: block; width: 100%; max-height: 66px; height: auto; object-fit: contain; filter: grayscale(1); opacity: .82; transition: filter .24s ease, opacity .24s ease, transform .24s ease; }
+.client-logo-item:hover img { filter: none; opacity: 1; transform: scale(1.035); }
+.client-logo-marquee:hover .client-logo-track,
+.client-logo-marquee:focus .client-logo-track,
+.client-logo-marquee:focus-within .client-logo-track { animation-play-state: paused; }
+@keyframes client-logo-flow { to { transform: translateX(-50%); } }
+
+@media(max-width:760px) {
+  .editorial-header .official-wordmark { width: clamp(156px, 48vw, 186px); }
+  .client-logo-item { width: 150px; height: 86px; padding: .8rem 1rem; }
+  .client-logo-item img { max-height: 55px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .editorial-header .official-wordmark,
+  .editorial-footer .official-wordmark,
+  .client-logo-item img { transition: none; }
+  .client-logo-marquee { overflow-x: auto; scrollbar-width: thin; }
+  .client-logo-track { animation: none; }
+  .client-logo-group[aria-hidden="true"] { display: none; }
+}
+@font-face { font-family: "LetsFygure Manrope"; src: url("/fonts/Manrope-Latin.woff2") format("woff2"); font-style: normal; font-weight: 200 800; font-display: swap; }
+:root { --font-manrope: "LetsFygure Manrope"; }
+
+.capability-system { padding: clamp(4rem, 7vw, 7rem) 0; background: #dce9e2; }
+.capability-system .corrective-kicker { color: #075b60; }
+.capability-system > .shell { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(2rem, 7vw, 8rem); align-items: end; }
+.capability-system h2 { max-width: 13ch; margin: 0; color: #102b29; font-size: clamp(2.5rem, 4.4vw, 4.8rem); }
+.capability-system .shell > div:last-child p { max-width: 34rem; color: #3a5650; font-size: 1.08rem; line-height: 1.7; }
+.review-evidence { padding: clamp(3.5rem, 6vw, 6rem) 0; background: #e6e2d8; }
+.review-evidence > .shell { display: grid; grid-template-columns: .8fr 1.2fr; gap: 3rem; align-items: start; }
+.review-evidence .corrective-kicker { margin-top: .7rem; }
+.review-evidence strong { display: block; color: #102b29; font-size: clamp(3.4rem, 6vw, 6.5rem); line-height: .95; letter-spacing: -.07em; }
+.review-evidence strong span { color: #49635c; font-size: clamp(1.6rem, 3vw, 3rem); letter-spacing: -.04em; }
+.review-evidence p { max-width: 34rem; margin: 1.2rem 0; color: #4a5d57; font-size: 1.05rem; }
+.review-evidence a { display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; border-bottom: 1px solid currentColor; color: #0a6267; font-weight: 800; }
+.review-evidence a svg { width: 1rem; }
+@media(max-width:760px) {
+  .capability-system > .shell, .review-evidence > .shell { grid-template-columns: 1fr; gap: 1.5rem; }
+  .capability-system h2 { max-width: 16ch; }
+  .capability-system .shell > div:last-child p, .review-evidence p { font-size: 1rem; }
+}

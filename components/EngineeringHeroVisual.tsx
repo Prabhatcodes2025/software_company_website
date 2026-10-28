@@ -10,9 +10,9 @@ export function EngineeringHeroVisual() {
       <div className="engineering-phone"><div><small>Mobile experience</small><div className="engineering-phone-art" /><strong>The same intent, wherever you are.</strong><em>Continue ↗</em></div></div>
     </div>
     <div className="engineering-mobile" role="img" aria-label="Compact illustrative web and mobile interface study with a conceptual software workflow; no client work is shown">
-      <div className="engineering-mobile-head">Engineering study <span>Illustrative</span></div>
-      <div className="engineering-mobile-web"><div className="engineering-window"><i /><i /><i /><span>Web experience</span></div><div className="engineering-mobile-web-body"><div><small>DESIGNED TO BE USED</small><strong>A clear path to the next step.</strong><em>Explore ↗</em></div><div /></div></div>
-      <div className="engineering-mobile-workflow"><strong>Software + AI</strong><span>Validate → Connect → Review</span></div>
+      <div className="engineering-mobile-head">Illustrative concept</div>
+      <div className="engineering-mobile-web"><div className="engineering-window"><i /><i /><i /></div><div className="engineering-mobile-web-body"><div><strong>A clear path to the next step.</strong><em>Explore ↗</em></div><div /></div></div>
+      <div className="engineering-mobile-workflow"><strong>Software + AI</strong><span>Validate, connect and review</span></div>
       <div className="engineering-mobile-phone"><div><div className="engineering-mobile-phone-art" /><strong>Same intent.<br />Any screen.</strong></div></div>
     </div>
   </div>;

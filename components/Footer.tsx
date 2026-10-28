@@ -11,7 +11,7 @@ export function Footer() {
   return <footer className="footer">
     <div className="shell footer-lead"><p className="eyebrow">Build with clarity</p><div><h2>Have a serious digital challenge?</h2><Link href="/contact" className="button button-white">Discuss Your Project <ArrowUpRight /></Link></div></div>
     <div className="shell footer-grid">
-      <div className="footer-brand"><Link href="/" className="brand"><Image src="/images/letsfygure-logo.png" alt="" width={1280} height={1280} className="brand-mark" /><span><strong>LetsFygure</strong><small>TECHNOLOGY</small></span></Link><p>Product strategy, design and software engineering for businesses building, modernizing and automating digital systems.</p><strong className="footer-line">Technology <span>, Figured Out</span></strong></div>
+      <div className="footer-brand"><Link href="/" className="brand" aria-label="LetsFygure home"><Image src="/images/letsfygure-official.png" alt="" width={2113} height={744} className="official-wordmark" /></Link><p>Product strategy, design and software engineering for businesses building, modernizing and automating digital systems.</p><strong className="footer-line">Technology <span>, Figured Out</span></strong></div>
       <div><h2>Services</h2>{services.slice(0, 6).map(service => <Link key={service.slug} href={`/services/${service.slug}`}>{service.title}</Link>)}<Link href="/services">All services <ArrowUpRight size={14} /></Link></div>
       <div><h2>Industries</h2>{industries.slice(0, 5).map(item => <Link key={item.title} href="/industries">{item.title}</Link>)}</div>
       <div><h2>Company</h2>{companyLinks.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}</div>

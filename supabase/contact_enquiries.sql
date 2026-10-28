@@ -22,3 +22,8 @@ create table if not exists public.contact_enquiries (
 alter table public.contact_enquiries enable row level security;
 -- Intentionally no public policies. Website inserts use the server-only service role.
 create index if not exists contact_enquiries_created_at_idx on public.contact_enquiries (created_at desc);
+
+-- Required for quote-popup phone/WhatsApp numbers. Safe for existing tables.
+alter table public.contact_enquiries
+  add column if not exists phone_whatsapp text
+  check (char_length(phone_whatsapp) <= 32);

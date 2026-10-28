@@ -13,6 +13,8 @@ Confirmed primary URL: `https://letsfygure.com`. Secondary URL: `https://www.let
 
 Configure these server-only variables in Vercel before enabling the contact form: `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `RESEND_API_KEY`, `LEAD_NOTIFICATION_EMAIL`, `CONTACT_RATE_LIMIT_SECRET`. Apply `supabase/contact_enquiries.sql` in the approved Supabase project and verify the `enquiries@letsfygure.com` sender in Resend. Review and approve the enquiry retention policy. The API returns 503 until required variables are present.
 
+Before enabling the quote popup on an existing Supabase project, rerun the idempotent `supabase/contact_enquiries.sql` migration to add its private `phone_whatsapp` column. The popup will not claim success if persistence fails. Attachments remain disabled until an approved private storage and access policy is configured.
+
 `CONTACT_ALLOWED_ORIGINS` is optional. Supply a comma-separated list of **exact HTTPS origins** only for deliberately trusted preview or staging hosts that should accept contact submissions. Production accepts the confirmed apex and `www` origins by default; same-origin browser requests are required. Local `http://localhost` and `http://127.0.0.1` are accepted only in non-production mode. Do not use a wildcard or include untrusted Vercel preview URLs.
 
 The public canonical URL is deliberately fixed in `lib/site.ts` to the owner-confirmed production identity so previews do not publish preview-domain canonicals. Credentials and deployment-specific contact origins are environment variables. Changing the production domain later requires an intentional code review.

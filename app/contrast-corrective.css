@@ -1,0 +1,65 @@
+/* Measured contrast corrections for small editorial labels on light surfaces. */
+.corrective-service-spine a > span,
+.corrective-solutions .corrective-kicker,
+.corrective-solution-2 > span,
+.corrective-industry-links span,
+.corrective-method .corrective-kicker,
+.service-situation li span,
+.service-delivery .corrective-kicker,
+.service-delivery-items article > span,
+.service-quality .corrective-kicker,
+.industry-redesign-nav p,
+.industry-spotlight:not(:nth-child(3)) .corrective-kicker,
+.industry-spotlight:not(:nth-child(3)) a span,
+.industry-market-grid article > span,
+.case-redesign-media .corrective-kicker,
+.case-media-note strong {
+  color: #075f63;
+}
+
+.service-context-case span,
+.industry-market-grid small,
+.case-related a span {
+  color: #405a50;
+}
+
+.service-editorial-page.service-page-mobile .service-editorial-hero .corrective-kicker,
+.service-editorial-page.service-page-design .service-editorial-hero .corrective-kicker,
+.service-editorial-page.service-page-seo .service-editorial-hero .corrective-kicker {
+  color: #075f63;
+}
+
+.service-index-group > header > span,
+.case-content h3,
+.about-operating-model article > span,
+.article-layout aside span,
+.article-body section > span {
+  color: #075f70;
+}
+
+.case-index,
+.case-content > small,
+.engineering-stack span,
+.editorial-meta {
+  color: #405a65;
+}
+
+.art-software-title {
+  display: block;
+  margin: 0 0 1.5rem;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+@media (max-width: 700px) {
+  .case-content p,
+  .service-index-group a small {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .case-content > small {
+    font-size: .875rem;
+    line-height: 1.5;
+  }
+}

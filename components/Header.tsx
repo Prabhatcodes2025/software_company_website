@@ -52,7 +52,7 @@ export function Header() {
 
   return <header ref={headerRef} className={`site-header${scrolled ? " is-scrolled" : ""}`}>
     <div className="shell header-inner">
-      <Link href="/" className="brand" aria-label="LetsFygure home"><Image src="/images/letsfygure-logo.png" alt="" width={1280} height={1280} priority className="brand-mark" /><span><strong>LetsFygure</strong><small>TECHNOLOGY</small></span></Link>
+      <Link href="/" className="brand" aria-label="LetsFygure home"><Image src="/images/letsfygure-official.png" alt="" width={2113} height={744} priority className="official-wordmark" /></Link>
       <nav className="desktop-nav" aria-label="Primary navigation">
         <div className="nav-mega" onMouseEnter={() => reveal("services")} onMouseLeave={queueClose} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) queueClose(); }}><button className={pathname.startsWith("/services") ? "active" : ""} aria-expanded={activeMenu === "services"} aria-controls="mega-services" onClick={() => toggleMenu("services")}>Services <ChevronDown /></button></div>
         <div className="nav-mega" onMouseEnter={() => reveal("industries")} onMouseLeave={queueClose} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget)) queueClose(); }}><button className={pathname === "/industries" ? "active" : ""} aria-expanded={activeMenu === "industries"} aria-controls="mega-industries" onClick={() => toggleMenu("industries")}>Industries <ChevronDown /></button></div>

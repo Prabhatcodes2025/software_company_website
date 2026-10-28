@@ -5,6 +5,7 @@ import { company, services } from "@/lib/site";
 type ContactPayload = {
   submissionId?: string; fullName?: string; email?: string; company?: string; country?: string;
   service?: string; budget?: string; timeline?: string; requirements?: string; privacyConsent?: boolean; website?: string;
+  phone?: string; source?: string;
 };
 
 const attempts = new Map<string, { count: number; resetAt: number }>();
@@ -60,10 +61,14 @@ export async function POST(request: NextRequest) {
   const budget = clean(body.budget, 80);
   const timeline = clean(body.timeline, 80);
   const requirements = clean(body.requirements, 4000);
+  const phone = clean(body.phone, 32);
+  const isQuote = body.source === "quote_popup";
+  const phoneDigits = phone.replace(/\D/g, "");
   if (!submissionId || !/^[a-zA-Z0-9-]{16,80}$/.test(submissionId)) return jsonError("Please refresh the page and try again.", 400, "invalid_submission");
   if (fullName.length < 2 || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) || !company || !country || !services.some(item => item.title === service) || requirements.length < 20 || body.privacyConsent !== true) return jsonError("Please complete every required field and accept the privacy notice.", 422, "validation_failed");
+  if ((isQuote && !phone) || (phone && (!/^[+()\d\s.-]+$/.test(phone) || phoneDigits.length < 7 || phoneDigits.length > 15))) return jsonError("Please enter a valid phone or WhatsApp number.", 422, "invalid_phone");
 
-  const row = { submission_id: submissionId, full_name: fullName, business_email: email, company_name: company, country, service_required: service, estimated_budget: budget || null, timeline: timeline || null, requirements, privacy_consent: true, email_status: "pending", source: "website" };
+  const row = { submission_id: submissionId, full_name: fullName, business_email: email, company_name: company, country, service_required: service, estimated_budget: budget || null, timeline: timeline || null, requirements, privacy_consent: true, email_status: "pending", source: isQuote ? "quote_popup" : "website", ...(phone ? { phone_whatsapp: phone } : {}) };
   let databaseResponse: Response;
   try { databaseResponse = await fetch(`${supabaseUrl.replace(/\/$/, "")}/rest/v1/contact_enquiries`, { method: "POST", headers: { apikey: supabaseKey, Authorization: `Bearer ${supabaseKey}`, "Content-Type": "application/json", Prefer: "return=representation" }, body: JSON.stringify(row), cache: "no-store" }); }
   catch { return jsonError("The secure enquiry store is unavailable. Nothing was submitted. Please try again or contact us directly.", 502, "persistence_unavailable"); }
@@ -73,7 +78,7 @@ export async function POST(request: NextRequest) {
     return jsonError("Your enquiry could not be saved. Nothing was submitted. Please try again or contact us directly.", 502, "persistence_failed");
   }
 
-  const html = `<h2>New LetsFygure project enquiry</h2><p><strong>Name:</strong> ${escapeHtml(fullName)}</p><p><strong>Business email:</strong> ${escapeHtml(email)}</p><p><strong>Company:</strong> ${escapeHtml(company)}</p><p><strong>Country:</strong> ${escapeHtml(country)}</p><p><strong>Service:</strong> ${escapeHtml(service)}</p><p><strong>Budget:</strong> ${escapeHtml(budget || "Not provided")}</p><p><strong>Timeline:</strong> ${escapeHtml(timeline || "Not provided")}</p><h3>Requirements</h3><p>${escapeHtml(requirements).replace(/\n/g, "<br>")}</p><p><small>Submission ID: ${escapeHtml(submissionId)}</small></p>`;
+  const html = `<h2>New LetsFygure project enquiry</h2><p><strong>Name:</strong> ${escapeHtml(fullName)}</p><p><strong>Business email:</strong> ${escapeHtml(email)}</p><p><strong>Phone / WhatsApp:</strong> ${escapeHtml(phone || "Not provided")}</p><p><strong>Company:</strong> ${escapeHtml(company)}</p><p><strong>Country:</strong> ${escapeHtml(country)}</p><p><strong>Service:</strong> ${escapeHtml(service)}</p><p><strong>Budget:</strong> ${escapeHtml(budget || "Not provided")}</p><p><strong>Timeline:</strong> ${escapeHtml(timeline || "Not provided")}</p><h3>Requirements</h3><p>${escapeHtml(requirements).replace(/\n/g, "<br>")}</p><p><small>Submission ID: ${escapeHtml(submissionId)}</small></p>`;
   let emailDelivered = false;
   let emailStatus = "Resend unavailable";
   try { const emailResponse = await fetch("https://api.resend.com/emails", { method: "POST", headers: { Authorization: `Bearer ${resendKey}`, "Content-Type": "application/json" }, body: JSON.stringify({ from: "LetsFygure Website <enquiries@letsfygure.com>", to: [notificationEmail], reply_to: email, subject: `Project enquiry: ${service} — ${company}`, html }), cache: "no-store" }); emailDelivered = emailResponse.ok; emailStatus = `Resend status ${emailResponse.status}`; }

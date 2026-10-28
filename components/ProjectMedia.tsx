@@ -25,10 +25,15 @@ export function ProjectMedia({ slug, client, priority = false, compact = false }
 }
 
 export function ClientLogoStrip() {
-  return <div className="client-logo-strip" role="group" aria-label="Selected clients">
-    {Object.entries(projectAssets).map(([slug, asset]) => <div key={slug}>
-      <Image src={asset.logo} alt={clientName(slug)} width={260} height={110} sizes="150px" />
-    </div>)}
+  const logos = Object.entries(projectAssets);
+  return <div className="client-logo-marquee" role="group" tabIndex={0} aria-label="Selected client logos. Animation pauses while focused.">
+    <div className="client-logo-track">
+      {[0, 1].map(copy => <div className="client-logo-group" key={copy} aria-hidden={copy === 1}>
+        {logos.map(([slug, asset]) => <span className="client-logo-item" key={slug}>
+          <Image src={asset.logo} alt={copy === 0 ? clientName(slug) : ""} width={260} height={110} sizes="(max-width: 760px) 140px, 180px" />
+        </span>)}
+      </div>)}
+    </div>
   </div>;
 }
 
