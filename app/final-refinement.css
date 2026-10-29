@@ -12,7 +12,7 @@ main :is(section, article)[id] { scroll-margin-top: 6.5rem; }
 .editorial-header .menu-toggle { width: 44px; height: 44px; place-items: center; }
 .editorial-header.is-scrolled { box-shadow: 0 8px 26px #0b1b1a17; }
 
-.corrective-hero-copy h1 { max-width: 11.5ch; font-size: clamp(3.25rem, 4.9vw, 4.65rem); line-height: 1.04; }
+.corrective-hero-copy h1 { max-width: 12.5ch; font-size: clamp(3.25rem, 4.9vw, 4.65rem); line-height: 1.04; }
 .corrective-dek { max-width: 34rem; }
 .corrective-actions { align-items: center; }
 .corrective-actions .button { white-space: nowrap; }
@@ -22,6 +22,7 @@ main :is(section, article)[id] { scroll-margin-top: 6.5rem; }
 .company-snapshot { padding: clamp(4rem, 7vw, 7rem) 0; background: #e8e9e0; }
 .company-snapshot-layout { display: grid; grid-template-columns: .78fr 1.22fr; gap: clamp(2.5rem, 6vw, 6rem); align-items: start; }
 .company-snapshot-intro h2 { max-width: 13ch; margin: 0 0 1.25rem; color: #102b29; font-size: clamp(2.7rem, 4.5vw, 4.8rem); line-height: 1.04; }
+.company-snapshot-intro .corrective-kicker { color: #075f63; }
 .company-snapshot-intro > p:last-child { max-width: 28rem; color: #455f56; font-size: 1rem; line-height: 1.7; }
 .company-snapshot-figures { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; border-top: 1px solid #aabfb1; border-left: 1px solid #aabfb1; }
 .company-snapshot-figures > div { display: flex; min-height: 10rem; flex-direction: column-reverse; justify-content: space-between; padding: 1.3rem; border-right: 1px solid #aabfb1; border-bottom: 1px solid #aabfb1; background: #f8f7f0; }
