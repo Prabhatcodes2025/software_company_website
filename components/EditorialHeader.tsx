@@ -18,12 +18,13 @@ export function EditorialHeader() {
   const menuButtonRef = useRef<HTMLButtonElement>(null);
   const firstMobileLinkRef = useRef<HTMLAnchorElement>(null);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const lastClickedMenu = useRef<MenuName>(null);
 
   useEffect(() => { setMobileOpen(false); setActiveMenu(null); }, [pathname]);
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
     const onPointerDown = (event: PointerEvent) => {
-      if (headerRef.current && !headerRef.current.contains(event.target as Node)) setActiveMenu(null);
+      if (headerRef.current && !headerRef.current.contains(event.target as Node)) { setActiveMenu(null); lastClickedMenu.current = null; }
     };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -39,7 +40,7 @@ export function EditorialHeader() {
     const onKey = (event: KeyboardEvent) => {
       if (event.key !== "Escape") return;
       const restore = mobileOpen;
-      setActiveMenu(null); setMobileOpen(false);
+      setActiveMenu(null); setMobileOpen(false); lastClickedMenu.current = null;
       if (restore) window.requestAnimationFrame(() => menuButtonRef.current?.focus());
     };
     document.addEventListener("keydown", onKey);
@@ -51,7 +52,15 @@ export function EditorialHeader() {
     setActiveMenu(menu);
   };
   const queueClose = () => { closeTimer.current = setTimeout(() => setActiveMenu(null), 160); };
-  const toggleMenu = (menu: Exclude<MenuName, null>) => setActiveMenu(menu);
+  const toggleMenu = (menu: Exclude<MenuName, null>, event: React.MouseEvent<HTMLButtonElement>) => {
+    if (event.detail === 0 || lastClickedMenu.current === menu) {
+      setActiveMenu(current => current === menu ? null : menu);
+      lastClickedMenu.current = null;
+    } else {
+      lastClickedMenu.current = menu;
+      setActiveMenu(menu);
+    }
+  };
   const mobileCurrent = (matches: boolean) => matches ? { className: "active", "aria-current": "page" as const } : {};
   const menuProps = (menu: Exclude<MenuName, null>) => ({
     onMouseEnter: () => reveal(menu),
@@ -65,9 +74,9 @@ export function EditorialHeader() {
         <Image src="/images/letsfygure-official.png" alt="" width={2113} height={744} priority className="official-wordmark" />
       </Link>
       <nav className="desktop-nav" aria-label="Primary navigation">
-        <div className="nav-mega" {...menuProps("services")}><button className={pathname.startsWith("/services") ? "active" : ""} aria-expanded={activeMenu === "services"} aria-controls="mega-services" onClick={() => toggleMenu("services")}>Services <ChevronDown /></button></div>
-        <div className="nav-mega" {...menuProps("industries")}><button className={pathname === "/industries" ? "active" : ""} aria-expanded={activeMenu === "industries"} aria-controls="mega-industries" onClick={() => toggleMenu("industries")}>Industries <ChevronDown /></button></div>
-        <div className="nav-mega" {...menuProps("insights")}><button className={pathname.startsWith("/insights") || pathname.startsWith("/case-studies") ? "active" : ""} aria-expanded={activeMenu === "insights"} aria-controls="mega-insights" onClick={() => toggleMenu("insights")}>Insights <ChevronDown /></button></div>
+        <div className="nav-mega" {...menuProps("services")}><button className={pathname.startsWith("/services") ? "active" : ""} aria-expanded={activeMenu === "services"} aria-controls="mega-services" onClick={(event) => toggleMenu("services", event)}>Services <ChevronDown /></button></div>
+        <div className="nav-mega" {...menuProps("industries")}><button className={pathname === "/industries" ? "active" : ""} aria-expanded={activeMenu === "industries"} aria-controls="mega-industries" onClick={(event) => toggleMenu("industries", event)}>Industries <ChevronDown /></button></div>
+        <div className="nav-mega" {...menuProps("insights")}><button className={pathname.startsWith("/insights") || pathname.startsWith("/case-studies") ? "active" : ""} aria-expanded={activeMenu === "insights"} aria-controls="mega-insights" onClick={(event) => toggleMenu("insights", event)}>Insights <ChevronDown /></button></div>
         <Link href="/about" className={pathname === "/about" ? "active" : ""}>About</Link>
         <Link href="/contact" className={pathname === "/contact" ? "active" : ""}>Contact</Link>
       </nav>

@@ -3,6 +3,7 @@
 import { ArrowUp } from "lucide-react";
 import { useEffect, useState } from "react";
 import { company } from "@/lib/site";
+import { QuoteTrigger } from "@/components/QuoteLauncher";
 
 type TawkCallback = () => void;
 type TawkApi = {
@@ -50,8 +51,9 @@ export function FloatingWidgets() {
   }, []);
 
   const whatsappMessage = "Hi LetsFygure, I'd like to discuss a project.";
-  return <aside className="floating-controls" aria-label="Quick actions" data-chat-expanded={chatExpanded}>
+  return <aside className="floating-controls" aria-label="Quick actions" data-chat-expanded={chatExpanded} data-scrolled={showBackToTop}>
     {showBackToTop && <button type="button" className="back-to-top" aria-label="Back to top" title="Back to top" onClick={() => window.scrollTo({ top: 0, behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" })}><ArrowUp aria-hidden="true" /></button>}
+    <QuoteTrigger className="floating-quote">Get a Free Quote</QuoteTrigger>
     <a className="whatsapp-float" href={`${company.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`} target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp"><WhatsAppIcon /><span className="floating-tooltip" role="tooltip">Chat on WhatsApp</span></a>
   </aside>;
 }

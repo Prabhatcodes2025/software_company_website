@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
-import { ClientLogoStrip, ProjectMedia } from "@/components/ProjectMedia";
+import { ClientLogoStrip } from "@/components/ProjectMedia";
 import { EngineeringHeroVisual } from "@/components/EngineeringHeroVisual";
+import { CompanySnapshot } from "@/components/CompanySnapshot";
 import { QuoteTrigger } from "@/components/QuoteLauncher";
-import { caseStudies, company, industries, services } from "@/lib/site";
+import { company, industries, services } from "@/lib/site";
 
 const leadSlugs = ["web-development", "custom-software-development", "mobile-app-development", "ai-development", "ai-automation"];
 const extraSlugs = ["ui-ux-design", "ecommerce-development", "api-integrations", "seo", "digital-marketing"];
-const featuredSlugs = ["ongole-property", "continental-mercantile"];
 const solutions = [
   { label: "Experience", title: "Build a customer platform", text: "Bring content, service journeys and enquiries into one fast, accessible web or mobile experience.", slugs: ["web-development", "mobile-app-development"] },
   { label: "Operations", title: "Replace a manual workflow", text: "Turn scattered handoffs, permissions and records into software your team can operate and improve.", slugs: ["custom-software-development", "api-integrations"] },
@@ -18,7 +18,7 @@ const getService = (slug: string) => services.find(item => item.slug === slug)!;
 export function EditorialHomepage() {
   return <>
     <section className="corrective-hero" aria-labelledby="home-title"><div className="shell corrective-hero-grid">
-      <div className="corrective-hero-copy"><p className="corrective-kicker">IT &amp; software development</p><h1 id="home-title">Websites, software, mobile and AI. <span>Engineered together.</span></h1><p className="corrective-dek">LetsFygure builds digital products and the systems behind them—from customer websites and mobile apps to custom software and practical automation.</p><div className="corrective-actions"><Link href="/contact" className="button">Discuss Your Project <ArrowUpRight /></Link><Link href="/services" className="button corrective-button-outline">Explore Services <ArrowRight /></Link></div><a className="corrective-proof" href={company.clutch} target="_blank" rel="noreferrer"><span aria-hidden="true">★★★★★</span><strong>5.0 on Clutch</strong><small>3 verified reviews</small><em>Read reviews ↗</em></a></div>
+      <div className="corrective-hero-copy"><p className="corrective-kicker">IT &amp; software development</p><h1 id="home-title">Websites, software, mobile and AI. <span>Built together.</span></h1><p className="corrective-dek">LetsFygure builds digital products and the systems behind them—from customer websites and mobile apps to custom software and practical automation.</p><div className="corrective-actions"><Link href="/contact" className="button">Discuss Your Project <ArrowUpRight /></Link><Link href="/services" className="button corrective-button-outline">Explore Services <ArrowRight /></Link></div><a className="corrective-proof" href={company.clutch} target="_blank" rel="noreferrer"><span aria-hidden="true">★★★★★</span><strong>5.0 on Clutch</strong><small>3 verified reviews</small><em>Read reviews ↗</em></a></div>
       <EngineeringHeroVisual />
     </div></section>
 
@@ -32,9 +32,11 @@ export function EditorialHomepage() {
 
     <section className="capability-system" aria-labelledby="capability-title"><div className="shell"><div><p className="corrective-kicker">Built to connect</p><h2 id="capability-title">The interface, application and operating data belong in one plan.</h2></div><div><p>We choose the stack around the job: React and Next.js for web experiences, React Native for mobile, Node.js and relational data for application logic, and AI APIs where a bounded task benefits from them.</p><Link href="/services" className="homepage-deep-link">Explore the capabilities <ArrowUpRight /></Link></div></div></section>
 
+    <CompanySnapshot />
+
     <section className="client-proof corrective-client-proof"><div className="shell"><p>Selected clients</p><ClientLogoStrip /></div></section>
 
-    <section className="section corrective-work"><div className="shell"><div className="corrective-section-head"><p className="corrective-kicker">Selected work</p><div><h2>Real projects, with the decisions visible.</h2><p>Two different operating contexts. Explore the complete portfolio when you want to inspect more.</p></div></div><div className="corrective-featured">{featuredSlugs.map((slug, index) => { const study = caseStudies.find(item => item.slug === slug)!; return <article key={slug} className={"corrective-featured-" + (index + 1)}><ProjectMedia slug={slug} client={study.client} /><div><span>{study.industry}</span><h3>{study.client}</h3><p>{study.solution}</p><Link href={"/case-studies/" + slug}>See the project <ArrowUpRight /></Link></div></article>; })}</div><Link className="homepage-deep-link" href="/case-studies">Explore all six case studies <ArrowUpRight /></Link></div></section>
+    <section className="homepage-work-link" aria-labelledby="homepage-work-title"><div className="shell"><div><p className="corrective-kicker">Published work</p><h2 id="homepage-work-title">See how the work holds up.</h2><p>Six public client platforms show the interface, content and decisions behind each project.</p></div><Link className="button button-white" href="/case-studies">Explore case studies <ArrowUpRight /></Link></div></section>
 
     <section className="review-evidence"><div className="shell"><p className="corrective-kicker">Independent feedback</p><div><strong>5.0 <span>on Clutch</span></strong><p>Three verified client reviews. Read the full feedback and project context at the source.</p><a href={company.clutch} target="_blank" rel="noopener noreferrer">Read the reviews <ArrowUpRight /></a></div></div></section>
 

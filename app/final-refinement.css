@@ -1,0 +1,78 @@
+:root { --page-reading-width: 68ch; --page-heading-width: 17ch; }
+html { scroll-padding-top: 6.5rem; }
+main { scroll-margin-top: 6.5rem; }
+main :is(h1, h2, h3) { text-wrap: balance; }
+main p { text-align: left; text-wrap: pretty; }
+main :is(.article-body, .case-redesign-media, .service-redesign-body) p { max-width: var(--page-reading-width); }
+main :is(section, article)[id] { scroll-margin-top: 6.5rem; }
+
+.editorial-header .header-inner { gap: clamp(1rem, 2vw, 2rem); }
+.editorial-header .desktop-nav { gap: clamp(.9rem, 1.7vw, 1.75rem); }
+.editorial-header .desktop-cta { white-space: nowrap; }
+.editorial-header .menu-toggle { width: 44px; height: 44px; place-items: center; }
+.editorial-header.is-scrolled { box-shadow: 0 8px 26px #0b1b1a17; }
+
+.corrective-hero-copy h1 { max-width: 11.5ch; font-size: clamp(3.25rem, 4.9vw, 4.65rem); line-height: 1.04; }
+.corrective-dek { max-width: 34rem; }
+.corrective-actions { align-items: center; }
+.corrective-actions .button { white-space: nowrap; }
+.corrective-service-spine a:focus-visible,
+.corrective-industry-links a:focus-visible { background: #e4efe9; }
+
+.company-snapshot { padding: clamp(4rem, 7vw, 7rem) 0; background: #e8e9e0; }
+.company-snapshot-layout { display: grid; grid-template-columns: .78fr 1.22fr; gap: clamp(2.5rem, 6vw, 6rem); align-items: start; }
+.company-snapshot-intro h2 { max-width: 13ch; margin: 0 0 1.25rem; color: #102b29; font-size: clamp(2.7rem, 4.5vw, 4.8rem); line-height: 1.04; }
+.company-snapshot-intro > p:last-child { max-width: 28rem; color: #455f56; font-size: 1rem; line-height: 1.7; }
+.company-snapshot-figures { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; border-top: 1px solid #aabfb1; border-left: 1px solid #aabfb1; }
+.company-snapshot-figures > div { display: flex; min-height: 10rem; flex-direction: column-reverse; justify-content: space-between; padding: 1.3rem; border-right: 1px solid #aabfb1; border-bottom: 1px solid #aabfb1; background: #f8f7f0; }
+.company-snapshot-figures > div:nth-child(2), .company-snapshot-figures > div:nth-child(4) { background: #dce9e1; }
+.company-snapshot-figures > div:last-child { grid-column: span 2; justify-content: flex-end; gap: .75rem; background: #153e38; }
+.company-snapshot-figures dt { color: #35544a; font-size: .88rem; font-weight: 700; line-height: 1.35; }
+.company-snapshot-figures dd { margin: 0; color: #103f39; font-size: clamp(2.6rem, 4.3vw, 4.5rem); font-weight: 800; line-height: 1; letter-spacing: -.07em; font-variant-numeric: tabular-nums; }
+.company-snapshot-figures > div:last-child :is(dt, dd) { color: #f5f2eb; }
+
+.homepage-work-link { padding: clamp(3.5rem, 6vw, 6rem) 0; background: #102b29; color: #f5f2eb; }
+.homepage-work-link > .shell { display: flex; align-items: end; justify-content: space-between; gap: 2rem; }
+.homepage-work-link .corrective-kicker { color: #6ce0e1; }
+.homepage-work-link h2 { max-width: 16ch; margin: 0 0 .7rem; font-size: clamp(2.6rem, 4vw, 4.4rem); line-height: 1.06; }
+.homepage-work-link p:last-child { max-width: 35rem; margin: 0; color: #b8cfc5; }
+.homepage-work-link .button { flex: 0 0 auto; }
+
+.floating-controls .floating-quote { position: fixed; z-index: 1100; right: 100px; bottom: calc(22px + env(safe-area-inset-bottom)); display: inline-flex; align-items: center; justify-content: center; gap: .45rem; min-height: 54px; padding: .75rem 1rem; border: 1px solid #0c704b; border-radius: .55rem; background: #08bf72; color: #052d20; box-shadow: 0 7px 24px #0d4a2b40; font-size: .9rem; font-weight: 850; white-space: nowrap; cursor: pointer; transition: transform .2s ease, box-shadow .2s ease; }
+.floating-controls .floating-quote svg { width: 1rem; height: 1rem; }
+.floating-controls .floating-quote:hover { transform: translateY(-3px); box-shadow: 0 10px 28px #0d4a2b55; }
+.floating-controls .floating-quote:focus-visible { outline: 3px solid #0d777d; outline-offset: 4px; }
+.floating-controls[data-chat-expanded="true"] .floating-quote { visibility: hidden; opacity: 0; pointer-events: none; }
+
+@media (max-width: 900px) {
+  .company-snapshot-layout { grid-template-columns: 1fr; gap: 2rem; }
+  .company-snapshot-intro h2 { max-width: 18ch; }
+}
+@media (max-width: 760px) {
+  html { scroll-padding-top: 5.5rem; }
+  main, main :is(section, article)[id] { scroll-margin-top: 5.5rem; }
+  .editorial-header .header-inner { gap: .75rem; }
+  .corrective-hero-copy h1 { max-width: 14ch; font-size: clamp(2.7rem, 8.5vw, 4rem); }
+  .company-snapshot-figures { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .company-snapshot-figures > div { min-height: 8.5rem; }
+  .homepage-work-link > .shell { align-items: flex-start; flex-direction: column; }
+  .homepage-work-link .button { min-height: 48px; }
+  .floating-controls .floating-quote { right: 90px; bottom: calc(18px + env(safe-area-inset-bottom)); min-height: 50px; padding: .6rem .75rem; font-size: .78rem; }
+  .floating-controls[data-scrolled="false"] .floating-quote { display: none; }
+}
+@media (max-width: 480px) {
+  .corrective-hero-copy h1 { font-size: clamp(2.35rem, 10.2vw, 3.1rem); }
+  .corrective-actions .button { min-height: 3.1rem; font-size: .83rem; }
+  .company-snapshot-intro h2 { font-size: clamp(2.4rem, 9vw, 3.3rem); }
+  .company-snapshot-figures dd { font-size: clamp(2.4rem, 10vw, 3.4rem); }
+  .floating-controls .floating-quote { max-width: calc(100vw - 174px); gap: .2rem; padding: .5rem .45rem; font-size: .7rem; }
+  .floating-controls .floating-quote svg { width: .75rem; height: .75rem; }
+}
+@media (max-width: 370px) {
+  .corrective-actions { display: grid; }
+  .corrective-actions .button { justify-content: space-between; width: 100%; }
+  .floating-controls .floating-quote { font-size: .65rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .floating-controls .floating-quote { transition: none; }
+}
