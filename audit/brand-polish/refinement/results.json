@@ -1,0 +1,276 @@
+[
+  {
+    "name": "320 homepage geometry",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "quote": [
+        113.5,
+        230,
+        776,
+        826
+      ],
+      "wa": [
+        244,
+        304,
+        676,
+        736
+      ],
+      "featured": 0,
+      "logos": 6
+    }
+  },
+  {
+    "name": "320 floating quote opens existing modal",
+    "pass": true
+  },
+  {
+    "name": "320 quote Escape closes",
+    "pass": true
+  },
+  {
+    "name": "320 mobile navigation opens",
+    "pass": true
+  },
+  {
+    "name": "320 mobile navigation Escape closes",
+    "pass": true
+  },
+  {
+    "name": "320 approved figures finish count-up",
+    "pass": true,
+    "detail": [
+      "3+",
+      "50+",
+      "40+",
+      "3+",
+      "5+"
+    ]
+  },
+  {
+    "name": "390 homepage geometry",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "quote": [
+        176.953125,
+        300,
+        776,
+        826
+      ],
+      "wa": [
+        314,
+        374,
+        676,
+        736
+      ],
+      "featured": 0,
+      "logos": 6
+    }
+  },
+  {
+    "name": "390 floating quote opens existing modal",
+    "pass": true
+  },
+  {
+    "name": "390 quote Escape closes",
+    "pass": true
+  },
+  {
+    "name": "390 mobile navigation opens",
+    "pass": true
+  },
+  {
+    "name": "390 mobile navigation Escape closes",
+    "pass": true
+  },
+  {
+    "name": "390 approved figures finish count-up",
+    "pass": true,
+    "detail": [
+      "3+",
+      "50+",
+      "40+",
+      "3+",
+      "5+"
+    ]
+  },
+  {
+    "name": "1440 homepage geometry",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "quote": [
+        1165.203125,
+        1340,
+        824,
+        878
+      ],
+      "wa": [
+        1360,
+        1420,
+        728,
+        788
+      ],
+      "featured": 0,
+      "logos": 6
+    }
+  },
+  {
+    "name": "1440 floating quote opens existing modal",
+    "pass": true
+  },
+  {
+    "name": "1440 quote Escape closes",
+    "pass": true
+  },
+  {
+    "name": "desktop services dropdown opens",
+    "pass": true
+  },
+  {
+    "name": "desktop services dropdown toggles closed",
+    "pass": true
+  },
+  {
+    "name": "1440 approved figures finish count-up",
+    "pass": true,
+    "detail": [
+      "3+",
+      "50+",
+      "40+",
+      "3+",
+      "5+"
+    ]
+  },
+  {
+    "name": "reduced motion figures stay readable",
+    "pass": true
+  },
+  {
+    "name": "390 /services",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "390 /industries",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "390 /case-studies",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "390 /insights",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "390 /about",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "390 /career",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "390 /contact",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "1440 /services",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "1440 /industries",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "1440 /case-studies",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "1440 /insights",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "1440 /about",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "1440 /career",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  },
+  {
+    "name": "1440 /contact",
+    "pass": true,
+    "detail": {
+      "overflow": false,
+      "broken": 0,
+      "h1": true
+    }
+  }
+]

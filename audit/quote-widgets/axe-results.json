@@ -1,0 +1,22 @@
+[
+  {
+    "width": 320,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "width": 390,
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "width": 1440,
+    "violations": [],
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": 8
+      }
+    ]
+  }
+]

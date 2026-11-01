@@ -1,0 +1,182 @@
+[
+  {
+    "width": 390,
+    "route": "/",
+    "status": 200,
+    "overflow": false,
+    "h1": "Websites, software, mobile and AI. Engineered together.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "route": "/services/web-development",
+    "status": 200,
+    "overflow": false,
+    "h1": "A website should make the next step obvious.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "route": "/services/ai-development",
+    "status": 200,
+    "overflow": false,
+    "h1": "Useful AI starts with a bounded task.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "route": "/industries",
+    "status": 200,
+    "overflow": false,
+    "h1": "Start with how your market works.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "route": "/case-studies/continental-mercantile",
+    "status": 200,
+    "overflow": false,
+    "h1": "Continental Mercantile Corporation",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "route": "/insights",
+    "status": 200,
+    "overflow": false,
+    "h1": "Useful thinking for consequential digital decisions.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "route": "/insights/ai-automation-human-approval",
+    "status": 200,
+    "overflow": false,
+    "h1": "Where AI automation creates practical value first",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "route": "/about",
+    "status": 200,
+    "overflow": false,
+    "h1": "Engineering clarity into ambitious digital work.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "route": "/career",
+    "status": 200,
+    "overflow": false,
+    "h1": "Thoughtful work needs people who care about the whole system.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 390,
+    "route": "/contact",
+    "status": 200,
+    "overflow": false,
+    "h1": "Let’s figure out what to build next.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/",
+    "status": 200,
+    "overflow": false,
+    "h1": "Websites, software, mobile and AI. Engineered together.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/services/web-development",
+    "status": 200,
+    "overflow": false,
+    "h1": "A website should make the next step obvious.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/services/ai-development",
+    "status": 200,
+    "overflow": false,
+    "h1": "Useful AI starts with a bounded task.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/industries",
+    "status": 200,
+    "overflow": false,
+    "h1": "Start with how your market works.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/case-studies/continental-mercantile",
+    "status": 200,
+    "overflow": false,
+    "h1": "Continental Mercantile Corporation",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/insights",
+    "status": 200,
+    "overflow": false,
+    "h1": "Useful thinking for consequential digital decisions.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/insights/ai-automation-human-approval",
+    "status": 200,
+    "overflow": false,
+    "h1": "Where AI automation creates practical value first",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/about",
+    "status": 200,
+    "overflow": false,
+    "h1": "Engineering clarity into ambitious digital work.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/career",
+    "status": 200,
+    "overflow": false,
+    "h1": "Thoughtful work needs people who care about the whole system.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  },
+  {
+    "width": 1440,
+    "route": "/contact",
+    "status": 200,
+    "overflow": false,
+    "h1": "Let’s figure out what to build next.",
+    "bodyFont": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+    "brokenImages": 0
+  }
+]

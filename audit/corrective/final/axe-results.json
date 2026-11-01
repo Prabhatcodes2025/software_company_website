@@ -1,0 +1,1215 @@
+{
+  "generatedAt": "2026-11-01T09:01:12.294Z",
+  "findings": [
+    {
+      "device": "desktop",
+      "route": "/",
+      "state": "default",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".home-core-web > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #087a80, background color: #e8efe9, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".home-core-mobile > .home-core-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #0a7477, background color: #103b36, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".home-engineering-intro > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.09 (foreground color: #087a80, background color: #dce9e2, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(1) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(3) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(4) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(1) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(3) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(4) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(5) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(6) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 29
+        }
+      ],
+      "passes": 46
+    },
+    {
+      "device": "desktop",
+      "route": "/",
+      "state": "services-menu",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".mega-feature > p"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.54 (foreground color: #98acbb, background color: #385351, font size: 10.4pt (13.92px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(1) > a[href$=\"web-development\"]:nth-child(2)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #97aea9, background color: #324846, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "a[href$=\"web-development\"]:nth-child(3)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #97aea9, background color: #324846, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "a[href$=\"web-development\"]:nth-child(4)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #97aea9, background color: #324846, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "a[href$=\"web-development\"]:nth-child(5)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #97aea9, background color: #324846, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "div:nth-child(1) > a[href$=\"web-development\"]:nth-child(6)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.15 (foreground color: #97aea9, background color: #324846, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".core-mega-groups > div:nth-child(2) > a:nth-child(6)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #97aea9, background color: #324946, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".core-mega-support > a:nth-child(2)"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.1 (foreground color: #97aea9, background color: #324946, font size: 9.1pt (12.16px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".home-core-web > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #087a80, background color: #e8efe9, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".home-core-mobile > .home-core-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #0a7477, background color: #103b36, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".home-engineering-intro > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.09 (foreground color: #087a80, background color: #dce9e2, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(1) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(3) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(4) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(1) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(3) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(4) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(5) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(6) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 36
+        }
+      ],
+      "passes": 46
+    },
+    {
+      "device": "desktop",
+      "route": "/services",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 39
+    },
+    {
+      "device": "desktop",
+      "route": "/industries",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 41
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 41
+    },
+    {
+      "device": "desktop",
+      "route": "/about",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "passes": 44
+    },
+    {
+      "device": "desktop",
+      "route": "/insights",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "passes": 39
+    },
+    {
+      "device": "desktop",
+      "route": "/career",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 39
+    },
+    {
+      "device": "desktop",
+      "route": "/contact",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 45
+    },
+    {
+      "device": "desktop",
+      "route": "/privacy",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 39
+    },
+    {
+      "device": "desktop",
+      "route": "/terms",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 39
+    },
+    {
+      "device": "desktop",
+      "route": "/services/web-development",
+      "state": "default",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".core-service-build-grid > article:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #087e83, background color: #dcebe4, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(6) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #087e83, background color: #dcebe4, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".core-service-faq > .shell > div:nth-child(1) > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #087a80, background color: #e3ece6, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 7
+        }
+      ],
+      "passes": 44
+    },
+    {
+      "device": "desktop",
+      "route": "/services/mobile-app-development",
+      "state": "default",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".core-service-build-grid > article:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #087e83, background color: #dcebe4, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(6) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #087e83, background color: #dcebe4, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".core-service-faq > .shell > div:nth-child(1) > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #087a80, background color: #e3ece6, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "passes": 44
+    },
+    {
+      "device": "desktop",
+      "route": "/services/custom-software-development",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 15
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "desktop",
+      "route": "/services/ai-development",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "desktop",
+      "route": "/services/ai-automation",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "desktop",
+      "route": "/services/ui-ux-design",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 5
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "desktop",
+      "route": "/services/ecommerce-development",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "desktop",
+      "route": "/services/seo",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 5
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "desktop",
+      "route": "/services/digital-marketing",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "desktop",
+      "route": "/services/api-integrations",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/ongole-property",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/naystrip",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/mozno-wealth",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/snow-feather-adventure",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/rs-constructions",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/continental-mercantile",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 41
+    },
+    {
+      "device": "desktop",
+      "route": "/insights/ai-automation-human-approval",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 39
+    },
+    {
+      "device": "desktop",
+      "route": "/insights/custom-software-outcomes",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 39
+    },
+    {
+      "device": "desktop",
+      "route": "/insights/web-performance-details",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 39
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "state": "default",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".home-core-web > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #087a80, background color: #e8efe9, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".home-core-mobile > .home-core-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #0a7477, background color: #103b36, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".home-engineering-intro > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.09 (foreground color: #087a80, background color: #dce9e2, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(1) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(3) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(4) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(1) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(3) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(4) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(5) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(6) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 28
+        }
+      ],
+      "passes": 46
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "state": "mobile-menu",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".home-core-web > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.37 (foreground color: #087a80, background color: #e8efe9, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".home-core-mobile > .home-core-number"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #0a7477, background color: #103b36, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".home-engineering-intro > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.09 (foreground color: #087a80, background color: #dce9e2, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(1) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(3) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(4) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(1) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(3) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(4) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(5) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "li:nth-child(6) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #087d82, background color: #f5f2eb, font size: 8.6pt (11.52px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 2
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 28
+        }
+      ],
+      "passes": 46
+    },
+    {
+      "device": "mobile",
+      "route": "/services",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 38
+    },
+    {
+      "device": "mobile",
+      "route": "/industries",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 40
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 40
+    },
+    {
+      "device": "mobile",
+      "route": "/about",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "nodes": 1
+        },
+        {
+          "id": "color-contrast",
+          "nodes": 2
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "mobile",
+      "route": "/insights",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "passes": 38
+    },
+    {
+      "device": "mobile",
+      "route": "/career",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 38
+    },
+    {
+      "device": "mobile",
+      "route": "/contact",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 1
+        }
+      ],
+      "passes": 44
+    },
+    {
+      "device": "mobile",
+      "route": "/privacy",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 38
+    },
+    {
+      "device": "mobile",
+      "route": "/terms",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 38
+    },
+    {
+      "device": "mobile",
+      "route": "/services/web-development",
+      "state": "default",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".core-service-build-grid > article:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #087e83, background color: #dcebe4, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(6) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #087e83, background color: #dcebe4, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".core-service-faq > .shell > div:nth-child(1) > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #087a80, background color: #e3ece6, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 7
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "mobile",
+      "route": "/services/mobile-app-development",
+      "state": "default",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": [
+            {
+              "target": [
+                ".core-service-build-grid > article:nth-child(2) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #087e83, background color: #dcebe4, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                "article:nth-child(6) > span"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #087e83, background color: #dcebe4, font size: 8.4pt (11.2px), font weight: bold). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "target": [
+                ".core-service-faq > .shell > div:nth-child(1) > .corrective-kicker"
+              ],
+              "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.23 (foreground color: #087a80, background color: #e3ece6, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "passes": 43
+    },
+    {
+      "device": "mobile",
+      "route": "/services/custom-software-development",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 15
+        }
+      ],
+      "passes": 42
+    },
+    {
+      "device": "mobile",
+      "route": "/services/ai-development",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ],
+      "passes": 42
+    },
+    {
+      "device": "mobile",
+      "route": "/services/ai-automation",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 6
+        }
+      ],
+      "passes": 42
+    },
+    {
+      "device": "mobile",
+      "route": "/services/ui-ux-design",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 5
+        }
+      ],
+      "passes": 42
+    },
+    {
+      "device": "mobile",
+      "route": "/services/ecommerce-development",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ],
+      "passes": 42
+    },
+    {
+      "device": "mobile",
+      "route": "/services/seo",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 5
+        }
+      ],
+      "passes": 42
+    },
+    {
+      "device": "mobile",
+      "route": "/services/digital-marketing",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ],
+      "passes": 42
+    },
+    {
+      "device": "mobile",
+      "route": "/services/api-integrations",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 8
+        }
+      ],
+      "passes": 42
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/ongole-property",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/naystrip",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/mozno-wealth",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/snow-feather-adventure",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/rs-constructions",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/continental-mercantile",
+      "state": "default",
+      "violations": [],
+      "incomplete": [],
+      "passes": 40
+    },
+    {
+      "device": "mobile",
+      "route": "/insights/ai-automation-human-approval",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 38
+    },
+    {
+      "device": "mobile",
+      "route": "/insights/custom-software-outcomes",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 38
+    },
+    {
+      "device": "mobile",
+      "route": "/insights/web-performance-details",
+      "state": "default",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "nodes": 3
+        }
+      ],
+      "passes": 38
+    }
+  ]
+}

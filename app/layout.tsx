@@ -15,14 +15,15 @@ import "./contrast-corrective.css";
 import "./floating-quote.css";
 import "./brand-polish.css";
 import "./final-refinement.css";
+import "./repositioning.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(company.url),
   title: { default: "LetsFygure | Technology, Figured Out", template: "%s | LetsFygure" },
-  description: "LetsFygure designs and develops high-performance websites, mobile apps, custom software and practical AI automation for growing businesses.",
+  description: "LetsFygure designs and develops high-performance custom websites, scalable web applications and mobile apps for growing businesses.",
   alternates: { canonical: "/" },
-  openGraph: { title: "LetsFygure — Technology, Figured Out", description: "Web, mobile, custom software and AI solutions built around business outcomes.", url: company.url, siteName: company.name, images: [{ url: "/images/letsfygure-official.png", width: 2113, height: 744, alt: "LetsFygure" }], locale: "en_IN", type: "website" },
-  twitter: { card: "summary_large_image", title: "LetsFygure — Technology, Figured Out", description: "Web, mobile, custom software and AI solutions built around business outcomes.", images: ["/images/letsfygure-official.png"] },
+  openGraph: { title: "LetsFygure — Custom Websites & Mobile Apps", description: "Websites, web applications and mobile products engineered around business requirements.", url: company.url, siteName: company.name, images: [{ url: "/images/letsfygure-official.png", width: 2113, height: 744, alt: "LetsFygure" }], locale: "en_IN", type: "website" },
+  twitter: { card: "summary_large_image", title: "LetsFygure — Custom Websites & Mobile Apps", description: "Websites, web applications and mobile products engineered around business requirements.", images: ["/images/letsfygure-official.png"] },
   robots: { index: true, follow: true },
 };
 
@@ -30,7 +31,7 @@ const organizationSchema = {
   "@context": "https://schema.org", "@type": "Organization", name: company.name, alternateName: company.shortName,
   url: company.url, logo: `${company.url}/images/letsfygure-official.png`, telephone: company.phone, email: company.email,
   address: { "@type": "PostalAddress", streetAddress: "124, Ashoka Garden", addressLocality: "Bhopal", addressCountry: "IN" },
-  sameAs: [company.linkedin, company.instagram, company.clutch], description: "Digital product engineering company for web, mobile, custom software and practical AI automation.",
+  sameAs: [company.linkedin, company.instagram, company.clutch], description: "Custom website, web application and mobile app development company.",
 };
 
 export default function RootLayout({

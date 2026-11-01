@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { FormEvent, useState } from "react";
 import { ArrowRight, CheckCircle2, LoaderCircle, MessageCircle, TriangleAlert } from "lucide-react";
-import { company, services } from "@/lib/site";
+import { company } from "@/lib/site";
+
+const enquiryServices = ["Custom Website", "Web Application", "Mobile Application", "Other"];
 
 type Status = { kind: "idle" | "loading" | "error" | "success"; message?: string; whatsapp?: string; emailDelivered?: boolean };
 
@@ -37,8 +39,8 @@ export function ContactForm() {
     <label><span>Business email *</span><input name="email" type="email" required maxLength={160} autoComplete="email" /></label>
     <label><span>Company name *</span><input name="company" required maxLength={140} autoComplete="organization" /></label>
     <label><span>Country *</span><input name="country" required maxLength={100} autoComplete="country-name" /></label>
-    <label><span>Service required *</span><select name="service" required defaultValue=""><option value="" disabled>Select a service</option>{services.map(item => <option key={item.slug} value={item.title}>{item.title}</option>)}</select></label>
-    <label><span>Estimated budget</span><select name="budget" defaultValue=""><option value="">Prefer not to say</option><option>Under ₹1 lakh</option><option>₹1–5 lakh</option><option>₹5–15 lakh</option><option>₹15 lakh+</option></select></label>
+    <label><span>Service required *</span><select name="service" required defaultValue=""><option value="" disabled>Select a service</option>{enquiryServices.map(item => <option key={item} value={item}>{item}</option>)}</select></label>
+    <label><span>Estimated budget</span><select name="budget" defaultValue=""><option value="">Prefer not to say</option><option>Under ₹1 lakh / US$1,200</option><option>₹1–5 lakh / US$1,200–6,000</option><option>₹5–15 lakh / US$6,000–18,000</option><option>₹15 lakh+ / US$18,000+</option></select></label>
     <label className="form-wide"><span>Ideal timeline</span><select name="timeline" defaultValue=""><option value="">Flexible / not decided</option><option>Within 1 month</option><option>1–3 months</option><option>3–6 months</option><option>6 months+</option></select></label>
     <label className="form-honeypot" aria-hidden="true"><span>Website</span><input name="website" tabIndex={-1} autoComplete="off" /></label>
   </div><label><span>Project requirements *</span><textarea name="requirements" required minLength={20} maxLength={4000} rows={6} placeholder="What are you building or improving? Who uses it, what exists today and what outcome matters most?" /></label>

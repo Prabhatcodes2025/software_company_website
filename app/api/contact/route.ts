@@ -11,6 +11,7 @@ type ContactPayload = {
 const attempts = new Map<string, { count: number; resetAt: number }>();
 const WINDOW_MS = 15 * 60 * 1000;
 const LIMIT = 5;
+const enquiryServices = ["Custom Website", "Web Application", "Mobile Application", "Other"];
 
 function clean(value: unknown, max: number) { return typeof value === "string" ? value.trim().slice(0, max) : ""; }
 function escapeHtml(value: string) { return value.replace(/[&<>'"]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]!)); }
@@ -65,7 +66,7 @@ export async function POST(request: NextRequest) {
   const isQuote = body.source === "quote_popup";
   const phoneDigits = phone.replace(/\D/g, "");
   if (!submissionId || !/^[a-zA-Z0-9-]{16,80}$/.test(submissionId)) return jsonError("Please refresh the page and try again.", 400, "invalid_submission");
-  if (fullName.length < 2 || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) || !company || !country || !services.some(item => item.title === service) || requirements.length < 20 || body.privacyConsent !== true) return jsonError("Please complete every required field and accept the privacy notice.", 422, "validation_failed");
+  if (fullName.length < 2 || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) || !company || !country || ![...enquiryServices, ...services.map(item => item.title)].includes(service) || requirements.length < 20 || body.privacyConsent !== true) return jsonError("Please complete every required field and accept the privacy notice.", 422, "validation_failed");
   if ((isQuote && !phone) || (phone && (!/^[+()\d\s.-]+$/.test(phone) || phoneDigits.length < 7 || phoneDigits.length > 15))) return jsonError("Please enter a valid phone or WhatsApp number.", 422, "invalid_phone");
 
   const row = { submission_id: submissionId, full_name: fullName, business_email: email, company_name: company, country, service_required: service, estimated_budget: budget || null, timeline: timeline || null, requirements, privacy_consent: true, email_status: "pending", source: isQuote ? "quote_popup" : "website", ...(phone ? { phone_whatsapp: phone } : {}) };

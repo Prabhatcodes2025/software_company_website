@@ -1,0 +1,921 @@
+{
+  "generatedAt": "2026-10-29T00:35:09.080Z",
+  "results": [
+    {
+      "name": "desktop-1440",
+      "width": 1440,
+      "height": 900,
+      "status": 200,
+      "metrics": {
+        "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+        "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+        "canonical": "https://letsfygure.com/",
+        "h1": [
+          "Websites, software, mobile and AI. Built together."
+        ],
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Websites, software, mobile and AI. Built together."
+          },
+          {
+            "tag": "H2",
+            "text": "One partner for the interface and the work behind it."
+          },
+          {
+            "tag": "H2",
+            "text": "Tell us what needs to change."
+          },
+          {
+            "tag": "H3",
+            "text": "Build a customer platform"
+          },
+          {
+            "tag": "H3",
+            "text": "Replace a manual workflow"
+          },
+          {
+            "tag": "H3",
+            "text": "Introduce useful automation"
+          },
+          {
+            "tag": "H2",
+            "text": "Different markets bring different workflows."
+          },
+          {
+            "tag": "H2",
+            "text": "See the decisions before you pay for the build."
+          },
+          {
+            "tag": "H2",
+            "text": "The interface, application and operating data belong in one plan."
+          },
+          {
+            "tag": "H2",
+            "text": "Experience with a team that stays close to the work."
+          },
+          {
+            "tag": "H2",
+            "text": "See how the work holds up."
+          },
+          {
+            "tag": "H2",
+            "text": "Let's decide what to build—and what can wait."
+          },
+          {
+            "tag": "H2",
+            "text": "Explore"
+          },
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H2",
+            "text": "Contact"
+          }
+        ],
+        "bodyStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroHeadingStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "70.56px",
+          "fontWeight": "760",
+          "lineHeight": "73.3824px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroParagraphStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "28.26px",
+          "color": "rgb(64, 87, 83)",
+          "textAlign": "left"
+        },
+        "heroHeadingRect": {
+          "x": 100,
+          "y": 187.3125,
+          "width": 541.625,
+          "height": 293.5,
+          "right": 641.625,
+          "bottom": 480.8125
+        },
+        "heroParagraphRect": {
+          "x": 100,
+          "y": 508,
+          "width": 544,
+          "height": 84.75,
+          "right": 644,
+          "bottom": 592.75
+        },
+        "heroCtaInFirstViewport": true,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document": {
+          "width": 1440,
+          "height": 7178
+        },
+        "horizontalOverflow": false,
+        "brokenImages": [
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=3840&q=75"
+        ],
+        "missingImageAlts": [],
+        "floating": [
+          {
+            "name": "floating-quote",
+            "rect": {
+              "x": 1165.203125,
+              "y": 824,
+              "width": 174.796875,
+              "height": 54,
+              "right": 1340,
+              "bottom": 878
+            }
+          },
+          {
+            "name": "whatsapp-float",
+            "rect": {
+              "x": 1360,
+              "y": 728,
+              "width": 60,
+              "height": 60,
+              "right": 1420,
+              "bottom": 788
+            }
+          }
+        ],
+        "floatingOverlaps": [],
+        "cls": 0,
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "footer": 1
+        }
+      },
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  "dd[aria-label=\"3+ Years in business\"]"
+                ],
+                "html": "<dd aria-label=\"3+ Years in business\"><span aria-hidden=\"true\">3<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"50+ Projects delivered\"]"
+                ],
+                "html": "<dd aria-label=\"50+ Projects delivered\"><span aria-hidden=\"true\">50<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"40+ Clients served\"]"
+                ],
+                "html": "<dd aria-label=\"40+ Clients served\"><span aria-hidden=\"true\">40<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"3+ Countries served\"]"
+                ],
+                "html": "<dd aria-label=\"3+ Countries served\"><span aria-hidden=\"true\">3<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"5+ Team members\"]"
+                ],
+                "html": "<dd aria-label=\"5+ Team members\"><span aria-hidden=\"true\">5<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              }
+            ],
+            "help": "Elements must only use permitted ARIA attributes"
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".company-snapshot-intro > .corrective-kicker"
+                ],
+                "html": "<p class=\"corrective-kicker\">Company snapshot</p>",
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.18 (foreground color: #087a80, background color: #e8e9e0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "help": "Elements must meet minimum color contrast ratio thresholds"
+          }
+        ]
+      },
+      "interactions": {
+        "servicesMenuOpens": true,
+        "escapeClosesMenu": true,
+        "quoteModalOpens": true,
+        "quoteModalOpenAttribute": true,
+        "quoteModalNamed": true,
+        "quoteModalCloses": true
+      }
+    },
+    {
+      "name": "tablet-1024",
+      "width": 1024,
+      "height": 900,
+      "status": 200,
+      "metrics": {
+        "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+        "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+        "canonical": "https://letsfygure.com/",
+        "h1": [
+          "Websites, software, mobile and AI. Built together."
+        ],
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Websites, software, mobile and AI. Built together."
+          },
+          {
+            "tag": "H2",
+            "text": "One partner for the interface and the work behind it."
+          },
+          {
+            "tag": "H2",
+            "text": "Tell us what needs to change."
+          },
+          {
+            "tag": "H3",
+            "text": "Build a customer platform"
+          },
+          {
+            "tag": "H3",
+            "text": "Replace a manual workflow"
+          },
+          {
+            "tag": "H3",
+            "text": "Introduce useful automation"
+          },
+          {
+            "tag": "H2",
+            "text": "Different markets bring different workflows."
+          },
+          {
+            "tag": "H2",
+            "text": "See the decisions before you pay for the build."
+          },
+          {
+            "tag": "H2",
+            "text": "The interface, application and operating data belong in one plan."
+          },
+          {
+            "tag": "H2",
+            "text": "Experience with a team that stays close to the work."
+          },
+          {
+            "tag": "H2",
+            "text": "See how the work holds up."
+          },
+          {
+            "tag": "H2",
+            "text": "Let's decide what to build—and what can wait."
+          },
+          {
+            "tag": "H2",
+            "text": "Explore"
+          },
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H2",
+            "text": "Contact"
+          }
+        ],
+        "bodyStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroHeadingStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "52px",
+          "fontWeight": "760",
+          "lineHeight": "54.08px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroParagraphStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "28.26px",
+          "color": "rgb(64, 87, 83)",
+          "textAlign": "left"
+        },
+        "heroHeadingRect": {
+          "x": 20,
+          "y": 225.90625,
+          "width": 399.15625,
+          "height": 216.3125,
+          "right": 419.15625,
+          "bottom": 442.21875
+        },
+        "heroParagraphRect": {
+          "x": 20,
+          "y": 469.40625,
+          "width": 490.375,
+          "height": 84.75,
+          "right": 510.375,
+          "bottom": 554.15625
+        },
+        "heroCtaInFirstViewport": true,
+        "viewport": {
+          "width": 1024,
+          "height": 900
+        },
+        "document": {
+          "width": 1024,
+          "height": 6502
+        },
+        "horizontalOverflow": false,
+        "brokenImages": [
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=3840&q=75"
+        ],
+        "missingImageAlts": [],
+        "floating": [
+          {
+            "name": "floating-quote",
+            "rect": {
+              "x": 749.203125,
+              "y": 824,
+              "width": 174.796875,
+              "height": 54,
+              "right": 924,
+              "bottom": 878
+            }
+          },
+          {
+            "name": "whatsapp-float",
+            "rect": {
+              "x": 944,
+              "y": 728,
+              "width": 60,
+              "height": 60,
+              "right": 1004,
+              "bottom": 788
+            }
+          }
+        ],
+        "floatingOverlaps": [],
+        "cls": 0.00041557540496190386,
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "footer": 1
+        }
+      },
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  "dd[aria-label=\"3+ Years in business\"]"
+                ],
+                "html": "<dd aria-label=\"3+ Years in business\"><span aria-hidden=\"true\">3<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"50+ Projects delivered\"]"
+                ],
+                "html": "<dd aria-label=\"50+ Projects delivered\"><span aria-hidden=\"true\">50<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"40+ Clients served\"]"
+                ],
+                "html": "<dd aria-label=\"40+ Clients served\"><span aria-hidden=\"true\">40<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"3+ Countries served\"]"
+                ],
+                "html": "<dd aria-label=\"3+ Countries served\"><span aria-hidden=\"true\">3<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"5+ Team members\"]"
+                ],
+                "html": "<dd aria-label=\"5+ Team members\"><span aria-hidden=\"true\">5<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              }
+            ],
+            "help": "Elements must only use permitted ARIA attributes"
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".company-snapshot-intro > .corrective-kicker"
+                ],
+                "html": "<p class=\"corrective-kicker\">Company snapshot</p>",
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.18 (foreground color: #087a80, background color: #e8e9e0, font size: 9.0pt (12px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "help": "Elements must meet minimum color contrast ratio thresholds"
+          }
+        ]
+      },
+      "interactions": {
+        "servicesMenuOpens": true,
+        "escapeClosesMenu": true,
+        "quoteModalOpens": true,
+        "quoteModalOpenAttribute": true,
+        "quoteModalNamed": true,
+        "quoteModalCloses": true
+      }
+    },
+    {
+      "name": "mobile-390",
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "metrics": {
+        "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+        "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+        "canonical": "https://letsfygure.com/",
+        "h1": [
+          "Websites, software, mobile and AI. Built together."
+        ],
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Websites, software, mobile and AI. Built together."
+          },
+          {
+            "tag": "H2",
+            "text": "One partner for the interface and the work behind it."
+          },
+          {
+            "tag": "H2",
+            "text": "Tell us what needs to change."
+          },
+          {
+            "tag": "H3",
+            "text": "Build a customer platform"
+          },
+          {
+            "tag": "H3",
+            "text": "Replace a manual workflow"
+          },
+          {
+            "tag": "H3",
+            "text": "Introduce useful automation"
+          },
+          {
+            "tag": "H2",
+            "text": "Different markets bring different workflows."
+          },
+          {
+            "tag": "H2",
+            "text": "See the decisions before you pay for the build."
+          },
+          {
+            "tag": "H2",
+            "text": "The interface, application and operating data belong in one plan."
+          },
+          {
+            "tag": "H2",
+            "text": "Experience with a team that stays close to the work."
+          },
+          {
+            "tag": "H2",
+            "text": "See how the work holds up."
+          },
+          {
+            "tag": "H2",
+            "text": "Let's decide what to build—and what can wait."
+          },
+          {
+            "tag": "H2",
+            "text": "Explore"
+          },
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H2",
+            "text": "Contact"
+          }
+        ],
+        "bodyStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroHeadingStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "39.78px",
+          "fontWeight": "760",
+          "lineHeight": "41.3712px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroParagraphStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "color": "rgb(64, 87, 83)",
+          "textAlign": "left"
+        },
+        "heroHeadingRect": {
+          "x": 16,
+          "y": 156.578125,
+          "width": 358,
+          "height": 124.078125,
+          "right": 374,
+          "bottom": 280.65625
+        },
+        "heroParagraphRect": {
+          "x": 16,
+          "y": 299.84375,
+          "width": 358,
+          "height": 105.5625,
+          "right": 374,
+          "bottom": 405.40625
+        },
+        "heroCtaInFirstViewport": true,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "document": {
+          "width": 390,
+          "height": 9355
+        },
+        "horizontalOverflow": false,
+        "brokenImages": [
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=3840&q=75"
+        ],
+        "missingImageAlts": [],
+        "floating": [
+          {
+            "name": "whatsapp-float",
+            "rect": {
+              "x": 314,
+              "y": 676,
+              "width": 60,
+              "height": 60,
+              "right": 374,
+              "bottom": 736
+            }
+          }
+        ],
+        "floatingOverlaps": [],
+        "cls": 0,
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "footer": 1
+        }
+      },
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  "dd[aria-label=\"3+ Years in business\"]"
+                ],
+                "html": "<dd aria-label=\"3+ Years in business\"><span aria-hidden=\"true\">3<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"50+ Projects delivered\"]"
+                ],
+                "html": "<dd aria-label=\"50+ Projects delivered\"><span aria-hidden=\"true\">50<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"40+ Clients served\"]"
+                ],
+                "html": "<dd aria-label=\"40+ Clients served\"><span aria-hidden=\"true\">40<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"3+ Countries served\"]"
+                ],
+                "html": "<dd aria-label=\"3+ Countries served\"><span aria-hidden=\"true\">3<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"5+ Team members\"]"
+                ],
+                "html": "<dd aria-label=\"5+ Team members\"><span aria-hidden=\"true\">5<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              }
+            ],
+            "help": "Elements must only use permitted ARIA attributes"
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".company-snapshot-intro > .corrective-kicker"
+                ],
+                "html": "<p class=\"corrective-kicker\">Company snapshot</p>",
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.18 (foreground color: #087a80, background color: #e8e9e0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "help": "Elements must meet minimum color contrast ratio thresholds"
+          }
+        ]
+      },
+      "interactions": {
+        "mobileMenuOpens": true,
+        "firstLinkFocused": true,
+        "escapeClosesMenu": true,
+        "quoteModalOpens": true,
+        "quoteModalOpenAttribute": true,
+        "quoteModalNamed": true,
+        "quoteModalCloses": true
+      }
+    },
+    {
+      "name": "mobile-320",
+      "width": 320,
+      "height": 760,
+      "status": 200,
+      "metrics": {
+        "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+        "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+        "canonical": "https://letsfygure.com/",
+        "h1": [
+          "Websites, software, mobile and AI. Built together."
+        ],
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Websites, software, mobile and AI. Built together."
+          },
+          {
+            "tag": "H2",
+            "text": "One partner for the interface and the work behind it."
+          },
+          {
+            "tag": "H2",
+            "text": "Tell us what needs to change."
+          },
+          {
+            "tag": "H3",
+            "text": "Build a customer platform"
+          },
+          {
+            "tag": "H3",
+            "text": "Replace a manual workflow"
+          },
+          {
+            "tag": "H3",
+            "text": "Introduce useful automation"
+          },
+          {
+            "tag": "H2",
+            "text": "Different markets bring different workflows."
+          },
+          {
+            "tag": "H2",
+            "text": "See the decisions before you pay for the build."
+          },
+          {
+            "tag": "H2",
+            "text": "The interface, application and operating data belong in one plan."
+          },
+          {
+            "tag": "H2",
+            "text": "Experience with a team that stays close to the work."
+          },
+          {
+            "tag": "H2",
+            "text": "See how the work holds up."
+          },
+          {
+            "tag": "H2",
+            "text": "Let's decide what to build—and what can wait."
+          },
+          {
+            "tag": "H2",
+            "text": "Explore"
+          },
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H2",
+            "text": "Contact"
+          }
+        ],
+        "bodyStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroHeadingStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "37.6px",
+          "fontWeight": "760",
+          "lineHeight": "39.104px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroParagraphStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "color": "rgb(64, 87, 83)",
+          "textAlign": "left"
+        },
+        "heroHeadingRect": {
+          "x": 13,
+          "y": 182.96875,
+          "width": 294,
+          "height": 156.375,
+          "right": 307,
+          "bottom": 339.34375
+        },
+        "heroParagraphRect": {
+          "x": 13,
+          "y": 358.53125,
+          "width": 294,
+          "height": 131.953125,
+          "right": 307,
+          "bottom": 490.484375
+        },
+        "heroCtaInFirstViewport": true,
+        "viewport": {
+          "width": 320,
+          "height": 760
+        },
+        "document": {
+          "width": 320,
+          "height": 10015
+        },
+        "horizontalOverflow": false,
+        "brokenImages": [
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=3840&q=75",
+          "http://127.0.0.1:3013/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=3840&q=75"
+        ],
+        "missingImageAlts": [],
+        "floating": [
+          {
+            "name": "whatsapp-float",
+            "rect": {
+              "x": 244,
+              "y": 592,
+              "width": 60,
+              "height": 60,
+              "right": 304,
+              "bottom": 652
+            }
+          }
+        ],
+        "floatingOverlaps": [],
+        "cls": 0,
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "footer": 1
+        }
+      },
+      "axe": {
+        "violations": [
+          {
+            "id": "aria-prohibited-attr",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  "dd[aria-label=\"3+ Years in business\"]"
+                ],
+                "html": "<dd aria-label=\"3+ Years in business\"><span aria-hidden=\"true\">3<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"50+ Projects delivered\"]"
+                ],
+                "html": "<dd aria-label=\"50+ Projects delivered\"><span aria-hidden=\"true\">50<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"40+ Clients served\"]"
+                ],
+                "html": "<dd aria-label=\"40+ Clients served\"><span aria-hidden=\"true\">40<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"3+ Countries served\"]"
+                ],
+                "html": "<dd aria-label=\"3+ Countries served\"><span aria-hidden=\"true\">3<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              },
+              {
+                "target": [
+                  "dd[aria-label=\"5+ Team members\"]"
+                ],
+                "html": "<dd aria-label=\"5+ Team members\"><span aria-hidden=\"true\">5<!-- -->+</span></dd>",
+                "failureSummary": "Fix all of the following:\n  aria-label attribute cannot be used with role \"definition\"."
+              }
+            ],
+            "help": "Elements must only use permitted ARIA attributes"
+          },
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+              {
+                "target": [
+                  ".company-snapshot-intro > .corrective-kicker"
+                ],
+                "html": "<p class=\"corrective-kicker\">Company snapshot</p>",
+                "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.18 (foreground color: #087a80, background color: #e8e9e0, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+              }
+            ],
+            "help": "Elements must meet minimum color contrast ratio thresholds"
+          }
+        ]
+      },
+      "interactions": {
+        "mobileMenuOpens": true,
+        "firstLinkFocused": true,
+        "escapeClosesMenu": true,
+        "quoteModalOpens": true,
+        "quoteModalOpenAttribute": true,
+        "quoteModalNamed": true,
+        "quoteModalCloses": true
+      }
+    }
+  ]
+}

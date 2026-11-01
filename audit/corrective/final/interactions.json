@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-10-27T18:23:12.049Z",
+  "checks": [
+    {
+      "name": "desktop Services opens",
+      "passed": true
+    },
+    {
+      "name": "desktop outside click closes",
+      "passed": true
+    },
+    {
+      "name": "desktop Insights opens",
+      "passed": true
+    },
+    {
+      "name": "desktop Escape closes",
+      "passed": true
+    },
+    {
+      "name": "keyboard Enter opens Services",
+      "passed": true
+    },
+    {
+      "name": "keyboard focus visible",
+      "passed": true,
+      "detail": "{\"outline\":\"solid\",\"width\":\"3px\"}"
+    },
+    {
+      "name": "service active state",
+      "passed": true
+    },
+    {
+      "name": "hero CTA destination",
+      "passed": true
+    },
+    {
+      "name": "mobile navigation opens",
+      "passed": true
+    },
+    {
+      "name": "mobile first link receives focus",
+      "passed": true
+    },
+    {
+      "name": "mobile Escape closes",
+      "passed": true
+    },
+    {
+      "name": "mobile Escape restores focus",
+      "passed": true
+    },
+    {
+      "name": "mobile route navigation",
+      "passed": true
+    },
+    {
+      "name": "mobile menu closes on route",
+      "passed": true
+    },
+    {
+      "name": "/case-studies/ongole-property live-site link",
+      "passed": true,
+      "detail": "https://www.ongoleproperty.com/"
+    },
+    {
+      "name": "/case-studies/naystrip live-site link",
+      "passed": true,
+      "detail": "https://naystrip.com/"
+    },
+    {
+      "name": "/case-studies/mozno-wealth live-site link",
+      "passed": true,
+      "detail": "https://mozno.in/"
+    },
+    {
+      "name": "/case-studies/snow-feather-adventure live-site link",
+      "passed": true,
+      "detail": "https://www.snowfeatheradventure.com/"
+    },
+    {
+      "name": "/case-studies/rs-constructions live-site link",
+      "passed": true,
+      "detail": "https://www.rsconstructionscompany.com/"
+    },
+    {
+      "name": "/case-studies/continental-mercantile live-site link",
+      "passed": true,
+      "detail": "https://www.continentalmanpower.com/"
+    }
+  ]
+}

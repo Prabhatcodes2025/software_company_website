@@ -1,0 +1,665 @@
+{
+  "generatedAt": "2026-10-29T00:37:05.430Z",
+  "results": [
+    {
+      "name": "desktop-1440",
+      "width": 1440,
+      "height": 900,
+      "status": 200,
+      "metrics": {
+        "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+        "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+        "canonical": "https://letsfygure.com/",
+        "h1": [
+          "Web, software, mobile and AI—built together."
+        ],
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Web, software, mobile and AI—built together."
+          },
+          {
+            "tag": "H2",
+            "text": "One partner for the interface and the work behind it."
+          },
+          {
+            "tag": "H2",
+            "text": "Tell us what needs to change."
+          },
+          {
+            "tag": "H3",
+            "text": "Build a customer platform"
+          },
+          {
+            "tag": "H3",
+            "text": "Replace a manual workflow"
+          },
+          {
+            "tag": "H3",
+            "text": "Introduce useful automation"
+          },
+          {
+            "tag": "H2",
+            "text": "Different markets bring different workflows."
+          },
+          {
+            "tag": "H2",
+            "text": "See the decisions before you pay for the build."
+          },
+          {
+            "tag": "H2",
+            "text": "The interface, application and operating data belong in one plan."
+          },
+          {
+            "tag": "H2",
+            "text": "Experience with a team that stays close to the work."
+          },
+          {
+            "tag": "H2",
+            "text": "See how the work holds up."
+          },
+          {
+            "tag": "H2",
+            "text": "Let's decide what to build—and what can wait."
+          },
+          {
+            "tag": "H2",
+            "text": "Explore"
+          },
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H2",
+            "text": "Contact"
+          }
+        ],
+        "bodyStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroHeadingStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "70.56px",
+          "fontWeight": "760",
+          "lineHeight": "73.3824px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroParagraphStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "28.26px",
+          "color": "rgb(64, 87, 83)",
+          "textAlign": "left"
+        },
+        "heroHeadingRect": {
+          "x": 100,
+          "y": 224,
+          "width": 588.734375,
+          "height": 220.125,
+          "right": 688.734375,
+          "bottom": 444.125
+        },
+        "heroParagraphRect": {
+          "x": 100,
+          "y": 471.3125,
+          "width": 544,
+          "height": 84.75,
+          "right": 644,
+          "bottom": 556.0625
+        },
+        "heroCtaInFirstViewport": true,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "document": {
+          "width": 1440,
+          "height": 7178
+        },
+        "horizontalOverflow": false,
+        "brokenImages": [],
+        "missingImageAlts": [],
+        "floating": [
+          {
+            "name": "floating-quote",
+            "rect": {
+              "x": 1165.203125,
+              "y": 824,
+              "width": 174.796875,
+              "height": 54,
+              "right": 1340,
+              "bottom": 878
+            }
+          },
+          {
+            "name": "whatsapp-float",
+            "rect": {
+              "x": 1360,
+              "y": 728,
+              "width": 60,
+              "height": 60,
+              "right": 1420,
+              "bottom": 788
+            }
+          }
+        ],
+        "floatingOverlaps": [],
+        "cls": 0,
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "footer": 1
+        }
+      },
+      "axe": {
+        "violations": []
+      },
+      "interactions": {
+        "servicesMenuOpens": true,
+        "escapeClosesMenu": true,
+        "quoteModalOpens": true,
+        "quoteModalOpenAttribute": true,
+        "quoteModalNamed": true,
+        "quoteModalCloses": true
+      }
+    },
+    {
+      "name": "tablet-1024",
+      "width": 1024,
+      "height": 900,
+      "status": 200,
+      "metrics": {
+        "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+        "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+        "canonical": "https://letsfygure.com/",
+        "h1": [
+          "Web, software, mobile and AI—built together."
+        ],
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Web, software, mobile and AI—built together."
+          },
+          {
+            "tag": "H2",
+            "text": "One partner for the interface and the work behind it."
+          },
+          {
+            "tag": "H2",
+            "text": "Tell us what needs to change."
+          },
+          {
+            "tag": "H3",
+            "text": "Build a customer platform"
+          },
+          {
+            "tag": "H3",
+            "text": "Replace a manual workflow"
+          },
+          {
+            "tag": "H3",
+            "text": "Introduce useful automation"
+          },
+          {
+            "tag": "H2",
+            "text": "Different markets bring different workflows."
+          },
+          {
+            "tag": "H2",
+            "text": "See the decisions before you pay for the build."
+          },
+          {
+            "tag": "H2",
+            "text": "The interface, application and operating data belong in one plan."
+          },
+          {
+            "tag": "H2",
+            "text": "Experience with a team that stays close to the work."
+          },
+          {
+            "tag": "H2",
+            "text": "See how the work holds up."
+          },
+          {
+            "tag": "H2",
+            "text": "Let's decide what to build—and what can wait."
+          },
+          {
+            "tag": "H2",
+            "text": "Explore"
+          },
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H2",
+            "text": "Contact"
+          }
+        ],
+        "bodyStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroHeadingStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "52px",
+          "fontWeight": "760",
+          "lineHeight": "54.08px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroParagraphStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "18px",
+          "fontWeight": "400",
+          "lineHeight": "28.26px",
+          "color": "rgb(64, 87, 83)",
+          "textAlign": "left"
+        },
+        "heroHeadingRect": {
+          "x": 20,
+          "y": 252.9375,
+          "width": 433.875,
+          "height": 162.234375,
+          "right": 453.875,
+          "bottom": 415.171875
+        },
+        "heroParagraphRect": {
+          "x": 20,
+          "y": 442.359375,
+          "width": 490.375,
+          "height": 84.75,
+          "right": 510.375,
+          "bottom": 527.109375
+        },
+        "heroCtaInFirstViewport": true,
+        "viewport": {
+          "width": 1024,
+          "height": 900
+        },
+        "document": {
+          "width": 1024,
+          "height": 6502
+        },
+        "horizontalOverflow": false,
+        "brokenImages": [],
+        "missingImageAlts": [],
+        "floating": [
+          {
+            "name": "floating-quote",
+            "rect": {
+              "x": 749.203125,
+              "y": 824,
+              "width": 174.796875,
+              "height": 54,
+              "right": 924,
+              "bottom": 878
+            }
+          },
+          {
+            "name": "whatsapp-float",
+            "rect": {
+              "x": 944,
+              "y": 728,
+              "width": 60,
+              "height": 60,
+              "right": 1004,
+              "bottom": 788
+            }
+          }
+        ],
+        "floatingOverlaps": [],
+        "cls": 0.00045564224322636925,
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "footer": 1
+        }
+      },
+      "axe": {
+        "violations": []
+      },
+      "interactions": {
+        "servicesMenuOpens": true,
+        "escapeClosesMenu": true,
+        "quoteModalOpens": true,
+        "quoteModalOpenAttribute": true,
+        "quoteModalNamed": true,
+        "quoteModalCloses": true
+      }
+    },
+    {
+      "name": "mobile-390",
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "metrics": {
+        "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+        "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+        "canonical": "https://letsfygure.com/",
+        "h1": [
+          "Web, software, mobile and AI—built together."
+        ],
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Web, software, mobile and AI—built together."
+          },
+          {
+            "tag": "H2",
+            "text": "One partner for the interface and the work behind it."
+          },
+          {
+            "tag": "H2",
+            "text": "Tell us what needs to change."
+          },
+          {
+            "tag": "H3",
+            "text": "Build a customer platform"
+          },
+          {
+            "tag": "H3",
+            "text": "Replace a manual workflow"
+          },
+          {
+            "tag": "H3",
+            "text": "Introduce useful automation"
+          },
+          {
+            "tag": "H2",
+            "text": "Different markets bring different workflows."
+          },
+          {
+            "tag": "H2",
+            "text": "See the decisions before you pay for the build."
+          },
+          {
+            "tag": "H2",
+            "text": "The interface, application and operating data belong in one plan."
+          },
+          {
+            "tag": "H2",
+            "text": "Experience with a team that stays close to the work."
+          },
+          {
+            "tag": "H2",
+            "text": "See how the work holds up."
+          },
+          {
+            "tag": "H2",
+            "text": "Let's decide what to build—and what can wait."
+          },
+          {
+            "tag": "H2",
+            "text": "Explore"
+          },
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H2",
+            "text": "Contact"
+          }
+        ],
+        "bodyStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroHeadingStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "39.78px",
+          "fontWeight": "760",
+          "lineHeight": "41.3712px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroParagraphStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "color": "rgb(64, 87, 83)",
+          "textAlign": "left"
+        },
+        "heroHeadingRect": {
+          "x": 16,
+          "y": 156.578125,
+          "width": 358,
+          "height": 124.078125,
+          "right": 374,
+          "bottom": 280.65625
+        },
+        "heroParagraphRect": {
+          "x": 16,
+          "y": 299.84375,
+          "width": 358,
+          "height": 105.5625,
+          "right": 374,
+          "bottom": 405.40625
+        },
+        "heroCtaInFirstViewport": true,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "document": {
+          "width": 390,
+          "height": 9355
+        },
+        "horizontalOverflow": false,
+        "brokenImages": [],
+        "missingImageAlts": [],
+        "floating": [
+          {
+            "name": "whatsapp-float",
+            "rect": {
+              "x": 314,
+              "y": 676,
+              "width": 60,
+              "height": 60,
+              "right": 374,
+              "bottom": 736
+            }
+          }
+        ],
+        "floatingOverlaps": [],
+        "cls": 0,
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "footer": 1
+        }
+      },
+      "axe": {
+        "violations": []
+      },
+      "interactions": {
+        "mobileMenuOpens": true,
+        "firstLinkFocused": true,
+        "escapeClosesMenu": true,
+        "quoteModalOpens": true,
+        "quoteModalOpenAttribute": true,
+        "quoteModalNamed": true,
+        "quoteModalCloses": true
+      }
+    },
+    {
+      "name": "mobile-320",
+      "width": 320,
+      "height": 760,
+      "status": 200,
+      "metrics": {
+        "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+        "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+        "canonical": "https://letsfygure.com/",
+        "h1": [
+          "Web, software, mobile and AI—built together."
+        ],
+        "headings": [
+          {
+            "tag": "H1",
+            "text": "Web, software, mobile and AI—built together."
+          },
+          {
+            "tag": "H2",
+            "text": "One partner for the interface and the work behind it."
+          },
+          {
+            "tag": "H2",
+            "text": "Tell us what needs to change."
+          },
+          {
+            "tag": "H3",
+            "text": "Build a customer platform"
+          },
+          {
+            "tag": "H3",
+            "text": "Replace a manual workflow"
+          },
+          {
+            "tag": "H3",
+            "text": "Introduce useful automation"
+          },
+          {
+            "tag": "H2",
+            "text": "Different markets bring different workflows."
+          },
+          {
+            "tag": "H2",
+            "text": "See the decisions before you pay for the build."
+          },
+          {
+            "tag": "H2",
+            "text": "The interface, application and operating data belong in one plan."
+          },
+          {
+            "tag": "H2",
+            "text": "Experience with a team that stays close to the work."
+          },
+          {
+            "tag": "H2",
+            "text": "See how the work holds up."
+          },
+          {
+            "tag": "H2",
+            "text": "Let's decide what to build—and what can wait."
+          },
+          {
+            "tag": "H2",
+            "text": "Explore"
+          },
+          {
+            "tag": "H2",
+            "text": "Services"
+          },
+          {
+            "tag": "H2",
+            "text": "Contact"
+          }
+        ],
+        "bodyStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroHeadingStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "37.6px",
+          "fontWeight": "760",
+          "lineHeight": "39.104px",
+          "color": "rgb(11, 27, 26)",
+          "textAlign": "start"
+        },
+        "heroParagraphStyle": {
+          "fontFamily": "\"LetsFygure Manrope\", Manrope, system-ui, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "26.4px",
+          "color": "rgb(64, 87, 83)",
+          "textAlign": "left"
+        },
+        "heroHeadingRect": {
+          "x": 13,
+          "y": 182.96875,
+          "width": 294,
+          "height": 117.28125,
+          "right": 307,
+          "bottom": 300.25
+        },
+        "heroParagraphRect": {
+          "x": 13,
+          "y": 319.4375,
+          "width": 294,
+          "height": 131.953125,
+          "right": 307,
+          "bottom": 451.390625
+        },
+        "heroCtaInFirstViewport": true,
+        "viewport": {
+          "width": 320,
+          "height": 760
+        },
+        "document": {
+          "width": 320,
+          "height": 9976
+        },
+        "horizontalOverflow": false,
+        "brokenImages": [],
+        "missingImageAlts": [],
+        "floating": [
+          {
+            "name": "whatsapp-float",
+            "rect": {
+              "x": 244,
+              "y": 592,
+              "width": 60,
+              "height": 60,
+              "right": 304,
+              "bottom": 652
+            }
+          }
+        ],
+        "floatingOverlaps": [],
+        "cls": 0,
+        "landmarks": {
+          "main": 1,
+          "nav": 1,
+          "footer": 1
+        }
+      },
+      "axe": {
+        "violations": []
+      },
+      "interactions": {
+        "mobileMenuOpens": true,
+        "firstLinkFocused": true,
+        "escapeClosesMenu": true,
+        "quoteModalOpens": true,
+        "quoteModalOpenAttribute": true,
+        "quoteModalNamed": true,
+        "quoteModalCloses": true
+      }
+    }
+  ]
+}

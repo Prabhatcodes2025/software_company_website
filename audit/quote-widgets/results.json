@@ -1,0 +1,446 @@
+{
+  "generatedAt": "2026-10-28T19:31:14.105Z",
+  "results": [
+    {
+      "width": 320,
+      "name": "WhatsApp number and message",
+      "passed": true,
+      "detail": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I'd%20like%20to%20discuss%20a%20project."
+    },
+    {
+      "width": 320,
+      "name": "one WhatsApp button",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "back to top initially hidden",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "floating controls inside viewport",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "back to top works",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "quote modal opens",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "focus starts in form",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "focus stays in modal",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "background scroll locked",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "no modal horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 320,
+        "document": 320,
+        "dialog": 300
+      }
+    },
+    {
+      "width": 320,
+      "name": "Escape closes modal",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "focus restored",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "close button works",
+      "passed": true
+    },
+    {
+      "width": 320,
+      "name": "backdrop closes modal",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "WhatsApp number and message",
+      "passed": true,
+      "detail": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I'd%20like%20to%20discuss%20a%20project."
+    },
+    {
+      "width": 390,
+      "name": "one WhatsApp button",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "back to top initially hidden",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "floating controls inside viewport",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "back to top works",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "quote modal opens",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "focus starts in form",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "focus stays in modal",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "background scroll locked",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "no modal horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "dialog": 370
+      }
+    },
+    {
+      "width": 390,
+      "name": "Escape closes modal",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "focus restored",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "close button works",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "backdrop closes modal",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "WhatsApp number and message",
+      "passed": true,
+      "detail": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I'd%20like%20to%20discuss%20a%20project."
+    },
+    {
+      "width": 768,
+      "name": "one WhatsApp button",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "back to top initially hidden",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "floating controls inside viewport",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "back to top works",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "quote modal opens",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "focus starts in form",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "focus stays in modal",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "background scroll locked",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "no modal horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 768,
+        "document": 768,
+        "dialog": 732
+      }
+    },
+    {
+      "width": 768,
+      "name": "Escape closes modal",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "focus restored",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "close button works",
+      "passed": true
+    },
+    {
+      "width": 768,
+      "name": "backdrop closes modal",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "WhatsApp number and message",
+      "passed": true,
+      "detail": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I'd%20like%20to%20discuss%20a%20project."
+    },
+    {
+      "width": 1024,
+      "name": "one WhatsApp button",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "back to top initially hidden",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "floating controls inside viewport",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "back to top works",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "quote modal opens",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "focus starts in form",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "focus stays in modal",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "background scroll locked",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "no modal horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1024,
+        "document": 1024,
+        "dialog": 988
+      }
+    },
+    {
+      "width": 1024,
+      "name": "Escape closes modal",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "focus restored",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "close button works",
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "name": "backdrop closes modal",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "WhatsApp number and message",
+      "passed": true,
+      "detail": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I'd%20like%20to%20discuss%20a%20project."
+    },
+    {
+      "width": 1440,
+      "name": "one WhatsApp button",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "back to top initially hidden",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "floating controls inside viewport",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "back to top works",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "quote modal opens",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "focus starts in form",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "focus stays in modal",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "background scroll locked",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "no modal horizontal overflow",
+      "passed": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "dialog": 1050
+      }
+    },
+    {
+      "width": 1440,
+      "name": "Escape closes modal",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "focus restored",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "close button works",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "name": "backdrop closes modal",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "service preselected",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "required fields validated",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "local production origin safely rejected",
+      "passed": true,
+      "detail": 403
+    },
+    {
+      "width": 390,
+      "name": "no false success",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "requires saved confirmation",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "loading state blocks repeat submit",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "saved without email is explained",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "existing contact form retained",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "tawk script retained",
+      "passed": true,
+      "detail": {
+        "script": true,
+        "iframes": [],
+        "api": true
+      }
+    },
+    {
+      "width": 390,
+      "name": "WhatsApp hides for expanded chat event",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "name": "WhatsApp returns for minimized chat event",
+      "passed": true
+    }
+  ]
+}

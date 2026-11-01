@@ -1,0 +1,93 @@
+[
+  {
+    "width": 320,
+    "overflow": false,
+    "headerLogo": true,
+    "footerLogoPresent": true,
+    "logos": 6,
+    "duplicateHidden": true,
+    "waSize": [
+      60,
+      60
+    ],
+    "waInside": true,
+    "fontPreload": true,
+    "tawkScript": true,
+    "footerLogo": true,
+    "back": true
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "headerLogo": true,
+    "footerLogoPresent": true,
+    "logos": 6,
+    "duplicateHidden": true,
+    "waSize": [
+      60,
+      60
+    ],
+    "waInside": true,
+    "fontPreload": true,
+    "tawkScript": true,
+    "footerLogo": true,
+    "back": true
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "headerLogo": true,
+    "footerLogoPresent": true,
+    "logos": 6,
+    "duplicateHidden": true,
+    "waSize": [
+      60,
+      60
+    ],
+    "waInside": true,
+    "fontPreload": true,
+    "tawkScript": true,
+    "footerLogo": true,
+    "back": true
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "headerLogo": true,
+    "footerLogoPresent": true,
+    "logos": 6,
+    "duplicateHidden": true,
+    "waSize": [
+      60,
+      60
+    ],
+    "waInside": true,
+    "fontPreload": true,
+    "tawkScript": true,
+    "footerLogo": true,
+    "back": true
+  },
+  {
+    "width": 1440,
+    "overflow": false,
+    "headerLogo": true,
+    "footerLogoPresent": true,
+    "logos": 6,
+    "duplicateHidden": true,
+    "waSize": [
+      60,
+      60
+    ],
+    "waInside": true,
+    "fontPreload": true,
+    "tawkScript": true,
+    "footerLogo": true,
+    "back": true
+  },
+  {
+    "reducedMotion": {
+      "animation": "none",
+      "overflow": "auto"
+    }
+  }
+]

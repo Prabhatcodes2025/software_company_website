@@ -1,55 +1,44 @@
 {
-  "generatedAt": "2026-10-26T07:50:36.928Z",
+  "generatedAt": "2026-10-27T18:15:46.475Z",
   "summary": [
     {
       "device": "mobile",
       "route": "home",
-      "url": "http://localhost:3001/",
+      "url": "http://127.0.0.1:3013/",
       "categories": {
-        "performance": 94,
+        "performance": 93,
         "accessibility": 100,
         "best-practices": 100,
         "seo": 100
       },
       "failures": [
         {
-          "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "score": 0.97,
-          "displayValue": "1.4 s"
-        },
-        {
           "id": "largest-contentful-paint",
           "title": "Largest Contentful Paint",
-          "score": 0.8,
-          "displayValue": "2.9 s"
+          "score": 0.96,
+          "displayValue": "2.1 s"
         },
         {
           "id": "total-blocking-time",
           "title": "Total Blocking Time",
-          "score": 0.99,
-          "displayValue": "90 ms"
+          "score": 0.81,
+          "displayValue": "280 ms"
         },
         {
           "id": "max-potential-fid",
           "title": "Max Potential First Input Delay",
-          "score": 0.58,
-          "displayValue": "230 ms"
+          "score": 0.47,
+          "displayValue": "260 ms"
         },
         {
           "id": "interactive",
           "title": "Time to Interactive",
-          "score": 0.95,
-          "displayValue": "3.2 s"
+          "score": 0.62,
+          "displayValue": "6.2 s"
         },
         {
           "id": "forced-reflow-insight",
           "title": "Forced reflow",
-          "score": 0
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
           "score": 0
         },
         {
@@ -62,7 +51,7 @@
     {
       "device": "mobile",
       "route": "service-web-development",
-      "url": "http://localhost:3001/services/web-development",
+      "url": "http://127.0.0.1:3013/services/web-development",
       "categories": {
         "performance": 98,
         "accessibility": 100,
@@ -79,8 +68,14 @@
         {
           "id": "largest-contentful-paint",
           "title": "Largest Contentful Paint",
-          "score": 0.92,
-          "displayValue": "2.3 s"
+          "score": 0.96,
+          "displayValue": "2.1 s"
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "score": 0.96,
+          "displayValue": "130 ms"
         },
         {
           "id": "max-potential-fid",
@@ -91,13 +86,8 @@
         {
           "id": "interactive",
           "title": "Time to Interactive",
-          "score": 0.97,
-          "displayValue": "2.7 s"
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "score": 0
+          "score": 0.71,
+          "displayValue": "5.4 s"
         },
         {
           "id": "network-dependency-tree-insight",
@@ -109,7 +99,7 @@
     {
       "device": "mobile",
       "route": "industries",
-      "url": "http://localhost:3001/industries",
+      "url": "http://127.0.0.1:3013/industries",
       "categories": {
         "performance": 98,
         "accessibility": 100,
@@ -126,20 +116,32 @@
         {
           "id": "largest-contentful-paint",
           "title": "Largest Contentful Paint",
-          "score": 0.92,
-          "displayValue": "2.3 s"
+          "score": 0.96,
+          "displayValue": "2.1 s"
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "score": 0.98,
+          "displayValue": "100 ms"
         },
         {
           "id": "max-potential-fid",
           "title": "Max Potential First Input Delay",
-          "score": 0.92,
-          "displayValue": "120 ms"
+          "score": 0.96,
+          "displayValue": "100 ms"
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "title": "Cumulative Layout Shift",
+          "score": 0.99,
+          "displayValue": "0.042"
         },
         {
           "id": "interactive",
           "title": "Time to Interactive",
-          "score": 0.97,
-          "displayValue": "2.7 s"
+          "score": 0.77,
+          "displayValue": "5.0 s"
         },
         {
           "id": "forced-reflow-insight",
@@ -156,9 +158,9 @@
     {
       "device": "mobile",
       "route": "case-ongole-property",
-      "url": "http://localhost:3001/case-studies/ongole-property",
+      "url": "http://127.0.0.1:3013/case-studies/ongole-property",
       "categories": {
-        "performance": 96,
+        "performance": 93,
         "accessibility": 100,
         "best-practices": 100,
         "seo": 100
@@ -173,24 +175,30 @@
         {
           "id": "largest-contentful-paint",
           "title": "Largest Contentful Paint",
-          "score": 0.86,
-          "displayValue": "2.7 s"
+          "score": 0.87,
+          "displayValue": "2.6 s"
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "score": 0.87,
+          "displayValue": "220 ms"
         },
         {
           "id": "max-potential-fid",
           "title": "Max Potential First Input Delay",
-          "score": 0.94,
-          "displayValue": "110 ms"
+          "score": 0.65,
+          "displayValue": "200 ms"
         },
         {
           "id": "interactive",
           "title": "Time to Interactive",
-          "score": 0.97,
-          "displayValue": "2.8 s"
+          "score": 0.62,
+          "displayValue": "6.2 s"
         },
         {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
           "score": 0
         },
         {
@@ -203,9 +211,9 @@
     {
       "device": "mobile",
       "route": "contact",
-      "url": "http://localhost:3001/contact",
+      "url": "http://127.0.0.1:3013/contact",
       "categories": {
-        "performance": 98,
+        "performance": 97,
         "accessibility": 100,
         "best-practices": 100,
         "seo": 100
@@ -214,8 +222,8 @@
         {
           "id": "first-contentful-paint",
           "title": "First Contentful Paint",
-          "score": 0.97,
-          "displayValue": "1.4 s"
+          "score": 0.99,
+          "displayValue": "1.2 s"
         },
         {
           "id": "largest-contentful-paint",
@@ -226,20 +234,20 @@
         {
           "id": "total-blocking-time",
           "title": "Total Blocking Time",
-          "score": 0.99,
-          "displayValue": "80 ms"
+          "score": 0.96,
+          "displayValue": "130 ms"
         },
         {
           "id": "max-potential-fid",
           "title": "Max Potential First Input Delay",
-          "score": 0.89,
-          "displayValue": "130 ms"
+          "score": 0.92,
+          "displayValue": "120 ms"
         },
         {
           "id": "interactive",
           "title": "Time to Interactive",
-          "score": 0.98,
-          "displayValue": "2.6 s"
+          "score": 0.7,
+          "displayValue": "5.5 s"
         },
         {
           "id": "forced-reflow-insight",
@@ -256,7 +264,7 @@
     {
       "device": "desktop",
       "route": "home",
-      "url": "http://localhost:3001/",
+      "url": "http://127.0.0.1:3013/",
       "categories": {
         "performance": 100,
         "accessibility": 100,
@@ -264,22 +272,6 @@
         "seo": 100
       },
       "failures": [
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "score": 0.99,
-          "displayValue": "0.6 s"
-        },
-        {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "score": 0
-        },
-        {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
-          "score": 0
-        },
         {
           "id": "network-dependency-tree-insight",
           "title": "Network dependency tree",
@@ -290,7 +282,7 @@
     {
       "device": "desktop",
       "route": "service-web-development",
-      "url": "http://localhost:3001/services/web-development",
+      "url": "http://127.0.0.1:3013/services/web-development",
       "categories": {
         "performance": 100,
         "accessibility": 100,
@@ -299,8 +291,32 @@
       },
       "failures": [
         {
-          "id": "lcp-discovery-insight",
-          "title": "LCP request discovery",
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "industries",
+      "url": "http://127.0.0.1:3013/industries",
+      "categories": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "failures": [
+        {
+          "id": "cumulative-layout-shift",
+          "title": "Cumulative Layout Shift",
+          "score": 0.99,
+          "displayValue": "0.047"
+        },
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
           "score": 0
         },
         {
@@ -312,26 +328,8 @@
     },
     {
       "device": "desktop",
-      "route": "industries",
-      "url": "http://localhost:3001/industries",
-      "categories": {
-        "performance": 100,
-        "accessibility": 100,
-        "best-practices": 100,
-        "seo": 100
-      },
-      "failures": [
-        {
-          "id": "network-dependency-tree-insight",
-          "title": "Network dependency tree",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "device": "desktop",
       "route": "case-ongole-property",
-      "url": "http://localhost:3001/case-studies/ongole-property",
+      "url": "http://127.0.0.1:3013/case-studies/ongole-property",
       "categories": {
         "performance": 100,
         "accessibility": 100,
@@ -354,7 +352,7 @@
     {
       "device": "desktop",
       "route": "contact",
-      "url": "http://localhost:3001/contact",
+      "url": "http://127.0.0.1:3013/contact",
       "categories": {
         "performance": 100,
         "accessibility": 100,

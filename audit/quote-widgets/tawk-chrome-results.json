@@ -1,0 +1,68 @@
+[
+  {
+    "width": 390,
+    "events": [
+      {
+        "type": "failed",
+        "url": "https://embed.tawk.to/6ae0b1611e2fa534748c915a/1k5ur9q5s",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "state": {
+      "script": [
+        {
+          "src": "https://embed.tawk.to/6ae0b1611e2fa534748c915a/1k5ur9q5s",
+          "async": true
+        }
+      ],
+      "frames": [],
+      "api": {
+        "onLoad": "function",
+        "isChatMaximized": "undefined"
+      },
+      "whatsapp": {
+        "x": 324,
+        "y": 690,
+        "width": 50,
+        "height": 50,
+        "top": 690,
+        "right": 374,
+        "bottom": 740,
+        "left": 324
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "events": [
+      {
+        "type": "failed",
+        "url": "https://embed.tawk.to/6ae0b1611e2fa534748c915a/1k5ur9q5s",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "state": {
+      "script": [
+        {
+          "src": "https://embed.tawk.to/6ae0b1611e2fa534748c915a/1k5ur9q5s",
+          "async": true
+        }
+      ],
+      "frames": [],
+      "api": {
+        "onLoad": "function",
+        "isChatMaximized": "undefined"
+      },
+      "whatsapp": {
+        "x": 1362,
+        "y": 734,
+        "width": 54,
+        "height": 54,
+        "top": 734,
+        "right": 1416,
+        "bottom": 788,
+        "left": 1362
+      }
+    }
+  }
+]

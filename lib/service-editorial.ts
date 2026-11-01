@@ -17,14 +17,14 @@ export type ServiceEditorial = {
 
 export const serviceEditorial: Record<string, ServiceEditorial> = {
   "web-development": {
-    eyebrow: "Websites & web applications", headline: "A website should make the next step obvious.", intro: "We build responsive sites and web applications around clear content, accessible journeys and a maintainable technical foundation.",
+    eyebrow: "Websites & web applications", headline: "Custom Website Development Services", intro: "High-performance websites and web applications engineered around your business requirements.",
     situation: "Your current site may look complete while visitors still struggle to find a service, understand the offer or make an enquiry. Content teams may also depend on developers for routine changes.",
     situationHeading: "When the site is slowing down the business", scopeHeading: "What the web build needs to cover", scopeIntro: "The work starts with page purpose and content ownership, then moves into implementation and release quality.",
     approachHeading: "From content model to reliable release", approachIntro: "Choose the CMS, application architecture and deployment approach after mapping who will use and maintain the site.",
     ctaHeading: "Show us the site and the task it is failing.", ctaText: "We can assess an existing platform or scope a new web experience.", visualLabel: "Illustrative responsive web composition", visualKind: "web", storyFirst: true,
   },
   "mobile-app-development": {
-    eyebrow: "iOS & Android products", headline: "Build the app around the task people return to.", intro: "We define the useful first release, shape natural touch journeys and connect the app to dependable backend services.",
+    eyebrow: "iOS & Android products", headline: "Mobile App Development for Modern Businesses.", intro: "Build intuitive, scalable mobile applications that connect users, workflows and business systems.",
     situation: "A long feature list is not a release plan. The important question is what users must be able to do reliably on a phone, including when data is slow or an action fails.",
     situationHeading: "Start with the repeat-use moment", scopeHeading: "The app, backend and release plan", scopeIntro: "Navigation, authentication, data behavior, device checks and store readiness need to be planned together.",
     approachHeading: "A release that can improve", approachIntro: "We test critical journeys on real device sizes and make API and failure behavior explicit before launch.",

@@ -1,0 +1,3955 @@
+{
+  "generatedAt": "2026-10-28T15:35:08.969Z",
+  "results": [
+    {
+      "device": "desktop",
+      "route": "/",
+      "status": 200,
+      "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+      "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+      "h1": [
+        "Websites, software, mobile and AI. Engineered together."
+      ],
+      "h2": [
+        "One partner for the interface and the work behind it.",
+        "Tell us what needs to change.",
+        "Different markets bring different workflows.",
+        "See the decisions before you pay for the build.",
+        "The interface, application and operating data belong in one plan.",
+        "Real projects, with the decisions visible.",
+        "Let's decide what to build—and what can wait.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=256&q=75",
+          "alt": "Ongole Property",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=256&q=75",
+          "alt": "Naystrip",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=256&q=75",
+          "alt": "Mozno Wealth",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=256&q=75",
+          "alt": "Snow Feather Adventure",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=256&q=75",
+          "alt": "RS Constructions Company",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=256&q=75",
+          "alt": "Continental Mercantile Corporation",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 157
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+          "alt": "Ongole Property public website on desktop",
+          "loaded": true,
+          "visibleWidth": 659
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=256&q=75",
+          "alt": "Ongole Property public website on mobile",
+          "loaded": true,
+          "visibleWidth": 144
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=1080&q=75",
+          "alt": "Continental Mercantile Corporation public website on desktop",
+          "loaded": true,
+          "visibleWidth": 659
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=256&q=75",
+          "alt": "Continental Mercantile Corporation public website on mobile",
+          "loaded": true,
+          "visibleWidth": 144
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "★★★★★5.0 on Clutch3 verified reviewsRead reviews ↗",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Read the reviews",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services",
+      "status": 200,
+      "title": "Digital Product & Technology Services | LetsFygure",
+      "description": "Explore LetsFygure services for web development, mobile apps, custom software, AI automation, UI/UX, eCommerce, SEO and digital growth.",
+      "h1": [
+        "Different disciplines. One accountable product system."
+      ],
+      "h2": [
+        "Customer-facing and operational software built as maintainable systems.",
+        "Accountable assistance and workflow orchestration connected to real business tasks.",
+        "Product clarity, discoverability and demand connected to the experience itself.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/industries",
+      "status": 200,
+      "title": "Industries & Digital Product Experience | LetsFygure",
+      "description": "Explore how LetsFygure approaches software, websites and digital workflows for property, travel, recruitment, finance, construction, commerce and operations.",
+      "h1": [
+        "Start with how your market works."
+      ],
+      "h2": [
+        "Turn fragmented listings and enquiries into a role-aware property journey.",
+        "Connect inspiration, itinerary detail, booking intent and partner operations.",
+        "Give candidates and employers a clear route through complex workforce services.",
+        "Match the system to the decision.",
+        "Show us where the customer journey and the workflow disconnect.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies",
+      "status": 200,
+      "title": "Work & Case Studies | LetsFygure",
+      "description": "Explore how LetsFygure approaches web, mobile, custom software, eCommerce and digital transformation projects.",
+      "h1": [
+        "The challenge, the thinking and the path forward."
+      ],
+      "h2": [
+        "Custom Real Estate Marketplace Platform",
+        "Custom Travel Booking & B2B Platform",
+        "Custom Financial Advisory & Wealth Platform",
+        "Adventure Travel & Trekking Platform Development",
+        "Custom Website & Construction Business Platform",
+        "Custom Global Recruitment Platform",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+          "alt": "Ongole Property public website on desktop",
+          "loaded": true,
+          "visibleWidth": 623
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=256&q=75",
+          "alt": "Ongole Property public website on mobile",
+          "loaded": true,
+          "visibleWidth": 137
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=1080&q=75",
+          "alt": "Naystrip public website on desktop",
+          "loaded": true,
+          "visibleWidth": 460
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=256&q=75",
+          "alt": "Naystrip public website on mobile",
+          "loaded": true,
+          "visibleWidth": 94
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=1080&q=75",
+          "alt": "Mozno Wealth public website on desktop",
+          "loaded": true,
+          "visibleWidth": 623
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=256&q=75",
+          "alt": "Mozno Wealth public website on mobile",
+          "loaded": true,
+          "visibleWidth": 137
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=1080&q=75",
+          "alt": "Snow Feather Adventure public website on desktop",
+          "loaded": true,
+          "visibleWidth": 460
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=256&q=75",
+          "alt": "Snow Feather Adventure public website on mobile",
+          "loaded": true,
+          "visibleWidth": 94
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=1080&q=75",
+          "alt": "RS Constructions Company public website on desktop",
+          "loaded": true,
+          "visibleWidth": 623
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=256&q=75",
+          "alt": "RS Constructions Company public website on mobile",
+          "loaded": true,
+          "visibleWidth": 137
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=1080&q=75",
+          "alt": "Continental Mercantile Corporation public website on desktop",
+          "loaded": true,
+          "visibleWidth": 460
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=256&q=75",
+          "alt": "Continental Mercantile Corporation public website on mobile",
+          "loaded": true,
+          "visibleWidth": 94
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit live site",
+          "href": "https://www.ongoleproperty.com/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://naystrip.com/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://mozno.in/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://www.snowfeatheradventure.com/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://www.rsconstructionscompany.com/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://www.continentalmanpower.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/about",
+      "status": 200,
+      "title": "About LetsFygure | LetsFygure",
+      "description": "Meet LetsFygure, an engineering-led digital product company combining strategy, product design, software development and accountable automation.",
+      "h1": [
+        "Engineering clarity into ambitious digital work."
+      ],
+      "h2": [
+        "Technology should make the business easier to understand and operate.",
+        "From product intent to operating infrastructure.",
+        "Four habits that shape the engagement.",
+        "A delivery path with visible decisions.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Inspect verified client reviews",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/insights",
+      "status": 200,
+      "title": "Engineering Insights | LetsFygure",
+      "description": "Practical perspectives from LetsFygure on product architecture, accountable AI automation and web performance.",
+      "h1": [
+        "Useful thinking for consequential digital decisions."
+      ],
+      "h2": [
+        "Where AI automation creates practical value first",
+        "Planning a custom software project around outcomes",
+        "The performance details that shape a better web experience",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/career",
+      "status": 200,
+      "title": "Careers | LetsFygure",
+      "description": "Careers and future collaboration opportunities at LetsFygure.",
+      "h1": [
+        "Thoughtful work needs people who care about the whole system."
+      ],
+      "h2": [
+        "Craft with context.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact LetsFygure | LetsFygure",
+      "description": "Tell LetsFygure about your web, mobile, custom software, AI automation, eCommerce or digital growth project.",
+      "h1": [
+        "Let’s figure out what to build next."
+      ],
+      "h2": [
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "WhatsApp / phone+91 78692 51729",
+          "href": "https://wa.me/917869251729"
+        },
+        {
+          "text": "Independent reviews5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Follow our work@letsfygure",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/privacy",
+      "status": 200,
+      "title": "Privacy Policy | LetsFygure",
+      "description": "Privacy information for the LetsFygure Technology website.",
+      "h1": [
+        "Privacy Policy"
+      ],
+      "h2": [
+        "Information you choose to share",
+        "Service providers",
+        "Technical and security information",
+        "Retention and your choices",
+        "External links",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/terms",
+      "status": 200,
+      "title": "Website Terms | LetsFygure",
+      "description": "Terms for using the LetsFygure Technology website.",
+      "h1": [
+        "Website Terms"
+      ],
+      "h2": [
+        "Website information",
+        "Acceptable use",
+        "Third-party services",
+        "Changes",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/web-development",
+      "status": 200,
+      "title": "Web Development | LetsFygure",
+      "description": "We build responsive sites and web applications around clear content, accessible journeys and a maintainable technical foundation.",
+      "h1": [
+        "A website should make the next step obvious."
+      ],
+      "h2": [
+        "When the site is slowing down the business",
+        "What the web build needs to cover",
+        "From content model to reliable release",
+        "Before the site goes live",
+        "Related public work",
+        "Show us the site and the task it is failing.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/mobile-app-development",
+      "status": 200,
+      "title": "Mobile App Development | LetsFygure",
+      "description": "We define the useful first release, shape natural touch journeys and connect the app to dependable backend services.",
+      "h1": [
+        "Build the app around the task people return to."
+      ],
+      "h2": [
+        "The app, backend and release plan",
+        "Start with the repeat-use moment",
+        "A release that can improve",
+        "Before a mobile release",
+        "Related public work",
+        "Tell us what users need to do on mobile.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/custom-software-development",
+      "status": 200,
+      "title": "Custom Software Development | LetsFygure",
+      "description": "We turn roles, rules and repeated handoffs into applications that are easier to operate and evolve.",
+      "h1": [
+        "Software that fits how your team actually works."
+      ],
+      "h2": [
+        "Find the workarounds worth replacing",
+        "Model the rules before the screens",
+        "Roles, records and controlled change",
+        "Before teams depend on it",
+        "Related public work",
+        "Walk us through one difficult workflow.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/ai-development",
+      "status": 200,
+      "title": "AI Development | LetsFygure",
+      "description": "We design AI assistance around trusted context, clear evaluation and human review where the decision has consequences.",
+      "h1": [
+        "Useful AI starts with a bounded task."
+      ],
+      "h2": [
+        "Context, evaluation and oversight",
+        "Move beyond the demo",
+        "Test behavior before expanding autonomy",
+        "Before AI answers users",
+        "Do you train a model from scratch?",
+        "Bring us one AI task, not a broad mandate.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/ai-automation",
+      "status": 200,
+      "title": "AI & Business Automation | LetsFygure",
+      "description": "We connect triggers, systems and approvals so repeatable work moves forward without hiding exceptions.",
+      "h1": [
+        "Automate the handoff, keep the judgment."
+      ],
+      "h2": [
+        "Find the repeatable handoff",
+        "Triggers, exceptions and recovery",
+        "A process people can still control",
+        "Before a workflow runs unattended",
+        "What should be automated first?",
+        "Show us the process that keeps getting stuck.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/ui-ux-design",
+      "status": 200,
+      "title": "UI/UX & Product Design | LetsFygure",
+      "description": "We use journeys, prototypes and interface systems to remove friction before it becomes expensive to build around.",
+      "h1": [
+        "Make the important decision easy to take."
+      ],
+      "h2": [
+        "From evidence to interface rules",
+        "Where the experience loses clarity",
+        "Prototype the risky moments",
+        "Before design moves into build",
+        "Do you design before development?",
+        "Bring the journey that users struggle with.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/ecommerce-development",
+      "status": 200,
+      "title": "eCommerce Development | LetsFygure",
+      "description": "We connect product discovery, checkout and order operations so shoppers and teams can complete their work confidently.",
+      "h1": [
+        "A store has to work after the order, too."
+      ],
+      "h2": [
+        "Look beyond the product page",
+        "Catalog, checkout and operations",
+        "Choose a platform for the operating model",
+        "Before shoppers reach checkout",
+        "WooCommerce or custom commerce?",
+        "Tell us where the buying journey breaks.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/seo",
+      "status": 200,
+      "title": "SEO Services | LetsFygure",
+      "description": "We improve technical access, page purpose and content structure around the questions your buyers actually ask.",
+      "h1": [
+        "Make the right pages easier to find and use."
+      ],
+      "h2": [
+        "Technical health meets useful content",
+        "Find the pages that deserve attention",
+        "Measure qualified discovery",
+        "Before search changes are published",
+        "Do you guarantee rankings?",
+        "Share the site and its search questions.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/digital-marketing",
+      "status": 200,
+      "title": "Performance & Social Marketing | LetsFygure",
+      "description": "We align audience, message, landing experience and measurement so activity can inform decisions.",
+      "h1": [
+        "A campaign needs a clear offer and a useful next step."
+      ],
+      "h2": [
+        "Connect the message to the landing page",
+        "Audience, creative and feedback",
+        "Learn from the full journey",
+        "Before a campaign spends budget",
+        "Which channels do you manage?",
+        "Bring the offer and the audience.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/services/api-integrations",
+      "status": 200,
+      "title": "API & Third-Party Integrations | LetsFygure",
+      "description": "We design and build integrations that validate data, protect credentials and expose failures people can recover from.",
+      "h1": [
+        "Make the handoff between tools dependable."
+      ],
+      "h2": [
+        "Contracts, credentials and recovery",
+        "Start with data ownership",
+        "Design for the failed request",
+        "Before systems exchange live data",
+        "Can you connect a system without an API?",
+        "Tell us which systems need to agree.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/ongole-property",
+      "status": 200,
+      "title": "Ongole Property Case Study | LetsFygure",
+      "description": "Custom Real Estate Marketplace Platform: A multi-role property platform with search, owner and operator workspaces, listing approvals and administrative workflows.",
+      "h1": [
+        "Ongole Property"
+      ],
+      "h2": [
+        "One marketplace, several responsibilities",
+        "Discovery first. Operations behind it.",
+        "A clearer digital path from property discovery to qualified enquiry, supported by role-aware operations.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=1080&q=75",
+          "alt": "Ongole Property public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 687
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=640&q=75",
+          "alt": "Ongole Property public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://www.ongoleproperty.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://www.ongoleproperty.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/naystrip",
+      "status": 200,
+      "title": "Naystrip Case Study | LetsFygure",
+      "description": "Custom Travel Booking & B2B Platform: A responsive travel platform connecting packages, destinations, itinerary content, enquiries and partner-facing capabilities.",
+      "h1": [
+        "Naystrip"
+      ],
+      "h2": [
+        "Packages that can be explored, not skimmed",
+        "From destination interest to a useful enquiry",
+        "A focused foundation for travel discovery, customer engagement and managed booking workflows.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=1080&q=75",
+          "alt": "Naystrip public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 687
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=640&q=75",
+          "alt": "Naystrip public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://naystrip.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://naystrip.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/mozno-wealth",
+      "status": 200,
+      "title": "Mozno Wealth Case Study | LetsFygure",
+      "description": "Custom Financial Advisory & Wealth Platform: A responsive advisory website with structured service discovery, clear consultation paths and an editorial content foundation.",
+      "h1": [
+        "Mozno Wealth"
+      ],
+      "h2": [
+        "Make the advice understandable before the form",
+        "A calmer route through a high-trust service",
+        "A more credible, accessible route for prospective clients to understand services and request a consultation.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=1080&q=75",
+          "alt": "Mozno Wealth public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 687
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=640&q=75",
+          "alt": "Mozno Wealth public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://mozno.in/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://mozno.in/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/snow-feather-adventure",
+      "status": 200,
+      "title": "Snow Feather Adventure Case Study | LetsFygure",
+      "description": "Adventure Travel & Trekking Platform Development: A mobile-first travel experience for trekking packages, destinations, galleries, itineraries and enquiry workflows.",
+      "h1": [
+        "Snow Feather Adventure"
+      ],
+      "h2": [
+        "See the journey before making contact",
+        "Give the destination room to do its work",
+        "A structured discovery experience that makes complex adventure offerings easier to explore and enquire about.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=1080&q=75",
+          "alt": "Snow Feather Adventure public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 687
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=640&q=75",
+          "alt": "Snow Feather Adventure public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://www.snowfeatheradventure.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://www.snowfeatheradventure.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/rs-constructions",
+      "status": 200,
+      "title": "RS Constructions Company Case Study | LetsFygure",
+      "description": "Custom Website & Construction Business Platform: A custom responsive corporate site with structured project presentation and direct enquiry journeys.",
+      "h1": [
+        "RS Constructions Company"
+      ],
+      "h2": [
+        "Make capability visible",
+        "Projects and services in one public place",
+        "A stronger digital business profile and a simpler path for prospective clients to assess services and make contact.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=1080&q=75",
+          "alt": "RS Constructions Company public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 687
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=640&q=75",
+          "alt": "RS Constructions Company public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://www.rsconstructionscompany.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://www.rsconstructionscompany.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/case-studies/continental-mercantile",
+      "status": 200,
+      "title": "Continental Mercantile Corporation Case Study | LetsFygure",
+      "description": "Custom Global Recruitment Platform: A responsive recruitment website covering global operations, services, candidate applications and employer enquiry flows.",
+      "h1": [
+        "Continental Mercantile Corporation"
+      ],
+      "h2": [
+        "Recruitment paths that stay legible on mobile",
+        "Two audiences, one clear service platform",
+        "A clearer, more accessible service experience for candidates and employers across international markets.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=1080&q=75",
+          "alt": "Continental Mercantile Corporation public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 687
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=640&q=75",
+          "alt": "Continental Mercantile Corporation public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://www.continentalmanpower.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://www.continentalmanpower.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/insights/ai-automation-human-approval",
+      "status": 200,
+      "title": "Where AI automation creates practical value first | LetsFygure",
+      "description": "A framework for finding repetitive, rules-heavy work where AI can assist without removing necessary human judgment.",
+      "h1": [
+        "Where AI automation creates practical value first"
+      ],
+      "h2": [
+        "Start with a bounded decision",
+        "Design the exception path",
+        "Measure usefulness, not novelty",
+        "Bring the real operating problem.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/insights/custom-software-outcomes",
+      "status": 200,
+      "title": "Planning a custom software project around outcomes | LetsFygure",
+      "description": "How to turn business constraints, user needs and operational realities into a focused first release.",
+      "h1": [
+        "Planning a custom software project around outcomes"
+      ],
+      "h2": [
+        "Model the work before the screens",
+        "Separate the first release from the wish list",
+        "Make trade-offs visible",
+        "Bring the real operating problem.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "route": "/insights/web-performance-details",
+      "status": 200,
+      "title": "The performance details that shape a better web experience | LetsFygure",
+      "description": "Why loading behavior, interface responsiveness and visual stability matter as much as visual polish.",
+      "h1": [
+        "The performance details that shape a better web experience"
+      ],
+      "h2": [
+        "Optimize the critical path",
+        "Protect interaction responsiveness",
+        "Prevent layout movement",
+        "Bring the real operating problem.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 1440,
+      "viewportWidth": 1440,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "status": 200,
+      "title": "Website, Software, Mobile App & AI Development | LetsFygure",
+      "description": "LetsFygure designs and builds websites, custom software, mobile apps and practical AI automation. Explore services, real client work and our delivery approach.",
+      "h1": [
+        "Websites, software, mobile and AI. Engineered together."
+      ],
+      "h2": [
+        "One partner for the interface and the work behind it.",
+        "Tell us what needs to change.",
+        "Different markets bring different workflows.",
+        "See the decisions before you pay for the build.",
+        "The interface, application and operating data belong in one plan.",
+        "Real projects, with the decisions visible.",
+        "Let's decide what to build—and what can wait.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=256&q=75",
+          "alt": "Ongole Property",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=256&q=75",
+          "alt": "Naystrip",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=256&q=75",
+          "alt": "Mozno Wealth",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=256&q=75",
+          "alt": "Snow Feather Adventure",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=256&q=75",
+          "alt": "RS Constructions Company",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=256&q=75",
+          "alt": "Continental Mercantile Corporation",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fongole-property.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fnaystrip.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fmozno-wealth.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fsnow-feather.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Frs-constructions.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fclients%2Fcontinental-mercantile.png&w=256&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 117
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+          "alt": "Ongole Property public website on desktop",
+          "loaded": true,
+          "visibleWidth": 326
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=128&q=75",
+          "alt": "Ongole Property public website on mobile",
+          "loaded": true,
+          "visibleWidth": 91
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=384&q=75",
+          "alt": "Continental Mercantile Corporation public website on desktop",
+          "loaded": true,
+          "visibleWidth": 326
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=128&q=75",
+          "alt": "Continental Mercantile Corporation public website on mobile",
+          "loaded": true,
+          "visibleWidth": 91
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "★★★★★5.0 on Clutch3 verified reviewsRead reviews ↗",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Read the reviews",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services",
+      "status": 200,
+      "title": "Digital Product & Technology Services | LetsFygure",
+      "description": "Explore LetsFygure services for web development, mobile apps, custom software, AI automation, UI/UX, eCommerce, SEO and digital growth.",
+      "h1": [
+        "Different disciplines. One accountable product system."
+      ],
+      "h2": [
+        "Customer-facing and operational software built as maintainable systems.",
+        "Accountable assistance and workflow orchestration connected to real business tasks.",
+        "Product clarity, discoverability and demand connected to the experience itself.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/industries",
+      "status": 200,
+      "title": "Industries & Digital Product Experience | LetsFygure",
+      "description": "Explore how LetsFygure approaches software, websites and digital workflows for property, travel, recruitment, finance, construction, commerce and operations.",
+      "h1": [
+        "Start with how your market works."
+      ],
+      "h2": [
+        "Turn fragmented listings and enquiries into a role-aware property journey.",
+        "Connect inspiration, itinerary detail, booking intent and partner operations.",
+        "Give candidates and employers a clear route through complex workforce services.",
+        "Match the system to the decision.",
+        "Show us where the customer journey and the workflow disconnect.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies",
+      "status": 200,
+      "title": "Work & Case Studies | LetsFygure",
+      "description": "Explore how LetsFygure approaches web, mobile, custom software, eCommerce and digital transformation projects.",
+      "h1": [
+        "The challenge, the thinking and the path forward."
+      ],
+      "h2": [
+        "Custom Real Estate Marketplace Platform",
+        "Custom Travel Booking & B2B Platform",
+        "Custom Financial Advisory & Wealth Platform",
+        "Adventure Travel & Trekking Platform Development",
+        "Custom Website & Construction Business Platform",
+        "Custom Global Recruitment Platform",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+          "alt": "Ongole Property public website on desktop",
+          "loaded": true,
+          "visibleWidth": 326
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=128&q=75",
+          "alt": "Ongole Property public website on mobile",
+          "loaded": true,
+          "visibleWidth": 92
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=384&q=75",
+          "alt": "Naystrip public website on desktop",
+          "loaded": true,
+          "visibleWidth": 326
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=128&q=75",
+          "alt": "Naystrip public website on mobile",
+          "loaded": true,
+          "visibleWidth": 92
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=384&q=75",
+          "alt": "Mozno Wealth public website on desktop",
+          "loaded": true,
+          "visibleWidth": 326
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=128&q=75",
+          "alt": "Mozno Wealth public website on mobile",
+          "loaded": true,
+          "visibleWidth": 92
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=384&q=75",
+          "alt": "Snow Feather Adventure public website on desktop",
+          "loaded": true,
+          "visibleWidth": 326
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=128&q=75",
+          "alt": "Snow Feather Adventure public website on mobile",
+          "loaded": true,
+          "visibleWidth": 92
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=384&q=75",
+          "alt": "RS Constructions Company public website on desktop",
+          "loaded": true,
+          "visibleWidth": 326
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=128&q=75",
+          "alt": "RS Constructions Company public website on mobile",
+          "loaded": true,
+          "visibleWidth": 92
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=384&q=75",
+          "alt": "Continental Mercantile Corporation public website on desktop",
+          "loaded": true,
+          "visibleWidth": 326
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=128&q=75",
+          "alt": "Continental Mercantile Corporation public website on mobile",
+          "loaded": true,
+          "visibleWidth": 92
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit live site",
+          "href": "https://www.ongoleproperty.com/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://naystrip.com/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://mozno.in/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://www.snowfeatheradventure.com/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://www.rsconstructionscompany.com/"
+        },
+        {
+          "text": "Visit live site",
+          "href": "https://www.continentalmanpower.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/about",
+      "status": 200,
+      "title": "About LetsFygure | LetsFygure",
+      "description": "Meet LetsFygure, an engineering-led digital product company combining strategy, product design, software development and accountable automation.",
+      "h1": [
+        "Engineering clarity into ambitious digital work."
+      ],
+      "h2": [
+        "Technology should make the business easier to understand and operate.",
+        "From product intent to operating infrastructure.",
+        "Four habits that shape the engagement.",
+        "A delivery path with visible decisions.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Inspect verified client reviews",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/insights",
+      "status": 200,
+      "title": "Engineering Insights | LetsFygure",
+      "description": "Practical perspectives from LetsFygure on product architecture, accountable AI automation and web performance.",
+      "h1": [
+        "Useful thinking for consequential digital decisions."
+      ],
+      "h2": [
+        "Where AI automation creates practical value first",
+        "Planning a custom software project around outcomes",
+        "The performance details that shape a better web experience",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/career",
+      "status": 200,
+      "title": "Careers | LetsFygure",
+      "description": "Careers and future collaboration opportunities at LetsFygure.",
+      "h1": [
+        "Thoughtful work needs people who care about the whole system."
+      ],
+      "h2": [
+        "Craft with context.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact LetsFygure | LetsFygure",
+      "description": "Tell LetsFygure about your web, mobile, custom software, AI automation, eCommerce or digital growth project.",
+      "h1": [
+        "Let’s figure out what to build next."
+      ],
+      "h2": [
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "WhatsApp / phone+91 78692 51729",
+          "href": "https://wa.me/917869251729"
+        },
+        {
+          "text": "Independent reviews5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Follow our work@letsfygure",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/privacy",
+      "status": 200,
+      "title": "Privacy Policy | LetsFygure",
+      "description": "Privacy information for the LetsFygure Technology website.",
+      "h1": [
+        "Privacy Policy"
+      ],
+      "h2": [
+        "Information you choose to share",
+        "Service providers",
+        "Technical and security information",
+        "Retention and your choices",
+        "External links",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/terms",
+      "status": 200,
+      "title": "Website Terms | LetsFygure",
+      "description": "Terms for using the LetsFygure Technology website.",
+      "h1": [
+        "Website Terms"
+      ],
+      "h2": [
+        "Website information",
+        "Acceptable use",
+        "Third-party services",
+        "Changes",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/web-development",
+      "status": 200,
+      "title": "Web Development | LetsFygure",
+      "description": "We build responsive sites and web applications around clear content, accessible journeys and a maintainable technical foundation.",
+      "h1": [
+        "A website should make the next step obvious."
+      ],
+      "h2": [
+        "When the site is slowing down the business",
+        "What the web build needs to cover",
+        "From content model to reliable release",
+        "Before the site goes live",
+        "Related public work",
+        "Show us the site and the task it is failing.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/mobile-app-development",
+      "status": 200,
+      "title": "Mobile App Development | LetsFygure",
+      "description": "We define the useful first release, shape natural touch journeys and connect the app to dependable backend services.",
+      "h1": [
+        "Build the app around the task people return to."
+      ],
+      "h2": [
+        "The app, backend and release plan",
+        "Start with the repeat-use moment",
+        "A release that can improve",
+        "Before a mobile release",
+        "Related public work",
+        "Tell us what users need to do on mobile.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/custom-software-development",
+      "status": 200,
+      "title": "Custom Software Development | LetsFygure",
+      "description": "We turn roles, rules and repeated handoffs into applications that are easier to operate and evolve.",
+      "h1": [
+        "Software that fits how your team actually works."
+      ],
+      "h2": [
+        "Find the workarounds worth replacing",
+        "Model the rules before the screens",
+        "Roles, records and controlled change",
+        "Before teams depend on it",
+        "Related public work",
+        "Walk us through one difficult workflow.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/ai-development",
+      "status": 200,
+      "title": "AI Development | LetsFygure",
+      "description": "We design AI assistance around trusted context, clear evaluation and human review where the decision has consequences.",
+      "h1": [
+        "Useful AI starts with a bounded task."
+      ],
+      "h2": [
+        "Context, evaluation and oversight",
+        "Move beyond the demo",
+        "Test behavior before expanding autonomy",
+        "Before AI answers users",
+        "Do you train a model from scratch?",
+        "Bring us one AI task, not a broad mandate.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/ai-automation",
+      "status": 200,
+      "title": "AI & Business Automation | LetsFygure",
+      "description": "We connect triggers, systems and approvals so repeatable work moves forward without hiding exceptions.",
+      "h1": [
+        "Automate the handoff, keep the judgment."
+      ],
+      "h2": [
+        "Find the repeatable handoff",
+        "Triggers, exceptions and recovery",
+        "A process people can still control",
+        "Before a workflow runs unattended",
+        "What should be automated first?",
+        "Show us the process that keeps getting stuck.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/ui-ux-design",
+      "status": 200,
+      "title": "UI/UX & Product Design | LetsFygure",
+      "description": "We use journeys, prototypes and interface systems to remove friction before it becomes expensive to build around.",
+      "h1": [
+        "Make the important decision easy to take."
+      ],
+      "h2": [
+        "From evidence to interface rules",
+        "Where the experience loses clarity",
+        "Prototype the risky moments",
+        "Before design moves into build",
+        "Do you design before development?",
+        "Bring the journey that users struggle with.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/ecommerce-development",
+      "status": 200,
+      "title": "eCommerce Development | LetsFygure",
+      "description": "We connect product discovery, checkout and order operations so shoppers and teams can complete their work confidently.",
+      "h1": [
+        "A store has to work after the order, too."
+      ],
+      "h2": [
+        "Look beyond the product page",
+        "Catalog, checkout and operations",
+        "Choose a platform for the operating model",
+        "Before shoppers reach checkout",
+        "WooCommerce or custom commerce?",
+        "Tell us where the buying journey breaks.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/seo",
+      "status": 200,
+      "title": "SEO Services | LetsFygure",
+      "description": "We improve technical access, page purpose and content structure around the questions your buyers actually ask.",
+      "h1": [
+        "Make the right pages easier to find and use."
+      ],
+      "h2": [
+        "Technical health meets useful content",
+        "Find the pages that deserve attention",
+        "Measure qualified discovery",
+        "Before search changes are published",
+        "Do you guarantee rankings?",
+        "Share the site and its search questions.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/digital-marketing",
+      "status": 200,
+      "title": "Performance & Social Marketing | LetsFygure",
+      "description": "We align audience, message, landing experience and measurement so activity can inform decisions.",
+      "h1": [
+        "A campaign needs a clear offer and a useful next step."
+      ],
+      "h2": [
+        "Connect the message to the landing page",
+        "Audience, creative and feedback",
+        "Learn from the full journey",
+        "Before a campaign spends budget",
+        "Which channels do you manage?",
+        "Bring the offer and the audience.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/services/api-integrations",
+      "status": 200,
+      "title": "API & Third-Party Integrations | LetsFygure",
+      "description": "We design and build integrations that validate data, protect credentials and expose failures people can recover from.",
+      "h1": [
+        "Make the handoff between tools dependable."
+      ],
+      "h2": [
+        "Contracts, credentials and recovery",
+        "Start with data ownership",
+        "Design for the failed request",
+        "Before systems exchange live data",
+        "Can you connect a system without an API?",
+        "Tell us which systems need to agree.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/ongole-property",
+      "status": 200,
+      "title": "Ongole Property Case Study | LetsFygure",
+      "description": "Custom Real Estate Marketplace Platform: A multi-role property platform with search, owner and operator workspaces, listing approvals and administrative workflows.",
+      "h1": [
+        "Ongole Property"
+      ],
+      "h2": [
+        "One marketplace, several responsibilities",
+        "Discovery first. Operations behind it.",
+        "A clearer digital path from property discovery to qualified enquiry, supported by role-aware operations.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-desktop.jpg&w=384&q=75",
+          "alt": "Ongole Property public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 356
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-ongole-property-mobile.jpg&w=384&q=75",
+          "alt": "Ongole Property public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://www.ongoleproperty.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://www.ongoleproperty.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/naystrip",
+      "status": 200,
+      "title": "Naystrip Case Study | LetsFygure",
+      "description": "Custom Travel Booking & B2B Platform: A responsive travel platform connecting packages, destinations, itinerary content, enquiries and partner-facing capabilities.",
+      "h1": [
+        "Naystrip"
+      ],
+      "h2": [
+        "Packages that can be explored, not skimmed",
+        "From destination interest to a useful enquiry",
+        "A focused foundation for travel discovery, customer engagement and managed booking workflows.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-desktop.jpg&w=384&q=75",
+          "alt": "Naystrip public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 356
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-naystrip-mobile.jpg&w=384&q=75",
+          "alt": "Naystrip public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://naystrip.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://naystrip.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/mozno-wealth",
+      "status": 200,
+      "title": "Mozno Wealth Case Study | LetsFygure",
+      "description": "Custom Financial Advisory & Wealth Platform: A responsive advisory website with structured service discovery, clear consultation paths and an editorial content foundation.",
+      "h1": [
+        "Mozno Wealth"
+      ],
+      "h2": [
+        "Make the advice understandable before the form",
+        "A calmer route through a high-trust service",
+        "A more credible, accessible route for prospective clients to understand services and request a consultation.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-desktop.png&w=384&q=75",
+          "alt": "Mozno Wealth public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 356
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-mozno-wealth-mobile.png&w=384&q=75",
+          "alt": "Mozno Wealth public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://mozno.in/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://mozno.in/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/snow-feather-adventure",
+      "status": 200,
+      "title": "Snow Feather Adventure Case Study | LetsFygure",
+      "description": "Adventure Travel & Trekking Platform Development: A mobile-first travel experience for trekking packages, destinations, galleries, itineraries and enquiry workflows.",
+      "h1": [
+        "Snow Feather Adventure"
+      ],
+      "h2": [
+        "See the journey before making contact",
+        "Give the destination room to do its work",
+        "A structured discovery experience that makes complex adventure offerings easier to explore and enquire about.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-desktop.png&w=384&q=75",
+          "alt": "Snow Feather Adventure public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 356
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-snow-feather-mobile.png&w=384&q=75",
+          "alt": "Snow Feather Adventure public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://www.snowfeatheradventure.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://www.snowfeatheradventure.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/rs-constructions",
+      "status": 200,
+      "title": "RS Constructions Company Case Study | LetsFygure",
+      "description": "Custom Website & Construction Business Platform: A custom responsive corporate site with structured project presentation and direct enquiry journeys.",
+      "h1": [
+        "RS Constructions Company"
+      ],
+      "h2": [
+        "Make capability visible",
+        "Projects and services in one public place",
+        "A stronger digital business profile and a simpler path for prospective clients to assess services and make contact.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-desktop.png&w=384&q=75",
+          "alt": "RS Constructions Company public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 356
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-rs-constructions-mobile.png&w=384&q=75",
+          "alt": "RS Constructions Company public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://www.rsconstructionscompany.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://www.rsconstructionscompany.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/case-studies/continental-mercantile",
+      "status": 200,
+      "title": "Continental Mercantile Corporation Case Study | LetsFygure",
+      "description": "Custom Global Recruitment Platform: A responsive recruitment website covering global operations, services, candidate applications and employer enquiry flows.",
+      "h1": [
+        "Continental Mercantile Corporation"
+      ],
+      "h2": [
+        "Recruitment paths that stay legible on mobile",
+        "Two audiences, one clear service platform",
+        "A clearer, more accessible service experience for candidates and employers across international markets.",
+        "Related work",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-desktop.png&w=384&q=75",
+          "alt": "Continental Mercantile Corporation public website desktop capture",
+          "loaded": true,
+          "visibleWidth": 356
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fprojects%2Fproject-continental-mercantile-mobile.png&w=384&q=75",
+          "alt": "Continental Mercantile Corporation public website mobile capture",
+          "loaded": true,
+          "visibleWidth": 302
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "Visit the live website",
+          "href": "https://www.continentalmanpower.com/"
+        },
+        {
+          "text": "Visit the live website",
+          "href": "https://www.continentalmanpower.com/"
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/insights/ai-automation-human-approval",
+      "status": 200,
+      "title": "Where AI automation creates practical value first | LetsFygure",
+      "description": "A framework for finding repetitive, rules-heavy work where AI can assist without removing necessary human judgment.",
+      "h1": [
+        "Where AI automation creates practical value first"
+      ],
+      "h2": [
+        "Start with a bounded decision",
+        "Design the exception path",
+        "Measure usefulness, not novelty",
+        "Bring the real operating problem.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/insights/custom-software-outcomes",
+      "status": 200,
+      "title": "Planning a custom software project around outcomes | LetsFygure",
+      "description": "How to turn business constraints, user needs and operational realities into a focused first release.",
+      "h1": [
+        "Planning a custom software project around outcomes"
+      ],
+      "h2": [
+        "Model the work before the screens",
+        "Separate the first release from the wish list",
+        "Make trade-offs visible",
+        "Bring the real operating problem.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "route": "/insights/web-performance-details",
+      "status": 200,
+      "title": "The performance details that shape a better web experience | LetsFygure",
+      "description": "Why loading behavior, interface responsiveness and visual stability matter as much as visual polish.",
+      "h1": [
+        "The performance details that shape a better web experience"
+      ],
+      "h2": [
+        "Optimize the critical path",
+        "Protect interaction responsiveness",
+        "Prevent layout movement",
+        "Bring the real operating problem.",
+        "Explore",
+        "Services",
+        "Contact"
+      ],
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "images": [
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 186
+        },
+        {
+          "src": "http://127.0.0.1:3019/_next/image?url=%2Fimages%2Fletsfygure-official.png&w=3840&q=75",
+          "alt": "",
+          "loaded": true,
+          "visibleWidth": 218
+        }
+      ],
+      "liveLinks": [
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/company/letsfygure/"
+        },
+        {
+          "text": "Instagram",
+          "href": "https://www.instagram.com/letsfygure/"
+        },
+        {
+          "text": "5.0 on Clutch",
+          "href": "https://clutch.co/profile/letsfygure-0"
+        },
+        {
+          "text": "Chat on WhatsApp",
+          "href": "https://wa.me/917869251729?text=Hi%20LetsFygure%2C%20I%27d%20like%20to%20discuss%20a%20project."
+        }
+      ]
+    },
+    {
+      "device": "mobile-320",
+      "route": "/",
+      "status": 200,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    },
+    {
+      "device": "mobile-320",
+      "route": "/services/web-development",
+      "status": 200,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    },
+    {
+      "device": "mobile-320",
+      "route": "/services/mobile-app-development",
+      "status": 200,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    },
+    {
+      "device": "mobile-320",
+      "route": "/services/ai-development",
+      "status": 200,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    },
+    {
+      "device": "mobile-320",
+      "route": "/industries",
+      "status": 200,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    },
+    {
+      "device": "mobile-320",
+      "route": "/case-studies/ongole-property",
+      "status": 200,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    },
+    {
+      "device": "mobile-320",
+      "route": "/case-studies/continental-mercantile",
+      "status": 200,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    },
+    {
+      "device": "mobile-320",
+      "route": "/contact",
+      "status": 200,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    },
+    {
+      "device": "mobile-360",
+      "route": "/",
+      "status": 200,
+      "scrollWidth": 360,
+      "viewportWidth": 360
+    },
+    {
+      "device": "mobile-360",
+      "route": "/services/web-development",
+      "status": 200,
+      "scrollWidth": 360,
+      "viewportWidth": 360
+    },
+    {
+      "device": "mobile-360",
+      "route": "/services/mobile-app-development",
+      "status": 200,
+      "scrollWidth": 360,
+      "viewportWidth": 360
+    },
+    {
+      "device": "mobile-360",
+      "route": "/services/ai-development",
+      "status": 200,
+      "scrollWidth": 360,
+      "viewportWidth": 360
+    },
+    {
+      "device": "mobile-360",
+      "route": "/industries",
+      "status": 200,
+      "scrollWidth": 360,
+      "viewportWidth": 360
+    },
+    {
+      "device": "mobile-360",
+      "route": "/case-studies/ongole-property",
+      "status": 200,
+      "scrollWidth": 360,
+      "viewportWidth": 360
+    },
+    {
+      "device": "mobile-360",
+      "route": "/case-studies/continental-mercantile",
+      "status": 200,
+      "scrollWidth": 360,
+      "viewportWidth": 360
+    },
+    {
+      "device": "mobile-360",
+      "route": "/contact",
+      "status": 200,
+      "scrollWidth": 360,
+      "viewportWidth": 360
+    },
+    {
+      "device": "mobile-430",
+      "route": "/",
+      "status": 200,
+      "scrollWidth": 430,
+      "viewportWidth": 430
+    },
+    {
+      "device": "mobile-430",
+      "route": "/services/web-development",
+      "status": 200,
+      "scrollWidth": 430,
+      "viewportWidth": 430
+    },
+    {
+      "device": "mobile-430",
+      "route": "/services/mobile-app-development",
+      "status": 200,
+      "scrollWidth": 430,
+      "viewportWidth": 430
+    },
+    {
+      "device": "mobile-430",
+      "route": "/services/ai-development",
+      "status": 200,
+      "scrollWidth": 430,
+      "viewportWidth": 430
+    },
+    {
+      "device": "mobile-430",
+      "route": "/industries",
+      "status": 200,
+      "scrollWidth": 430,
+      "viewportWidth": 430
+    },
+    {
+      "device": "mobile-430",
+      "route": "/case-studies/ongole-property",
+      "status": 200,
+      "scrollWidth": 430,
+      "viewportWidth": 430
+    },
+    {
+      "device": "mobile-430",
+      "route": "/case-studies/continental-mercantile",
+      "status": 200,
+      "scrollWidth": 430,
+      "viewportWidth": 430
+    },
+    {
+      "device": "mobile-430",
+      "route": "/contact",
+      "status": 200,
+      "scrollWidth": 430,
+      "viewportWidth": 430
+    }
+  ]
+}
